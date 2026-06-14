@@ -1,7 +1,10 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { sanitizeExamples } from "./example-quality.mjs";
+import {
+  backfillExamplesByTerm,
+  normalizeEntryExamples,
+} from "./example-quality.mjs";
 import { parseVocabularyFile } from "./parser.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -20,22 +23,22 @@ const entries = [];
 for (const filePath of files) {
   const markdown = await fs.readFile(filePath, "utf8");
   entries.push(
-    ...parseVocabularyFile({ filePath, vaultRoot, markdown }).map((entry) => ({
-      ...entry,
-      examples: sanitizeExamples({ term: entry.term, examples: entry.examples }),
-    })),
+    ...parseVocabularyFile({ filePath, vaultRoot, markdown }).map((entry) =>
+      normalizeEntryExamples(entry),
+    ),
   );
 }
 
 entries.sort((a, b) => a.term.localeCompare(b.term, "en"));
-dedupeEntryIds(entries);
+const completedEntries = backfillExamplesByTerm(entries);
+dedupeEntryIds(completedEntries);
 
 const payload = {
   generatedAt: new Date().toISOString(),
   sourceDir,
-  count: entries.length,
-  entries,
-  facets: buildFacets(entries),
+  count: completedEntries.length,
+  entries: completedEntries,
+  facets: buildFacets(completedEntries),
 };
 
 await fs.mkdir(path.dirname(outputPath), { recursive: true });
