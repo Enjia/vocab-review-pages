@@ -190,14 +190,20 @@ select:focus {
   background: var(--mint);
 }
 
-.stats {
+.stats,
+.queue-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   margin-top: 16px;
 }
 
-.stats div {
+.queue-stats {
+  margin-top: 10px;
+}
+
+.stats div,
+.queue-stats div {
   min-width: 0;
   padding: 12px 8px;
   border: 1px solid var(--line);
@@ -206,19 +212,28 @@ select:focus {
 }
 
 .stats strong,
-.stats span {
+.stats span,
+.queue-stats strong,
+.queue-stats span {
   display: block;
   text-align: center;
 }
 
-.stats strong {
+.stats strong,
+.queue-stats strong {
   font-size: 24px;
 }
 
-.stats span {
+.stats span,
+.queue-stats span {
   margin-top: 4px;
   color: var(--muted);
   font-size: 12px;
+}
+
+.queue-stats strong {
+  color: var(--cyan);
+  font-size: 20px;
 }
 
 .stage {
@@ -357,6 +372,37 @@ select:focus {
   padding: 18px;
 }
 
+.progress-panel {
+  padding: 18px;
+}
+
+.roadmap {
+  display: grid;
+  gap: 10px;
+}
+
+.roadmap div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  min-height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.045);
+  padding: 10px 12px;
+}
+
+.roadmap strong {
+  overflow-wrap: anywhere;
+}
+
+.roadmap span {
+  color: var(--muted);
+  font-size: 13px;
+  text-align: right;
+}
+
 .list-header {
   justify-content: space-between;
   gap: 12px;
@@ -435,5 +481,13 @@ select:focus {
   .word-list {
     grid-template-columns: 1fr;
     max-height: 440px;
+  }
+
+  .roadmap div {
+    grid-template-columns: 1fr;
+  }
+
+  .roadmap span {
+    text-align: left;
   }
 }

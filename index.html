@@ -46,9 +46,19 @@
           </div>
 
           <div class="segmented" id="modeGroup" aria-label="Review mode">
-            <button class="is-active" data-mode="all">All</button>
-            <button data-mode="unseen">Unseen</button>
+            <button class="is-active" data-mode="today">Today</button>
+            <button data-mode="module">Module</button>
             <button data-mode="weak">Weak</button>
+          </div>
+
+          <div class="field">
+            <span>Module</span>
+            <select id="moduleFilter"></select>
+          </div>
+
+          <div class="field">
+            <span>Pack</span>
+            <select id="packFilter"></select>
           </div>
 
           <section class="stats">
@@ -63,6 +73,21 @@
             <div>
               <strong id="againCount">0</strong>
               <span>again</span>
+            </div>
+          </section>
+
+          <section class="queue-stats">
+            <div>
+              <span>Due</span>
+              <strong id="dueCount">0</strong>
+            </div>
+            <div>
+              <span>New</span>
+              <strong id="newCount">0</strong>
+            </div>
+            <div>
+              <span>Module</span>
+              <strong id="moduleProgress">0/100</strong>
             </div>
           </section>
         </aside>
@@ -91,10 +116,31 @@
 
           <section class="panel list-panel">
             <div class="list-header">
-              <h2>Filtered Deck</h2>
+              <h2 id="deckTitle">Today</h2>
               <span id="filteredCount">0 cards</span>
             </div>
             <div id="wordList" class="word-list"></div>
+          </section>
+
+          <section class="panel progress-panel">
+            <div class="list-header">
+              <h2>Project Progress</h2>
+              <span>next phase</span>
+            </div>
+            <div class="roadmap">
+              <div>
+                <strong>Vocabulary modules</strong>
+                <span>live</span>
+              </div>
+              <div>
+                <strong>Sourced examples</strong>
+                <span>in progress</span>
+              </div>
+              <div>
+                <strong>AI speaking coach</strong>
+                <span>planned: secure backend token broker</span>
+              </div>
+            </div>
           </section>
         </section>
       </main>
