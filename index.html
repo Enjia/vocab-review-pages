@@ -125,7 +125,7 @@
           <section class="panel progress-panel">
             <div class="list-header">
               <h2>Project Progress</h2>
-              <span>next phase</span>
+              <span>voice ready</span>
             </div>
             <div class="roadmap">
               <div>
@@ -138,13 +138,52 @@
               </div>
               <div>
                 <strong>AI speaking coach</strong>
-                <span>planned: secure backend token broker</span>
+                <span>live via secure backend token broker</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel coach-panel" id="speakingCoachPanel">
+            <div class="list-header">
+              <h2>Speaking Practice</h2>
+              <span id="coachStatus">Idle</span>
+            </div>
+
+            <div class="coach-controls">
+              <label class="field compact-field">
+                <span>Level</span>
+                <select id="coachLevel">
+                  <option value="beginner">Beginner</option>
+                  <option value="intermediate" selected>Intermediate</option>
+                  <option value="advanced">Advanced</option>
+                </select>
+              </label>
+
+              <label class="field compact-field endpoint-field">
+                <span>Backend</span>
+                <input id="coachEndpoint" type="url" autocomplete="off" />
+              </label>
+            </div>
+
+            <div class="coach-words" id="coachWords"></div>
+
+            <div class="coach-actions">
+              <button class="primary" id="coachStartButton">Start voice coach</button>
+              <button class="secondary" id="coachStopButton" disabled>Stop</button>
+            </div>
+
+            <audio id="coachAudio" autoplay></audio>
+
+            <div class="coach-transcript" id="coachTranscript">
+              <div class="coach-turn">
+                <strong>Coach</strong>
+                <span>Ready for a short role-play with the selected vocabulary.</span>
               </div>
             </div>
           </section>
         </section>
       </main>
     </div>
-    <script type="module" src="./src/app.js?v=20260614-en-examples"></script>
+    <script type="module" src="./src/app.js?v=20260614-speaking-coach"></script>
   </body>
 </html>

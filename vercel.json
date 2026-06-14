@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/realtime-session.js": {
+      "maxDuration": 10
+    }
+  }
+}

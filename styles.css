@@ -403,6 +403,84 @@ select:focus {
   text-align: right;
 }
 
+.coach-panel {
+  padding: 18px;
+}
+
+.coach-controls {
+  display: grid;
+  grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.compact-field {
+  margin-bottom: 0;
+}
+
+.coach-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.coach-words span {
+  max-width: 100%;
+  padding: 7px 10px;
+  border: 1px solid rgba(101, 240, 200, 0.32);
+  border-radius: 999px;
+  color: var(--mint);
+  background: rgba(101, 240, 200, 0.08);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.coach-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.coach-transcript {
+  display: grid;
+  gap: 10px;
+  max-height: 260px;
+  margin-top: 16px;
+  overflow: auto;
+}
+
+.coach-turn {
+  display: grid;
+  gap: 5px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.coach-turn strong {
+  color: var(--cyan);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.coach-turn span {
+  color: #dce9e9;
+  line-height: 1.45;
+}
+
+#coachStatus {
+  color: var(--muted);
+}
+
+button:disabled,
+input:disabled,
+select:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
 .list-header {
   justify-content: space-between;
   gap: 12px;
@@ -489,5 +567,9 @@ select:focus {
 
   .roadmap span {
     text-align: left;
+  }
+
+  .coach-controls {
+    grid-template-columns: 1fr;
   }
 }

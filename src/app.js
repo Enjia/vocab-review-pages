@@ -5,6 +5,10 @@ import {
   getWeakEntries,
   nextReviewDate,
 } from "./scheduler.js?v=20260614-modules";
+import {
+  buildPracticePayload,
+  SpeakingCoachClient,
+} from "./speaking-coach.js?v=20260614-speaking-coach";
 
 const DAILY_NEW_LIMIT = 20;
 const DAILY_DUE_LIMIT = 80;
@@ -20,6 +24,7 @@ const state = {
   selectedModuleIndex: 0,
   selectedPackIndex: -1,
   progress: loadProgress(),
+  speakingCoach: null,
 };
 
 const els = {
@@ -51,6 +56,14 @@ const els = {
   shuffle: document.querySelector("#shuffleButton"),
   reset: document.querySelector("#resetProgressButton"),
   modeGroup: document.querySelector("#modeGroup"),
+  coachStatus: document.querySelector("#coachStatus"),
+  coachWords: document.querySelector("#coachWords"),
+  coachTranscript: document.querySelector("#coachTranscript"),
+  coachStart: document.querySelector("#coachStartButton"),
+  coachStop: document.querySelector("#coachStopButton"),
+  coachLevel: document.querySelector("#coachLevel"),
+  coachEndpoint: document.querySelector("#coachEndpoint"),
+  coachAudio: document.querySelector("#coachAudio"),
 };
 
 init();
@@ -142,6 +155,11 @@ function bindEvents() {
     applyFilters();
     pickRandom();
   });
+
+  els.coachEndpoint.value = loadCoachEndpoint();
+  els.coachEndpoint.addEventListener("change", () => saveCoachEndpoint(els.coachEndpoint.value));
+  els.coachStart.addEventListener("click", startSpeakingCoach);
+  els.coachStop.addEventListener("click", stopSpeakingCoach);
 }
 
 function setMode(mode) {
@@ -267,6 +285,7 @@ function renderCard() {
   els.links.textContent = [entry.sourcePath, entry.relatedTerms.length ? `Related: ${entry.relatedTerms.slice(0, 8).join(", ")}` : ""]
     .filter(Boolean)
     .join(" · ");
+  renderCoachWords();
 }
 
 function renderEmptyCard() {
@@ -278,6 +297,7 @@ function renderEmptyCard() {
   els.examples.innerHTML = "";
   els.links.textContent = "";
   els.answer.hidden = true;
+  renderCoachWords();
 }
 
 function renderList() {
@@ -327,6 +347,90 @@ function uniqueEntries(entries) {
   });
 }
 
+async function startSpeakingCoach() {
+  try {
+    if (!state.speakingCoach) {
+      state.speakingCoach = new SpeakingCoachClient({
+        backendUrl: els.coachEndpoint.value.trim(),
+        remoteAudio: els.coachAudio,
+        getPayload: () =>
+          buildPracticePayload({
+            mode: state.mode,
+            module: getSelectedModule(),
+            pack: getSelectedPack(),
+            current: state.current,
+            entries: state.filtered,
+            level: els.coachLevel.value,
+          }),
+        setStatus: setCoachStatus,
+        renderTranscript,
+      });
+    }
+    els.coachEndpoint.disabled = true;
+    els.coachLevel.disabled = true;
+    els.coachStart.disabled = true;
+    els.coachStop.disabled = false;
+    await state.speakingCoach.start();
+  } catch (error) {
+    state.speakingCoach?.stop();
+    state.speakingCoach = null;
+    setCoachStatus(error.message || "Speaking coach failed.");
+    resetCoachControls();
+  }
+}
+
+function stopSpeakingCoach() {
+  state.speakingCoach?.stop();
+  state.speakingCoach = null;
+  resetCoachControls();
+}
+
+function resetCoachControls() {
+  els.coachEndpoint.disabled = false;
+  els.coachLevel.disabled = false;
+  els.coachStart.disabled = false;
+  els.coachStop.disabled = true;
+}
+
+function setCoachStatus(message) {
+  els.coachStatus.textContent = message;
+}
+
+function renderTranscript(items) {
+  els.coachTranscript.innerHTML = items
+    .slice(-12)
+    .map(
+      (item) => `
+        <div class="coach-turn">
+          <strong>${escapeHtml(item.role)}</strong>
+          <span>${escapeHtml(item.text)}</span>
+        </div>
+      `,
+    )
+    .join("");
+}
+
+function renderCoachWords() {
+  const payload = buildPracticePayload({
+    mode: state.mode,
+    module: getSelectedModule(),
+    pack: getSelectedPack(),
+    current: state.current,
+    entries: state.filtered,
+    level: els.coachLevel?.value || "intermediate",
+  });
+  els.coachWords.innerHTML = payload.words
+    .slice(0, 12)
+    .map((word) => `<span>${escapeHtml(word.term)}</span>`)
+    .join("");
+}
+
+function getSelectedPack() {
+  const module = getSelectedModule();
+  if (!module || state.selectedPackIndex === -1) return null;
+  return module.packs[state.selectedPackIndex] || null;
+}
+
 function normalize(value) {
   return String(value).toLowerCase().trim();
 }
@@ -344,6 +448,22 @@ function saveProgress() {
     getStorage()?.setItem("vocab-review-progress", JSON.stringify(state.progress));
   } catch {
     // Progress remains available in memory for storage-restricted browsers.
+  }
+}
+
+function loadCoachEndpoint() {
+  try {
+    return localStorage.getItem("vocab-speaking-endpoint") || "https://vocab-review-pages.vercel.app/api/realtime-session";
+  } catch {
+    return "https://vocab-review-pages.vercel.app/api/realtime-session";
+  }
+}
+
+function saveCoachEndpoint(value) {
+  try {
+    localStorage.setItem("vocab-speaking-endpoint", value.trim());
+  } catch {
+    // Endpoint configuration remains in the current input value.
   }
 }
 
