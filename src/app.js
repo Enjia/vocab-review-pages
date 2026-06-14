@@ -6,9 +6,11 @@ import {
   nextReviewDate,
 } from "./scheduler.js?v=20260614-modules";
 import {
-  buildPracticePayload,
-  SpeakingCoachClient,
-} from "./speaking-coach.js?v=20260614-speaking-coach";
+  buildNightPracticePrompt,
+  getNightPracticePack,
+  loadNightPracticeProgress,
+  saveNightPracticeProgress,
+} from "./night-practice.js?v=20260614-night-practice";
 
 const DAILY_NEW_LIMIT = 20;
 const DAILY_DUE_LIMIT = 80;
@@ -24,7 +26,9 @@ const state = {
   selectedModuleIndex: 0,
   selectedPackIndex: -1,
   progress: loadProgress(),
-  speakingCoach: null,
+  nightPractice: null,
+  selectedNightPackId: "",
+  nightPracticeProgress: loadNightPracticeProgress(),
 };
 
 const els = {
@@ -56,28 +60,36 @@ const els = {
   shuffle: document.querySelector("#shuffleButton"),
   reset: document.querySelector("#resetProgressButton"),
   modeGroup: document.querySelector("#modeGroup"),
-  coachStatus: document.querySelector("#coachStatus"),
-  coachWords: document.querySelector("#coachWords"),
-  coachTranscript: document.querySelector("#coachTranscript"),
-  coachStart: document.querySelector("#coachStartButton"),
-  coachStop: document.querySelector("#coachStopButton"),
-  coachLevel: document.querySelector("#coachLevel"),
-  coachEndpoint: document.querySelector("#coachEndpoint"),
-  coachAudio: document.querySelector("#coachAudio"),
+  nightPack: document.querySelector("#nightPackSelect"),
+  nightStatus: document.querySelector("#nightStatus"),
+  nightTitle: document.querySelector("#nightTitle"),
+  nightScene: document.querySelector("#nightScene"),
+  nightWords: document.querySelector("#nightWords"),
+  nightDialogue: document.querySelector("#nightDialogue"),
+  nightPrompt: document.querySelector("#nightPrompt"),
+  nightCopy: document.querySelector("#nightCopyButton"),
+  nightPracticed: document.querySelector("#nightPracticedButton"),
 };
 
 init();
 
 async function init() {
-  const response = await fetch("./data/words.json");
-  state.data = await response.json();
+  const [wordsResponse, nightPracticeResponse] = await Promise.all([
+    fetch("./data/words.json"),
+    fetch("./data/night-practice.json"),
+  ]);
+  state.data = await wordsResponse.json();
+  state.nightPractice = await nightPracticeResponse.json();
+  state.selectedNightPackId = state.nightPractice.packs[0]?.id || "";
   state.entries = state.data.entries;
   state.modules = buildModules(state.entries);
   populateFilters();
   populateModules();
+  populateNightPractice();
   bindEvents();
   applyFilters();
   pickRandom();
+  renderNightPractice();
 }
 
 function populateFilters() {
@@ -93,6 +105,14 @@ function populateModules() {
     els.module.append(new Option(label, String(index)));
   }
   renderPackOptions();
+}
+
+function populateNightPractice() {
+  els.nightPack.innerHTML = "";
+  for (const pack of state.nightPractice.packs) {
+    els.nightPack.append(new Option(pack.title, pack.id));
+  }
+  els.nightPack.value = state.selectedNightPackId;
 }
 
 function renderPackOptions() {
@@ -156,10 +176,12 @@ function bindEvents() {
     pickRandom();
   });
 
-  els.coachEndpoint.value = loadCoachEndpoint();
-  els.coachEndpoint.addEventListener("change", () => saveCoachEndpoint(els.coachEndpoint.value));
-  els.coachStart.addEventListener("click", startSpeakingCoach);
-  els.coachStop.addEventListener("click", stopSpeakingCoach);
+  els.nightPack.addEventListener("input", () => {
+    state.selectedNightPackId = els.nightPack.value;
+    renderNightPractice();
+  });
+  els.nightCopy.addEventListener("click", copyNightPracticePrompt);
+  els.nightPracticed.addEventListener("click", markNightPracticeDone);
 }
 
 function setMode(mode) {
@@ -285,7 +307,6 @@ function renderCard() {
   els.links.textContent = [entry.sourcePath, entry.relatedTerms.length ? `Related: ${entry.relatedTerms.slice(0, 8).join(", ")}` : ""]
     .filter(Boolean)
     .join(" · ");
-  renderCoachWords();
 }
 
 function renderEmptyCard() {
@@ -297,7 +318,6 @@ function renderEmptyCard() {
   els.examples.innerHTML = "";
   els.links.textContent = "";
   els.answer.hidden = true;
-  renderCoachWords();
 }
 
 function renderList() {
@@ -347,82 +367,59 @@ function uniqueEntries(entries) {
   });
 }
 
-async function startSpeakingCoach() {
-  try {
-    if (!state.speakingCoach) {
-      state.speakingCoach = new SpeakingCoachClient({
-        backendUrl: els.coachEndpoint.value.trim(),
-        remoteAudio: els.coachAudio,
-        getPayload: () =>
-          buildPracticePayload({
-            mode: state.mode,
-            module: getSelectedModule(),
-            pack: getSelectedPack(),
-            current: state.current,
-            entries: state.filtered,
-            level: els.coachLevel.value,
-          }),
-        setStatus: setCoachStatus,
-        renderTranscript,
-      });
-    }
-    els.coachEndpoint.disabled = true;
-    els.coachLevel.disabled = true;
-    els.coachStart.disabled = true;
-    els.coachStop.disabled = false;
-    await state.speakingCoach.start();
-  } catch (error) {
-    state.speakingCoach?.stop();
-    state.speakingCoach = null;
-    setCoachStatus(error.message || "Speaking coach failed.");
-    resetCoachControls();
-  }
-}
-
-function stopSpeakingCoach() {
-  state.speakingCoach?.stop();
-  state.speakingCoach = null;
-  resetCoachControls();
-}
-
-function resetCoachControls() {
-  els.coachEndpoint.disabled = false;
-  els.coachLevel.disabled = false;
-  els.coachStart.disabled = false;
-  els.coachStop.disabled = true;
-}
-
-function setCoachStatus(message) {
-  els.coachStatus.textContent = message;
-}
-
-function renderTranscript(items) {
-  els.coachTranscript.innerHTML = items
-    .slice(-12)
+function renderNightPractice() {
+  const pack = getNightPracticePack(state.nightPractice.packs, state.selectedNightPackId);
+  if (!pack) return;
+  state.selectedNightPackId = pack.id;
+  els.nightPack.value = pack.id;
+  els.nightTitle.textContent = pack.title;
+  els.nightScene.textContent = pack.scene;
+  els.nightWords.innerHTML = pack.targetWords
+    .map((word) => `<span>${escapeHtml(word.term)}</span>`)
+    .join("");
+  els.nightDialogue.innerHTML = pack.turns
     .map(
-      (item) => `
-        <div class="coach-turn">
-          <strong>${escapeHtml(item.role)}</strong>
-          <span>${escapeHtml(item.text)}</span>
+      (turn, index) => `
+        <div class="night-turn">
+          <strong>${index + 1}</strong>
+          <p><b>User</b>${escapeHtml(turn.user)}</p>
+          <p><b>ChatGPT</b>${escapeHtml(turn.chatgpt)}</p>
         </div>
       `,
     )
     .join("");
+  els.nightPrompt.value = buildNightPracticePrompt(pack);
+  updateNightPracticeStatus(pack);
 }
 
-function renderCoachWords() {
-  const payload = buildPracticePayload({
-    mode: state.mode,
-    module: getSelectedModule(),
-    pack: getSelectedPack(),
-    current: state.current,
-    entries: state.filtered,
-    level: els.coachLevel?.value || "intermediate",
-  });
-  els.coachWords.innerHTML = payload.words
-    .slice(0, 12)
-    .map((word) => `<span>${escapeHtml(word.term)}</span>`)
-    .join("");
+async function copyNightPracticePrompt() {
+  const pack = getNightPracticePack(state.nightPractice.packs, state.selectedNightPackId);
+  if (!pack) return;
+  const prompt = buildNightPracticePrompt(pack);
+  els.nightPrompt.value = prompt;
+  try {
+    await navigator.clipboard.writeText(prompt);
+    els.nightStatus.textContent = "Prompt copied";
+  } catch {
+    els.nightPrompt.select();
+    els.nightStatus.textContent = "Select and copy manually";
+  }
+}
+
+function markNightPracticeDone() {
+  const pack = getNightPracticePack(state.nightPractice.packs, state.selectedNightPackId);
+  if (!pack) return;
+  state.nightPracticeProgress[pack.id] = {
+    practicedAt: new Date().toISOString(),
+    targetWords: pack.targetWords.map((word) => word.entryId),
+  };
+  saveNightPracticeProgress(state.nightPracticeProgress);
+  updateNightPracticeStatus(pack);
+}
+
+function updateNightPracticeStatus(pack) {
+  const progress = state.nightPracticeProgress[pack.id];
+  els.nightStatus.textContent = progress?.practicedAt ? `Practiced ${formatDate(progress.practicedAt)}` : "Ready for tonight";
 }
 
 function getSelectedPack() {
@@ -448,22 +445,6 @@ function saveProgress() {
     getStorage()?.setItem("vocab-review-progress", JSON.stringify(state.progress));
   } catch {
     // Progress remains available in memory for storage-restricted browsers.
-  }
-}
-
-function loadCoachEndpoint() {
-  try {
-    return localStorage.getItem("vocab-speaking-endpoint") || "https://vocab-review-pages.vercel.app/api/realtime-session";
-  } catch {
-    return "https://vocab-review-pages.vercel.app/api/realtime-session";
-  }
-}
-
-function saveCoachEndpoint(value) {
-  try {
-    localStorage.setItem("vocab-speaking-endpoint", value.trim());
-  } catch {
-    // Endpoint configuration remains in the current input value.
   }
 }
 

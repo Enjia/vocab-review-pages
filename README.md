@@ -16,9 +16,18 @@ Open `http://localhost:4173`.
 
 Progress is stored in browser `localStorage`, so the generated site does not write back to Obsidian.
 
+## Night Practice
+
+The site includes `Night Practice` packs for the 10:30-10:45 PM practice routine.
+
+- Each pack covers 10 vocabulary items.
+- Each pack has a realistic scene and 25 User / ChatGPT turns.
+- Use `Copy ChatGPT prompt`, paste it into the ChatGPT App, and practice one question at a time.
+- `Practiced tonight` stores local completion state only; it does not automatically mark vocabulary cards as known.
+
 ## AI Speaking Coach
 
-The static site includes a WebRTC speaking-practice panel. It needs a separate Vercel serverless endpoint for OpenAI Realtime client secrets.
+The repository still includes an optional WebRTC speaking-practice backend for later use. It needs a separate Vercel serverless endpoint for OpenAI Realtime client secrets.
 
 Required Vercel environment variables:
 

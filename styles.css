@@ -474,6 +474,113 @@ select:focus {
   color: var(--muted);
 }
 
+.night-panel {
+  padding: 18px;
+}
+
+.night-controls {
+  display: grid;
+  grid-template-columns: minmax(220px, 360px);
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.night-summary {
+  margin-top: 16px;
+}
+
+.night-summary h3 {
+  margin: 0 0 8px;
+  font-size: 22px;
+  letter-spacing: 0;
+}
+
+.night-summary p {
+  margin: 0;
+  color: #dce9e9;
+  line-height: 1.5;
+}
+
+.night-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.night-words span {
+  max-width: 100%;
+  padding: 7px 10px;
+  border: 1px solid rgba(101, 240, 200, 0.32);
+  border-radius: 999px;
+  color: var(--mint);
+  background: rgba(101, 240, 200, 0.08);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.night-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.night-prompt {
+  width: 100%;
+  min-height: 130px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  background: rgba(5, 10, 15, 0.72);
+  padding: 12px;
+  resize: vertical;
+}
+
+.night-dialogue {
+  display: grid;
+  gap: 10px;
+  max-height: 640px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.night-turn {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 8px 12px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.night-turn > strong {
+  grid-row: span 2;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  color: #06120e;
+  background: var(--mint);
+  display: grid;
+  place-items: center;
+  font-size: 13px;
+}
+
+.night-turn p {
+  margin: 0;
+  color: #dce9e9;
+  line-height: 1.45;
+}
+
+.night-turn b {
+  display: inline-block;
+  min-width: 72px;
+  color: var(--cyan);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 button:disabled,
 input:disabled,
 select:disabled {
@@ -571,5 +678,17 @@ select:disabled {
 
   .coach-controls {
     grid-template-columns: 1fr;
+  }
+
+  .night-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .night-turn {
+    grid-template-columns: 1fr;
+  }
+
+  .night-turn > strong {
+    grid-row: auto;
   }
 }

@@ -125,7 +125,7 @@
           <section class="panel progress-panel">
             <div class="list-header">
               <h2>Project Progress</h2>
-              <span>voice ready</span>
+              <span>night practice</span>
             </div>
             <div class="roadmap">
               <div>
@@ -137,53 +137,43 @@
                 <span>in progress</span>
               </div>
               <div>
-                <strong>AI speaking coach</strong>
-                <span>live via secure backend token broker</span>
+                <strong>Night practice</strong>
+                <span>5 packs live</span>
               </div>
             </div>
           </section>
 
-          <section class="panel coach-panel" id="speakingCoachPanel">
+          <section class="panel night-panel" id="nightPracticePanel">
             <div class="list-header">
-              <h2>Speaking Practice</h2>
-              <span id="coachStatus">Idle</span>
+              <h2>Night Practice</h2>
+              <span id="nightStatus">Ready for tonight</span>
             </div>
 
-            <div class="coach-controls">
+            <div class="night-controls">
               <label class="field compact-field">
-                <span>Level</span>
-                <select id="coachLevel">
-                  <option value="beginner">Beginner</option>
-                  <option value="intermediate" selected>Intermediate</option>
-                  <option value="advanced">Advanced</option>
-                </select>
-              </label>
-
-              <label class="field compact-field endpoint-field">
-                <span>Backend</span>
-                <input id="coachEndpoint" type="url" autocomplete="off" />
+                <span>Pack</span>
+                <select id="nightPackSelect"></select>
               </label>
             </div>
 
-            <div class="coach-words" id="coachWords"></div>
-
-            <div class="coach-actions">
-              <button class="primary" id="coachStartButton">Start voice coach</button>
-              <button class="secondary" id="coachStopButton" disabled>Stop</button>
+            <div class="night-summary">
+              <h3 id="nightTitle">Loading...</h3>
+              <p id="nightScene"></p>
             </div>
 
-            <audio id="coachAudio" autoplay></audio>
+            <div class="night-words" id="nightWords"></div>
 
-            <div class="coach-transcript" id="coachTranscript">
-              <div class="coach-turn">
-                <strong>Coach</strong>
-                <span>Ready for a short role-play with the selected vocabulary.</span>
-              </div>
+            <div class="night-actions">
+              <button class="primary" id="nightCopyButton">Copy ChatGPT prompt</button>
+              <button class="secondary" id="nightPracticedButton">Practiced tonight</button>
             </div>
+
+            <textarea id="nightPrompt" class="night-prompt" readonly></textarea>
+            <div class="night-dialogue" id="nightDialogue"></div>
           </section>
         </section>
       </main>
     </div>
-    <script type="module" src="./src/app.js?v=20260614-speaking-coach"></script>
+    <script type="module" src="./src/app.js?v=20260614-night-practice"></script>
   </body>
 </html>

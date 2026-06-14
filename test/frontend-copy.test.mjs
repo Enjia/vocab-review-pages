@@ -17,3 +17,12 @@ test("frontend shell uses English control copy", async () => {
   assert.match(html, /title="Shuffle"/);
   assert.match(html, /title="Reset progress"/);
 });
+
+test("frontend exposes night practice instead of realtime voice as the primary practice panel", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+
+  assert.match(html, /Night Practice/);
+  assert.match(html, /Copy ChatGPT prompt/);
+  assert.match(html, /Practiced tonight/);
+  assert.doesNotMatch(html, /Start voice coach/);
+});
