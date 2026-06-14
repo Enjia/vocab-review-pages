@@ -6,7 +6,7 @@ Add a real voice-practice mode where the learner can speak with an AI tutor usin
 
 ## Architecture
 
-- GitHub Pages remains a static frontend for review, module selection, and the future speaking-coach UI.
+- GitHub Pages remains a static frontend for review, module selection, and the speaking-coach UI.
 - A separate Vercel project owns `POST /api/realtime-session`.
 - The Vercel function stores `OPENAI_API_KEY` as an encrypted environment variable and calls OpenAI server-side.
 - The browser receives only a short-lived Realtime client secret and uses it to connect to OpenAI Realtime over WebRTC.
@@ -26,7 +26,7 @@ Add a real voice-practice mode where the learner can speak with an AI tutor usin
    - server-owned tutor instructions
    - selected vocabulary embedded as practice context
    - no tools enabled in v1
-5. The Vercel function calls OpenAI `POST /realtime/client_secrets` with the standard API key.
+5. The Vercel function calls OpenAI `POST /v1/realtime/client_secrets` with the standard API key.
 6. The frontend receives `{ clientSecret, expiresAt, sessionId }`.
 7. The browser creates an `RTCPeerConnection`, attaches the microphone track, and authenticates the WebRTC connection using the client secret.
 

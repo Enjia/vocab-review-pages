@@ -9,6 +9,7 @@
 - Local `Known` / `Again` progress stored in browser `localStorage`.
 - Sourced-example replacement workflow using Tatoeba sentence IDs, authors, and licenses.
 - Frontend cards show English examples only; source data may still retain Chinese example translations for archival use.
+- AI speaking coach UI with WebRTC audio, selected vocabulary context, and Vercel-backed ephemeral Realtime sessions.
 
 ## In Progress
 
@@ -17,23 +18,23 @@
 - Candidate pool: 443 sourced English examples found from Tatoeba.
 - New policy: future sourced-example write-back only requires a natural English example plus source metadata. Chinese translations are optional and are not a blocker.
 
-## Planned: AI Speaking Coach
+## Live: AI Speaking Coach
 
 Goal: add a real voice-practice mode where the learner speaks with an AI tutor around selected vocabulary.
 
 Security architecture:
 
 - The GitHub Pages frontend must never contain an OpenAI API key.
-- A Vercel serverless endpoint must hold the OpenAI key and issue short-lived Realtime client secrets.
+- A Vercel serverless endpoint holds the OpenAI key and issues short-lived Realtime client secrets.
 - Browser flow: user opens practice mode, frontend asks the Vercel endpoint for an ephemeral session, browser connects to OpenAI Realtime through WebRTC, and the session expires quickly.
-- The backend must restrict allowed origin, model, voice, instructions, selected vocabulary size, request rate, and maximum session duration.
+- The backend restricts allowed origin, model, voice, instructions, selected vocabulary size, request rate, and maximum session duration.
 - No raw audio should be stored. Transcripts stay local by default unless a later feature explicitly enables sync.
 
-Implementation phases:
+Deployment tasks:
 
-1. Add the Vercel token broker for OpenAI Realtime.
-2. Add AI role-play sessions using module vocabulary and sourced example context.
-3. Add optional local-only transcript review and progress markers.
+1. Deploy the repository as a Vercel project or deploy only the `api/realtime-session.js` function.
+2. Set Vercel environment variables: `OPENAI_API_KEY`, `ALLOWED_ORIGIN`, `REALTIME_MODEL`, and optionally `REALTIME_VOICE`.
+3. Keep the GitHub Pages frontend endpoint field pointed at the Vercel function URL.
 
 References:
 
