@@ -1,0 +1,9 @@
+audit-*.json
+applied-*.json
+codex-*.log
+replacements-*.json
+tatoeba-cache.json
+tatoeba-ready-with-zh.json
+tatoeba-replacements*.json
+translate-*.json
+translations-*.json
