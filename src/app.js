@@ -4,7 +4,7 @@ import {
   getNewEntries,
   getWeakEntries,
   nextReviewDate,
-} from "./scheduler.js";
+} from "./scheduler.js?v=20260614-modules";
 
 const DAILY_NEW_LIMIT = 20;
 const DAILY_DUE_LIMIT = 80;
