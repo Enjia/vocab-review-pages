@@ -8,7 +8,7 @@
       name="description"
       content="A static vocabulary review lab generated from Obsidian notes."
     />
-    <link rel="stylesheet" href="./styles.css?v=20260614-review-grades" />
+    <link rel="stylesheet" href="./styles.css?v=20260614-example-cleanup" />
   </head>
   <body>
     <div class="shell">
@@ -103,8 +103,14 @@
               <span id="cardTerm">Loading...</span>
             </button>
             <div class="answer" id="answerPanel" hidden>
-              <p id="definitionText"></p>
-              <div id="exampleBlock" class="example-block"></div>
+              <section class="answer-section" id="definitionSection">
+                <h3 class="answer-label">Definition</h3>
+                <p id="definitionText"></p>
+              </section>
+              <section class="answer-section" id="exampleSection">
+                <h3 class="answer-label">Example</h3>
+                <div id="exampleBlock" class="example-block"></div>
+              </section>
               <div id="linkBlock" class="link-block"></div>
             </div>
             <div class="card-actions">
@@ -176,6 +182,6 @@
         </section>
       </main>
     </div>
-    <script type="module" src="./src/app.js?v=20260614-review-grades"></script>
+    <script type="module" src="./src/app.js?v=20260614-example-cleanup"></script>
   </body>
 </html>

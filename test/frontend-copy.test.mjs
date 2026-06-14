@@ -18,6 +18,12 @@ test("frontend shell uses English control copy", async () => {
   assert.match(html, /title="Reset progress"/);
 });
 
+test("answer panel labels the Chinese gloss as a definition section", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+
+  assert.match(html, />Definition</);
+});
+
 test("frontend exposes night practice instead of realtime voice as the primary practice panel", async () => {
   const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
 

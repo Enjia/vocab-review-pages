@@ -1,6 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { sanitizeExamples } from "./example-quality.mjs";
 import { parseVocabularyFile } from "./parser.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -18,7 +19,12 @@ const entries = [];
 
 for (const filePath of files) {
   const markdown = await fs.readFile(filePath, "utf8");
-  entries.push(...parseVocabularyFile({ filePath, vaultRoot, markdown }));
+  entries.push(
+    ...parseVocabularyFile({ filePath, vaultRoot, markdown }).map((entry) => ({
+      ...entry,
+      examples: sanitizeExamples({ term: entry.term, examples: entry.examples }),
+    })),
+  );
 }
 
 entries.sort((a, b) => a.term.localeCompare(b.term, "en"));

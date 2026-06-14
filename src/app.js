@@ -4,7 +4,7 @@ import {
   getNewEntries,
   getWeakEntries,
   nextReviewDate,
-} from "./scheduler.js?v=20260614-review-grades";
+} from "./scheduler.js?v=20260614-example-cleanup";
 import {
   buildNightPracticePrompt,
   getNightPracticePack,
@@ -51,6 +51,8 @@ const els = {
   cardTheme: document.querySelector("#cardTheme"),
   cardTerm: document.querySelector("#cardTerm"),
   answer: document.querySelector("#answerPanel"),
+  definitionSection: document.querySelector("#definitionSection"),
+  exampleSection: document.querySelector("#exampleSection"),
   definition: document.querySelector("#definitionText"),
   examples: document.querySelector("#exampleBlock"),
   links: document.querySelector("#linkBlock"),
@@ -298,6 +300,7 @@ function renderCard() {
   els.show.textContent = state.revealed ? "Hide answer" : "Show answer";
 
   els.definition.textContent = entry.definition || "No definition yet.";
+  els.definitionSection.hidden = !entry.definition;
   els.examples.innerHTML = entry.examples
     .slice(0, 3)
     .map(
@@ -308,6 +311,7 @@ function renderCard() {
       `,
     )
     .join("");
+  els.exampleSection.hidden = entry.examples.length === 0;
   els.links.textContent = [entry.sourcePath, entry.relatedTerms.length ? `Related: ${entry.relatedTerms.slice(0, 8).join(", ")}` : ""]
     .filter(Boolean)
     .join(" · ");
@@ -319,7 +323,9 @@ function renderEmptyCard() {
   els.cardTheme.textContent = "Adjust filters";
   els.cardTerm.textContent = "No matching entries";
   els.definition.textContent = "";
+  els.definitionSection.hidden = true;
   els.examples.innerHTML = "";
+  els.exampleSection.hidden = true;
   els.links.textContent = "";
   els.answer.hidden = true;
 }

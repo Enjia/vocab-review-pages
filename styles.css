@@ -304,6 +304,19 @@ select:focus {
   color: #d9e6e7;
 }
 
+.answer-section + .answer-section {
+  margin-top: 18px;
+}
+
+.answer-label {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .answer p {
   margin: 0 0 16px;
   font-size: 22px;
