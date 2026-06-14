@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vocabulary Memory Lab</title>
+    <meta
+      name="description"
+      content="A static vocabulary review lab generated from Obsidian notes."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Obsidian Vocabulary System</p>
+          <h1>Memory Lab</h1>
+        </div>
+        <div class="top-actions">
+          <button class="icon-button" id="shuffleButton" title="随机抽取">↻</button>
+          <button class="icon-button" id="resetProgressButton" title="清空本地进度">⌫</button>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="panel controls">
+          <label class="search">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="term / 中文 / example" />
+          </label>
+
+          <div class="field">
+            <span>Type</span>
+            <select id="typeFilter"></select>
+          </div>
+
+          <div class="field">
+            <span>Part of speech</span>
+            <select id="posFilter"></select>
+          </div>
+
+          <div class="field">
+            <span>Theme</span>
+            <select id="themeFilter"></select>
+          </div>
+
+          <div class="segmented" id="modeGroup" aria-label="Review mode">
+            <button class="is-active" data-mode="all">All</button>
+            <button data-mode="unseen">Unseen</button>
+            <button data-mode="weak">Weak</button>
+          </div>
+
+          <section class="stats">
+            <div>
+              <strong id="totalCount">0</strong>
+              <span>entries</span>
+            </div>
+            <div>
+              <strong id="knownCount">0</strong>
+              <span>known</span>
+            </div>
+            <div>
+              <strong id="againCount">0</strong>
+              <span>again</span>
+            </div>
+          </section>
+        </aside>
+
+        <section class="stage">
+          <section class="review-card" id="reviewCard">
+            <div class="card-aura"></div>
+            <div class="card-meta">
+              <span id="cardType">Type</span>
+              <span id="cardTheme">Theme</span>
+            </div>
+            <button class="term-button" id="termButton">
+              <span id="cardTerm">Loading...</span>
+            </button>
+            <div class="answer" id="answerPanel" hidden>
+              <p id="definitionText"></p>
+              <div id="exampleBlock" class="example-block"></div>
+              <div id="linkBlock" class="link-block"></div>
+            </div>
+            <div class="card-actions">
+              <button class="secondary" id="showAnswerButton">Show answer</button>
+              <button class="danger" id="againButton">Again</button>
+              <button class="primary" id="knownButton">Known</button>
+            </div>
+          </section>
+
+          <section class="panel list-panel">
+            <div class="list-header">
+              <h2>Filtered Deck</h2>
+              <span id="filteredCount">0 cards</span>
+            </div>
+            <div id="wordList" class="word-list"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

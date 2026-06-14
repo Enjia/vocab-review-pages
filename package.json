@@ -1,0 +1,11 @@
+{
+  "name": "vocab-review-pages",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build:data": "node scripts/build-data.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}
