@@ -8,7 +8,7 @@
       name="description"
       content="A static vocabulary review lab generated from Obsidian notes."
     />
-    <link rel="stylesheet" href="./styles.css?v=20260614-card-layout" />
+    <link rel="stylesheet" href="./styles.css?v=20260614-review-grades" />
   </head>
   <body>
     <div class="shell">
@@ -68,11 +68,11 @@
             </div>
             <div>
               <strong id="knownCount">0</strong>
-              <span>known</span>
+              <span>reviewed</span>
             </div>
             <div>
               <strong id="againCount">0</strong>
-              <span>again</span>
+              <span>weak</span>
             </div>
           </section>
 
@@ -110,7 +110,9 @@
             <div class="card-actions">
               <button class="secondary" id="showAnswerButton">Show answer</button>
               <button class="danger" id="againButton">Again</button>
-              <button class="primary" id="knownButton">Known</button>
+              <button class="secondary" id="hardButton">Hard</button>
+              <button class="primary" id="goodButton">Good</button>
+              <button class="accent" id="easyButton">Easy</button>
             </div>
           </section>
 
@@ -174,6 +176,6 @@
         </section>
       </main>
     </div>
-    <script type="module" src="./src/app.js?v=20260614-card-layout"></script>
+    <script type="module" src="./src/app.js?v=20260614-review-grades"></script>
   </body>
 </html>

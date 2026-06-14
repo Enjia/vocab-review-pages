@@ -4,6 +4,7 @@ import {
   buildModules,
   getDueEntries,
   getNewEntries,
+  getWeakEntries,
   nextReviewDate,
 } from "../src/scheduler.js";
 
@@ -49,9 +50,26 @@ test("getNewEntries returns unseen entries only", () => {
   );
 });
 
-test("nextReviewDate schedules known cards farther out than again cards", () => {
+test("getWeakEntries keeps failed and effortful cards in the weak queue", () => {
+  const entries = [{ id: "a" }, { id: "b" }, { id: "c" }, { id: "d" }];
+  const progress = {
+    a: { status: "again" },
+    b: { status: "hard" },
+    c: { status: "good" },
+    d: { status: "easy" },
+  };
+
+  assert.deepEqual(
+    getWeakEntries(entries, progress, 10).map((entry) => entry.id),
+    ["a", "b"],
+  );
+});
+
+test("nextReviewDate spaces again, hard, good, and easy in ascending order", () => {
   const now = new Date("2026-06-14T00:00:00.000Z");
 
-  assert.equal(nextReviewDate("again", 0, now).toISOString(), "2026-06-15T00:00:00.000Z");
-  assert.equal(nextReviewDate("known", 2, now).toISOString(), "2026-06-21T00:00:00.000Z");
+  assert.equal(nextReviewDate("again", 0, now).toISOString(), "2026-06-14T00:10:00.000Z");
+  assert.equal(nextReviewDate("hard", 0, now).toISOString(), "2026-06-15T00:00:00.000Z");
+  assert.equal(nextReviewDate("good", 2, now).toISOString(), "2026-06-21T00:00:00.000Z");
+  assert.equal(nextReviewDate("easy", 2, now).toISOString(), "2026-06-28T00:00:00.000Z");
 });

@@ -4,7 +4,7 @@ import {
   getNewEntries,
   getWeakEntries,
   nextReviewDate,
-} from "./scheduler.js?v=20260614-modules";
+} from "./scheduler.js?v=20260614-review-grades";
 import {
   buildNightPracticePrompt,
   getNightPracticePack,
@@ -56,7 +56,9 @@ const els = {
   links: document.querySelector("#linkBlock"),
   show: document.querySelector("#showAnswerButton"),
   againButton: document.querySelector("#againButton"),
-  knownButton: document.querySelector("#knownButton"),
+  hardButton: document.querySelector("#hardButton"),
+  goodButton: document.querySelector("#goodButton"),
+  easyButton: document.querySelector("#easyButton"),
   shuffle: document.querySelector("#shuffleButton"),
   reset: document.querySelector("#resetProgressButton"),
   modeGroup: document.querySelector("#modeGroup"),
@@ -167,8 +169,10 @@ function bindEvents() {
   });
   document.querySelector("#termButton").addEventListener("click", reveal);
   els.shuffle.addEventListener("click", pickRandom);
-  els.knownButton.addEventListener("click", () => markCurrent("known"));
   els.againButton.addEventListener("click", () => markCurrent("again"));
+  els.hardButton.addEventListener("click", () => markCurrent("hard"));
+  els.goodButton.addEventListener("click", () => markCurrent("good"));
+  els.easyButton.addEventListener("click", () => markCurrent("easy"));
   els.reset.addEventListener("click", () => {
     state.progress = {};
     saveProgress();
@@ -267,7 +271,7 @@ function reveal() {
 function markCurrent(status) {
   if (!state.current) return;
   const previous = state.progress[state.current.id] || {};
-  const reviewCount = status === "known" ? (previous.reviewCount || 0) + 1 : previous.reviewCount || 0;
+  const reviewCount = status === "again" ? previous.reviewCount || 0 : (previous.reviewCount || 0) + 1;
   state.progress[state.current.id] = {
     status,
     reviewCount,
@@ -352,11 +356,15 @@ function cardFrontMeta(entry) {
 function updateStats(baseEntries) {
   const values = Object.values(state.progress);
   const selectedEntries = getSelectedEntries();
-  const selectedDone = selectedEntries.filter((entry) => state.progress[entry.id]?.status === "known").length;
+  const selectedDone = selectedEntries.filter((entry) =>
+    ["good", "easy"].includes(state.progress[entry.id]?.status),
+  ).length;
   const selectedTotal = selectedEntries.length || 0;
   els.total.textContent = state.entries.length.toLocaleString();
-  els.known.textContent = values.filter((item) => item.status === "known").length.toLocaleString();
-  els.again.textContent = values.filter((item) => item.status === "again").length.toLocaleString();
+  els.known.textContent = values.length.toLocaleString();
+  els.again.textContent = values
+    .filter((item) => ["again", "hard"].includes(item.status))
+    .length.toLocaleString();
   els.due.textContent = getDueEntries(baseEntries, state.progress, new Date()).length.toLocaleString();
   els.new.textContent = getNewEntries(baseEntries, state.progress, DAILY_NEW_LIMIT).length.toLocaleString();
   els.moduleProgress.textContent = `${selectedDone}/${selectedTotal}`;
@@ -438,7 +446,7 @@ function normalize(value) {
 
 function loadProgress() {
   try {
-    return JSON.parse(getStorage()?.getItem("vocab-review-progress") || "{}");
+    return normalizeProgress(JSON.parse(getStorage()?.getItem("vocab-review-progress") || "{}"));
   } catch {
     return {};
   }
@@ -454,8 +462,22 @@ function saveProgress() {
 
 function progressLabel(progress) {
   if (progress.status === "again") return "again";
+  if (progress.status === "hard") return "hard";
+  if (progress.status === "easy") return "easy";
   if (progress.dueAt && new Date(progress.dueAt) <= new Date()) return "due";
-  return "known";
+  return "good";
+}
+
+function normalizeProgress(progress) {
+  return Object.fromEntries(
+    Object.entries(progress).map(([id, item]) => [
+      id,
+      {
+        ...item,
+        status: item?.status === "known" ? "good" : item?.status,
+      },
+    ]),
+  );
 }
 
 function formatDate(value) {

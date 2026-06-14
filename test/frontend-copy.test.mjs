@@ -27,6 +27,21 @@ test("frontend exposes night practice instead of realtime voice as the primary p
   assert.doesNotMatch(html, /Start voice coach/);
 });
 
+test("review card exposes four recall grades instead of a binary pass fail", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  const appSource = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.match(html, />Again</);
+  assert.match(html, />Hard</);
+  assert.match(html, />Good</);
+  assert.match(html, />Easy</);
+  assert.doesNotMatch(html, />Known</);
+  assert.match(appSource, /markCurrent\("again"\)/);
+  assert.match(appSource, /markCurrent\("hard"\)/);
+  assert.match(appSource, /markCurrent\("good"\)/);
+  assert.match(appSource, /markCurrent\("easy"\)/);
+});
+
 test("word list card fronts do not render definitions or examples", async () => {
   const appSource = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
 

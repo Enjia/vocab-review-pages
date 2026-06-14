@@ -347,7 +347,8 @@ select:focus {
 
 .primary,
 .secondary,
-.danger {
+.danger,
+.accent {
   min-height: 42px;
   border-radius: 8px;
   padding: 0 18px;
@@ -367,6 +368,19 @@ select:focus {
 .danger {
   color: #25070c;
   background: var(--red);
+}
+
+.accent {
+  color: #231403;
+  background: var(--amber);
+}
+
+.card-actions button {
+  flex: 1 1 120px;
+}
+
+#showAnswerButton {
+  flex-basis: 100%;
 }
 
 .list-panel {
@@ -754,9 +768,14 @@ select:disabled {
     gap: 8px;
   }
 
+  .card-actions button:not(#showAnswerButton) {
+    flex-basis: calc(50% - 4px);
+  }
+
   .primary,
   .secondary,
-  .danger {
-    width: 100%;
+  .danger,
+  .accent {
+    width: auto;
   }
 }

@@ -1,4 +1,5 @@
-const REVIEW_INTERVALS = [1, 3, 7, 14, 30, 60];
+const GOOD_INTERVALS = [1, 3, 7, 14, 30, 60];
+const EASY_INTERVALS = [3, 7, 14, 30, 60, 120];
 
 export function buildModules(entries, moduleSize = 100, packSize = 20) {
   const modules = [];
@@ -31,12 +32,20 @@ export function getNewEntries(entries, progress, limit = 20) {
 }
 
 export function getWeakEntries(entries, progress, limit = 40) {
-  return entries.filter((entry) => progress[entry.id]?.status === "again").slice(0, limit);
+  return entries
+    .filter((entry) => ["again", "hard"].includes(progress[entry.id]?.status))
+    .slice(0, limit);
 }
 
 export function nextReviewDate(status, reviewCount = 0, now = new Date()) {
-  const days = status === "again" ? 1 : REVIEW_INTERVALS[Math.min(reviewCount, REVIEW_INTERVALS.length - 1)];
   const next = new Date(now);
+  if (status === "again") {
+    next.setMinutes(next.getMinutes() + 10);
+    return next;
+  }
+
+  const intervals = status === "easy" ? EASY_INTERVALS : GOOD_INTERVALS;
+  const days = status === "hard" ? 1 : intervals[Math.min(reviewCount, intervals.length - 1)];
   next.setDate(next.getDate() + days);
   return next;
 }
