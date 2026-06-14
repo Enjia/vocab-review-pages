@@ -330,7 +330,7 @@ function renderList() {
       return `
         <button class="word-item ${active ? "is-active" : ""}" data-id="${escapeHtml(entry.id)}">
           <strong>${escapeHtml(entry.term)}</strong>
-          <span>${escapeHtml(entry.definition || entry.theme || "")}</span>
+          <span>${escapeHtml(cardFrontMeta(entry))}</span>
           <span>${progress ? progressLabel(progress) : "new"}</span>
         </button>
       `;
@@ -343,6 +343,10 @@ function renderList() {
       if (entry) setCurrent(entry);
     });
   }
+}
+
+function cardFrontMeta(entry) {
+  return [entry.expressionType, entry.partOfSpeech || entry.theme].filter(Boolean).join(" / ");
 }
 
 function updateStats(baseEntries) {

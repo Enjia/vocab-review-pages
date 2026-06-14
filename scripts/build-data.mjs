@@ -22,6 +22,7 @@ for (const filePath of files) {
 }
 
 entries.sort((a, b) => a.term.localeCompare(b.term, "en"));
+dedupeEntryIds(entries);
 
 const payload = {
   generatedAt: new Date().toISOString(),
@@ -63,6 +64,17 @@ function buildFacets(entries) {
     themes: counts(entries.map((entry) => entry.theme)),
     tags: counts(entries.flatMap((entry) => entry.tags)),
   };
+}
+
+function dedupeEntryIds(entries) {
+  const seen = new Map();
+  for (const entry of entries) {
+    const count = (seen.get(entry.id) || 0) + 1;
+    seen.set(entry.id, count);
+    if (count > 1) {
+      entry.id = `${entry.id}--${count}`;
+    }
+  }
 }
 
 function counts(values) {

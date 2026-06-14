@@ -8,16 +8,16 @@
       "title": "Handling a tense team decision",
       "scene": "You are talking with ChatGPT as a colleague after a difficult team meeting. The team is under pressure, one person is upset, and you need to respond calmly without losing control of the situation.",
       "targetWords": [
-        { "entryId": "project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md#'but-i've-only-just-got-here,'-he-bleated-feebly", "term": "bleated feebly" },
-        { "entryId": "project/背单词/短语形容词/其他_杂项.md#'if-you-take-the-car,-i-won't-be-able-to-go-out.'-'tough-luck!'", "term": "tough luck" },
-        { "entryId": "project/背单词/短语形容词/其他_杂项.md#'it's-too-late,'-he-said-tersely", "term": "tersely" },
-        { "entryId": "project/背单词/固定搭配_习语_动词/开始_结束_完成.md#'well,-just-for-a-little-while-then,'-she-said,-finally-relenting", "term": "relenting" },
-        { "entryId": "project/背单词/短语形容词/其他_杂项.md#'well…'-she-began-haltingly", "term": "haltingly" },
-        { "entryId": "project/背单词/固定搭配_习语_动词/变化_发展_转变.md#“you-can-rant-and-rave-all-you-want,”-she-said,-“but-it's-not-going-to-change-things.”", "term": "rant and rave" },
-        { "entryId": "project/背单词/句式模板_动词/选择_优先_取舍.md#(get/have-sb)-over-a-barrel:（使某人）听从摆布，处于被动地位（they've-got-us-over-a-barrel.-either-we-agree-to-their-terms-or-we-lose-the-money", "term": "over a barrel" },
+        { "entryId": "project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md#bleated-feebly", "term": "bleated feebly" },
+        { "entryId": "project/背单词/短语形容词/其他_杂项.md#tough-luck", "term": "tough luck" },
+        { "entryId": "project/背单词/短语形容词/其他_杂项.md#tersely", "term": "tersely" },
+        { "entryId": "project/背单词/固定搭配_习语_动词/开始_结束_完成.md#relenting", "term": "relenting" },
+        { "entryId": "project/背单词/短语形容词/其他_杂项.md#haltingly", "term": "haltingly" },
+        { "entryId": "project/背单词/固定搭配_习语_动词/变化_发展_转变.md#rant-and-rave", "term": "rant and rave" },
+        { "entryId": "project/背单词/句式模板_动词/选择_优先_取舍.md#(get/have-sb)-over-a-barrel", "term": "over a barrel" },
         { "entryId": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#(give-sb/get)-a-rap-on/over/across-the-knuckles", "term": "a rap over the knuckles" },
         { "entryId": "project/背单词/固定搭配_习语_形容词/行为方式_性格_风格.md#(still)-wet-behind-the-ears", "term": "wet behind the ears" },
-        { "entryId": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#ˌread-(sb)-the-riot-act", "term": "read the Riot Act" }
+        { "entryId": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#read-(sb)-the-riot-act", "term": "read the Riot Act" }
       ],
       "turns": [
         { "user": "I need your help. Our team meeting got tense, and I think I handled it badly.", "chatgpt": "Tell me what happened first. Was it a disagreement about the decision, or about the way people were treated?" },

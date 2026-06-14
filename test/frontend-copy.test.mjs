@@ -26,3 +26,24 @@ test("frontend exposes night practice instead of realtime voice as the primary p
   assert.match(html, /Practiced tonight/);
   assert.doesNotMatch(html, /Start voice coach/);
 });
+
+test("word list card fronts do not render definitions or examples", async () => {
+  const appSource = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  const renderListSource = appSource.slice(
+    appSource.indexOf("function renderList()"),
+    appSource.indexOf("function updateStats"),
+  );
+
+  assert.doesNotMatch(renderListSource, /entry\.definition/);
+  assert.doesNotMatch(renderListSource, /entry\.examples/);
+});
+
+test("primary review typography uses fixed responsive sizes", async () => {
+  const styles = await readFile(new URL("../styles.css", import.meta.url), "utf8");
+
+  assert.doesNotMatch(styles, /h1\s*{[\s\S]*?clamp\(/);
+  assert.doesNotMatch(styles, /#cardTerm\s*{[\s\S]*?clamp\(/);
+  assert.match(styles, /h1\s*{[\s\S]*?font-size:\s*64px;/);
+  assert.match(styles, /#cardTerm\s*{[\s\S]*?font-size:\s*56px;/);
+});

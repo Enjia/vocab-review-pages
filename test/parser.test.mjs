@@ -50,3 +50,69 @@ test("parseVocabularyFile extracts entries with definitions, examples, and links
   assert.equal(entries[0].theme, "态度/立场/观点");
   assert.equal(entries[2].term, "the key instigators of reform");
 });
+
+test("parseVocabularyFile keeps legacy inline examples out of card terms", () => {
+  const markdown = `# 旧格式
+
+#### (get/have sb) over a barrel:（使某人）听从摆布，处于被动地位（They've got us over a barrel. Either we agree to their terms or we lose the money：他们让我们别无选择。我们要么答应他们的条件，要么损失这笔钱）
+
+#### ˌread (sb) the Riot Act：警告（某人）不得做某事（I'm glad you read the riot act to Billy. He's still a kid and still needs to be told what to do：我很高兴你警告比利不许胡闹。他还是个孩子，仍然需要有人告诉他该做什么）
+`;
+
+  const entries = parseVocabularyFile({
+    filePath: "/vault/Project/背单词/固定搭配_习语/动词.md",
+    vaultRoot: "/vault",
+    markdown,
+  });
+
+  assert.deepEqual(
+    entries.map((entry) => entry.term),
+    ["(get/have sb) over a barrel", "read (sb) the Riot Act"],
+  );
+  assert.equal(entries[0].definition, "（使某人）听从摆布，处于被动地位");
+  assert.equal(entries[0].examples[0].en, "They've got us over a barrel. Either we agree to their terms or we lose the money");
+});
+
+test("parseVocabularyFile extracts target terms from quoted dictionary sentence headings", () => {
+  const markdown = `# 旧格式
+
+#### 'If you take the car, I won't be able to go out.' 'Tough luck!'
+
+#### 'But I've only just got here,' he bleated feebly
+
+#### "It's too late," he said tersely
+
+#### "Well..." she began haltingly
+
+#### "You can rant and rave all you want," she said, "but it's not going to change things."
+`;
+
+  const entries = parseVocabularyFile({
+    filePath: "/vault/Project/背单词/固定搭配_习语/动词.md",
+    vaultRoot: "/vault",
+    markdown,
+  });
+
+  assert.deepEqual(
+    entries.map((entry) => entry.term),
+    ["tough luck", "bleated feebly", "tersely", "haltingly", "rant and rave"],
+  );
+});
+
+test("parseVocabularyFile recovers examples from truncated legacy inline headings", () => {
+  const markdown = `# 旧格式
+
+#### (get/have sb) over a barrel:（使某人）听从摆布，处于被动地位（They've got us over a barrel. Either we agree to their terms or we lose the money
+- 释义：他们让我们别无选择。我们要么答应他们的条件，要么损失这笔钱）
+`;
+
+  const entries = parseVocabularyFile({
+    filePath: "/vault/Project/背单词/句式模板_动词/选择_优先_取舍.md",
+    vaultRoot: "/vault",
+    markdown,
+  });
+
+  assert.equal(entries[0].term, "(get/have sb) over a barrel");
+  assert.equal(entries[0].definition, "他们让我们别无选择。我们要么答应他们的条件，要么损失这笔钱");
+  assert.equal(entries[0].examples[0].en, "They've got us over a barrel. Either we agree to their terms or we lose the money");
+});
