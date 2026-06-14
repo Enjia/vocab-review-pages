@@ -185,7 +185,7 @@ function applyFacetFilters(entries) {
     if (!query) return true;
     return normalize(
       `${entry.term} ${entry.definition} ${entry.theme} ${entry.examples
-        .map((example) => `${example.en} ${example.zh}`)
+        .map((example) => example.en)
         .join(" ")}`,
     ).includes(query);
   });
@@ -260,7 +260,6 @@ function renderCard() {
       (example) => `
         <div class="example">
           <strong>${escapeHtml(example.en)}</strong>
-          ${example.zh ? `<span>${escapeHtml(example.zh)}</span>` : ""}
         </div>
       `,
     )

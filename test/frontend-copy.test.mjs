@@ -1,0 +1,19 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+
+test("frontend examples render and search English examples only", async () => {
+  const appSource = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.doesNotMatch(appSource, /example\.zh/);
+  assert.doesNotMatch(appSource, /escapeHtml\(example\.zh\)/);
+});
+
+test("frontend shell uses English control copy", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+
+  assert.doesNotMatch(html, /中文|随机抽取|清空本地进度/);
+  assert.match(html, /placeholder="term \/ definition \/ example"/);
+  assert.match(html, /title="Shuffle"/);
+  assert.match(html, /title="Reset progress"/);
+});
