@@ -14,6 +14,7 @@ import {
 
 const DAILY_NEW_LIMIT = 20;
 const DAILY_DUE_LIMIT = 80;
+const DATA_VERSION = "20260714-remove-crude";
 
 const state = {
   data: null,
@@ -79,8 +80,8 @@ init();
 
 async function init() {
   const [wordsResponse, nightPracticeResponse] = await Promise.all([
-    fetch("./data/words.json"),
-    fetch("./data/night-practice.json"),
+    fetch(`./data/words.json?v=${DATA_VERSION}`),
+    fetch(`./data/night-practice.json?v=${DATA_VERSION}`),
   ]);
   state.data = await wordsResponse.json();
   state.nightPractice = await nightPracticeResponse.json();

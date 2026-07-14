@@ -64,6 +64,18 @@ test("sanitizeExamples removes template and numbered examples", () => {
   ]);
 });
 
+test("sanitizeExamples removes copular restatements that only rephrase the term", () => {
+  const sanitized = sanitizeExamples({
+    term: "a long but accessible exposition of sth",
+    examples: [
+      { en: "It was a long but accessible exposition of something.", zh: "" },
+      { en: "It was a child reared on self-indulgence.", zh: "" },
+    ],
+  });
+
+  assert.deepEqual(sanitized, []);
+});
+
 test("sanitizeExamples removes mismatched glossary examples", () => {
   const sanitized = sanitizeExamples({
     term: "beanpole",
@@ -112,6 +124,42 @@ test("sanitizeExamples rejects partial matches for multi-word collocations", () 
       zh: "",
     },
   ]);
+});
+
+test("sanitizeExamples rejects one-token overlap for multiword phrases", () => {
+  const sanitized = sanitizeExamples({
+    term: "a bee in one's bonnet",
+    examples: [{ en: "Bees are flying around.", zh: "" }],
+  });
+
+  assert.deepEqual(sanitized, []);
+});
+
+test("sanitizeExamples rejects generic one-word overlap for specific phrases", () => {
+  const sanitized = sanitizeExamples({
+    term: "50 000 barrels of crude",
+    examples: [{ en: "At first, there’s something almost disconcertingly crude about the sasquatch skins.", zh: "" }],
+  });
+
+  assert.deepEqual(sanitized, []);
+});
+
+test("sanitizeExamples keeps possessive idiom examples with pronoun variants", () => {
+  const sanitized = sanitizeExamples({
+    term: "a bee in one's bonnet",
+    examples: [{ en: "He's got a bee in his bonnet about factory farming.", zh: "" }],
+  });
+
+  assert.deepEqual(sanitized, [{ en: "He's got a bee in his bonnet about factory farming.", zh: "" }]);
+});
+
+test("sanitizeExamples keeps short phrasal examples that depend on a short content word", () => {
+  const sanitized = sanitizeExamples({
+    term: "be on the go",
+    examples: [{ en: "Like most working mothers, she is always on the go.", zh: "" }],
+  });
+
+  assert.deepEqual(sanitized, [{ en: "Like most working mothers, she is always on the go.", zh: "" }]);
 });
 
 test("sanitizeExamples removes definitional stubs and gloss fragments", () => {

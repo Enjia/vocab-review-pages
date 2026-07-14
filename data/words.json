@@ -1,18 +1,13 @@
 {
-  "generatedAt": "2026-06-14T13:40:33.431Z",
+  "generatedAt": "2026-06-15T04:27:34.316Z",
   "sourceDir": "/Users/chenenjia/Library/Mobile Documents/iCloud~md~obsidian/Documents/My Second Brain/Project/背单词",
-  "count": 8475,
+  "count": 8474,
   "entries": [
     {
       "id": "project/背单词/句式模板_动词/选择_优先_取舍.md#(get/have-sb)-over-a-barrel",
       "term": "(get/have sb) over a barrel",
       "definition": "他们让我们别无选择。我们要么答应他们的条件，要么损失这笔钱",
-      "examples": [
-        {
-          "en": "They've got us over a barrel. Either we agree to their terms or we lose the money",
-          "zh": ""
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "scrape (the bottom of) the barrel",
         "cull",
@@ -87,12 +82,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#(tied-to)-sb's-apron-strings",
       "term": "(tied to) sb's apron strings",
       "definition": "过分受到某人的影响或控制",
-      "examples": [
-        {
-          "en": "The British prime minister is too apt to cling to Washington's apron strings",
-          "zh": "英国首相对华府过于唯命是从"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -113,19 +103,6 @@
       "theme": "电子/媒体/技术",
       "sourcePath": "Project/背单词/单词名词/电子_媒体_技术.md",
       "body": "- 释义：(of or relating to a government program in the U.S. that teaches farming skills and good citizenship to young peopl) 四健会（与美国政府计划相关，旨在提升农村青少年的农业技术，促进其品德教育）"
-    },
-    {
-      "id": "project/背单词/固定搭配_习语_名词/其他_杂项.md#50-000-barrels-of-crude",
-      "term": "50 000 barrels of crude",
-      "definition": "5 万桶石油",
-      "examples": [],
-      "relatedTerms": [],
-      "tags": [],
-      "expressionType": "固定搭配_习语",
-      "partOfSpeech": "名词",
-      "theme": "其他/杂项",
-      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
-      "body": "- 释义：5 万桶石油"
     },
     {
       "id": "project/背单词/固定搭配_习语_名词/其他_杂项.md#a-bad/difficult/sticky/rough-patch",
@@ -166,7 +143,12 @@
       "id": "project/背单词/句式模板_名词/其他_杂项.md#a-bee-in-one's-bonnet",
       "term": "a bee in one's bonnet",
       "definition": "牢不可破的怪念头",
-      "examples": [],
+      "examples": [
+        {
+          "en": "He's got a bee in his bonnet about factory farming.",
+          "zh": ""
+        }
+      ],
       "relatedTerms": [
         "词根_a"
       ],
@@ -913,8 +895,8 @@
       "definition": "为...提供了一个虽然较长但可被理解的解释",
       "examples": [
         {
-          "en": "It was a long but accessible exposition of something.",
-          "zh": "那是为这件事提供了一个虽然较长但可被理解的解释。"
+          "en": "The two accounts are a long but accessible exposition of something",
+          "zh": "两者为...提供了一个虽然较长但可被理解的解释"
         }
       ],
       "relatedTerms": [],
@@ -1846,12 +1828,7 @@
       "id": "project/背单词/固定搭配_习语_名词/其他_杂项.md#a-teensy-bit",
       "term": "a teensy bit",
       "definition": "一丁点儿的",
-      "examples": [
-        {
-          "en": "It was a a teensy bit decision",
-          "zh": "这是一个一丁点儿的的决定"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "固定搭配_习语",
@@ -1864,12 +1841,7 @@
       "id": "project/背单词/单词形容词/其他_杂项.md#a-teensy-bit",
       "term": "a teensy bit",
       "definition": "一丁点儿的",
-      "examples": [
-        {
-          "en": "It was a a teensy bit decision",
-          "zh": "这是一个一丁点儿的的决定"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_a"
       ],
@@ -4275,12 +4247,7 @@
       "id": "project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md#agonize-over/about",
       "term": "agonize over/about",
       "definition": "苦苦思索",
-      "examples": [
-        {
-          "en": "I spent days agonizing over whether to take the job or not",
-          "zh": "我用了好些天苦苦思考是否接受这个工作"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "固定搭配_习语",
@@ -11871,12 +11838,7 @@
       "id": "project/背单词/句式模板_形容词/关系_一致_相处.md#be-at-one-with-sb/sth",
       "term": "be at one with sb/sth",
       "definition": "完全一致，是...的一部分",
-      "examples": [
-        {
-          "en": "a place where you can feel at one with nature",
-          "zh": "一个能让你感到与大自然融为一体的地方"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_be",
         "on all fours"
@@ -11978,12 +11940,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#be-bound-up-in",
       "term": "be bound up in",
       "definition": "热衷于",
-      "examples": [
-        {
-          "en": "He is bound up in the issue.",
-          "zh": "他热衷于。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -11996,12 +11953,7 @@
       "id": "project/背单词/短语名词/其他_杂项.md#be-bound-up-in",
       "term": "be bound up in",
       "definition": "热衷于",
-      "examples": [
-        {
-          "en": "He is bound up in the issue.",
-          "zh": "他热衷于。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -12247,12 +12199,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#be-cursed-with-sth",
       "term": "be cursed with sth",
       "definition": "不断因…而遭殃；为…所苦；受…之害",
-      "examples": [
-        {
-          "en": "She seems cursed with bad luck",
-          "zh": "她好像运气不好连连遭殃"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_be"
       ],
@@ -12415,12 +12362,7 @@
       "id": "project/背单词/句式模板_动词/评价_表扬_责备_证明.md#be-gunning-for-sb/sth",
       "term": "be gunning for sb/sth",
       "definition": "伺机指责/竭力谋求或力图获取",
-      "examples": [
-        {
-          "en": "She's gunning for the top job",
-          "zh": "她正竭力谋取最高职位"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_be",
         "berate",
@@ -12735,12 +12677,7 @@
       "id": "project/背单词/句式模板_形容词/其他_杂项.md#be-lost-on-sb",
       "term": "be lost on sb",
       "definition": "未被某人理解或注意",
-      "examples": [
-        {
-          "en": "His jokes were completely lost on most of the students",
-          "zh": "他讲的那些笑话大多数学生一点都没能领会"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_be"
       ],
@@ -12863,12 +12800,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#be-of-no-account",
       "term": "be of no account",
       "definition": "无足轻重的",
-      "examples": [
-        {
-          "en": "He is of no account.",
-          "zh": "他无足轻重的。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -12894,7 +12826,12 @@
       "id": "project/背单词/句式模板_形容词/强度_程度.md#be-on-the-go",
       "term": "be on the go",
       "definition": "十分活跃，非常忙碌",
-      "examples": [],
+      "examples": [
+        {
+          "en": "Having four children keeps her on the go",
+          "zh": "她那四个孩子把她忙得不可开交"
+        }
+      ],
       "relatedTerms": [
         "词根_be"
       ],
@@ -13231,12 +13168,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#be-taken-aback-by-sb/sth",
       "term": "be taken aback by sb/sth",
       "definition": "被...吓了一跳，大吃一惊",
-      "examples": [
-        {
-          "en": "She was completely taken aback by his anger",
-          "zh": "他的愤怒把她吓了一大跳"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_be"
       ],
@@ -13349,12 +13281,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#be-wary-of-sth/doing-sth",
       "term": "be wary of sth/doing sth",
       "definition": "对...很谨慎",
-      "examples": [
-        {
-          "en": "She was wary of getting involved with him",
-          "zh": "她唯恐和他有牵连"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_be"
       ],
@@ -13545,12 +13472,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#bear-up-under",
       "term": "bear up under",
       "definition": "承受得住",
-      "examples": [
-        {
-          "en": "He's bearing up well under the strain of losing his job",
-          "zh": "他坚强地顶住了失业的压力"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_bear"
       ],
@@ -13619,12 +13541,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#beat-around-the-bush",
       "term": "beat around the bush",
       "definition": "拐弯抹角地讲话，绕圈子",
-      "examples": [
-        {
-          "en": "Stop beating about the bush and tell me what you want",
-          "zh": "别绕来绕去了，告诉我你想要什么吧"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_beat"
       ],
@@ -14287,12 +14204,7 @@
       "id": "project/背单词/句式模板_动词/关系_交流_协商.md#bend-sb-to-do",
       "term": "bend sb to do",
       "definition": "迫使，说服",
-      "examples": [
-        {
-          "en": "He manipulates people and tries to bend them to his will",
-          "zh": "他能左右民众，让大家跟随他的意志"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_bend",
         "get around",
@@ -14336,12 +14248,7 @@
       "id": "project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md#bend/lean-over-backwards-to-do",
       "term": "bend/lean over backwards to do",
       "definition": "尽力，竭力做",
-      "examples": [
-        {
-          "en": "I've bent over backwards to help him",
-          "zh": "我已尽最大努力帮助他"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_bend"
       ],
@@ -16778,12 +16685,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#bone-up-on",
       "term": "bone up on",
       "definition": "钻研学习",
-      "examples": [
-        {
-          "en": "She had boned up on the city's history before the visit",
-          "zh": "她在前往这个城市之前先对它的历史研究了一番"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -18849,12 +18751,7 @@
       "id": "project/背单词/短语动词/情绪_态度_心理.md#bubble-up",
       "term": "bubble up",
       "definition": "情感变得越来越强烈",
-      "examples": [
-        {
-          "en": "She could feel the anger growing, bubbling up inside her",
-          "zh": "她感到胸中的怒火不断往上蹿，正越烧越旺"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_bubble"
       ],
@@ -19345,12 +19242,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#bump-up-against-sth",
       "term": "bump up against sth",
       "definition": "突然碰到，遭遇",
-      "examples": [
-        {
-          "en": "We kept bumping up against inflexible regulations",
-          "zh": "我们不断遇到僵化的管理条例"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_bump"
       ],
@@ -19740,12 +19632,7 @@
       "id": "project/背单词/句式模板_动词/关系_交流_协商.md#butt-in-on-sb",
       "term": "butt in on sb",
       "definition": "插嘴，打断说话",
-      "examples": [
-        {
-          "en": "He apologized for butting in on our conversation",
-          "zh": "他为打断了我们的谈话表示歉意"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_butt",
         "chime in with",
@@ -21852,10 +21739,6 @@
         {
           "en": "I have a lot of work to catch up on",
           "zh": "我有许多工作要补做"
-        },
-        {
-          "en": "We spent the evening catching up",
-          "zh": "我们那一晚上都一直在彼此通报情况"
         }
       ],
       "relatedTerms": [
@@ -22821,12 +22704,7 @@
       "id": "project/背单词/句式模板_动词/成功_失败_结果.md#chalk-up-sth",
       "term": "chalk up sth",
       "definition": "获得，取得（成功），记录",
-      "examples": [
-        {
-          "en": "The team chalked up their tenth win this season",
-          "zh": "这支队本赛季已赢了十场比赛"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "fare",
         "break into",
@@ -25297,12 +25175,7 @@
       "id": "project/背单词/句式模板_动词/成功_失败_结果.md#coast-through/to-sth",
       "term": "coast through/to sth",
       "definition": "不费力地取得成功",
-      "examples": [
-        {
-          "en": "He coasted through his final exams",
-          "zh": "他毫不费劲地通过了期终考试"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_ast",
         "fare",
@@ -29515,12 +29388,7 @@
       "id": "project/背单词/句式模板_动词/认知_理解_发现.md#cotton-on-to-sth",
       "term": "cotton on to sth",
       "definition": "明白，领悟，意识到",
-      "examples": [
-        {
-          "en": "I suddenly cottoned on to what he was doing",
-          "zh": "我突然明白了他在做什么"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -30128,12 +29996,7 @@
       "id": "project/背单词/短语动词/健康_身体_医护.md#crack-up",
       "term": "crack up",
       "definition": "（在精神或健康上）垮掉，（通常用于否定句）吹捧，赞美",
-      "examples": [
-        {
-          "en": "That play is not what it is cracked up to be",
-          "zh": "那出戏没有说的那么好"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_crack"
       ],
@@ -30465,12 +30328,7 @@
       "id": "project/背单词/句式模板_动词/情绪_态度_心理.md#creep-sb-out",
       "term": "creep sb out",
       "definition": "使人感到害怕或不舒服",
-      "examples": [
-        {
-          "en": "He said the empty streets creeped him out",
-          "zh": "他说空旷的街道令他毛骨悚然"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_creep"
       ],
@@ -31036,10 +30894,6 @@
         {
           "en": "He crouched over the papers on his desk",
           "zh": "他俯身看他桌上的文件"
-        },
-        {
-          "en": "He crouched down beside her",
-          "zh": "他在她的旁边蹲了下来"
         }
       ],
       "relatedTerms": [],
@@ -31817,10 +31671,6 @@
         {
           "en": "He was determined to cut a wide swath with the girls",
           "zh": "他决定在姑娘面前出出风头"
-        },
-        {
-          "en": "The tornado cut a swath through the county",
-          "zh": "龙卷风席卷了这个县。"
         }
       ],
       "relatedTerms": [
@@ -32282,12 +32132,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#darken-sb's-door/doors",
       "term": "darken sb's door/doors",
       "definition": "（不受欢迎的人）登门造访，跨进门槛",
-      "examples": [
-        {
-          "en": "She told him to leave and to never darken her door again",
-          "zh": "她叫他离开，不得再踏进她的家门"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -37802,12 +37647,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#do-sb-lasting-good",
       "term": "do sb lasting good",
       "definition": "对某人有持久的帮助",
-      "examples": [
-        {
-          "en": "They do someone lasting good.",
-          "zh": "他们对某人有持久的帮助。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -39162,12 +39002,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#draw-sb-out",
       "term": "draw sb out",
       "definition": "使畅所欲言，使愿意交谈",
-      "examples": [
-        {
-          "en": "Her mother tried every approach to draw her out",
-          "zh": "她母亲想尽一切办法让她开口"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_draw"
       ],
@@ -39325,10 +39160,6 @@
         {
           "en": "The papers keep trying to dredge up details of his past love life",
           "zh": "这些报纸老是翻出他以往爱情生活的琐事"
-        },
-        {
-          "en": "Now she was dredging up memories from the depths of her mind",
-          "zh": "这时，她回忆起内心深处的往事"
         }
       ],
       "relatedTerms": [],
@@ -39759,12 +39590,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#drum-sth-into-sb",
       "term": "drum sth into sb",
       "definition": "向某人反复灌输，对某人反复讲述",
-      "examples": [
-        {
-          "en": "We had it drummed into us that we should never talk to strangers",
-          "zh": "我们曾被反复叮嘱千万不要与陌生人讲话"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_drum"
       ],
@@ -41033,12 +40859,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#egg-sb-on",
       "term": "egg sb on",
       "definition": "鼓动，怂恿，煽动",
-      "examples": [
-        {
-          "en": "He hit the other boy again and again as his friends egged him on",
-          "zh": "他在朋友的煽动下一次又一次地打了另一个男孩"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -44862,12 +44683,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#exercise-one’s-function",
       "term": "exercise one’s function",
       "definition": "履行职责",
-      "examples": [
-        {
-          "en": "They exercise his function.",
-          "zh": "他们履行职责。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -46363,12 +46179,7 @@
       "id": "project/背单词/句式模板_名词/其他_杂项.md#fall-to-sb's-lot-(to-do-sth)",
       "term": "fall to sb's lot (to do sth)",
       "definition": "成为某人的任务（或责任）；落到某人肩上",
-      "examples": [
-        {
-          "en": "The fall to somesomeone's lot (to do something) was mentioned in the report",
-          "zh": "报告中提到了成为某人的任务（或责任）"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_fall"
       ],
@@ -51966,12 +51777,7 @@
       "id": "project/背单词/句式模板_动词/时间_节奏_速度.md#fritter-sth-away",
       "term": "fritter sth away",
       "definition": "浪费（时间、金钱），挥霍",
-      "examples": [
-        {
-          "en": "He frittered away the millions his father had left him",
-          "zh": "他挥霍掉了父亲留给他的数百万钱财"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "wrangle",
         "punch in/out",
@@ -52097,10 +51903,6 @@
         {
           "en": "They frown upon someone/something.",
           "zh": "他们不赞成。"
-        },
-        {
-          "en": "In her family, any expression of feeling was frowned upon",
-          "zh": "她家里对任何感情的流露都不以为然"
         }
       ],
       "relatedTerms": [],
@@ -54488,12 +54290,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#get-sth-off-chest",
       "term": "get sth off chest",
       "definition": "倾吐心里的烦恼，吐出心事，一吐为快",
-      "examples": [
-        {
-          "en": "I feel it's done me good to get it off my chest",
-          "zh": "我感觉吐吐苦水对我有好处"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_get"
       ],
@@ -55007,12 +54804,7 @@
       "id": "project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md#gird-(up)-your-loins",
       "term": "gird (up) your loins",
       "definition": "准备从事（艰苦的工作），准备行动",
-      "examples": [
-        {
-          "en": "The company is girding its loins for a plunge into the overseas market",
-          "zh": "公司正准备打入海外市场"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "固定搭配_习语",
@@ -55063,12 +54855,7 @@
       "id": "project/背单词/句式模板_副词/其他_杂项.md#give-(full)-vent-to-sth",
       "term": "give (full) vent to sth",
       "definition": "（充分）表达，（淋漓尽致地）发泄",
-      "examples": [
-        {
-          "en": "She gave full vent to her feelings in a violent outburst",
-          "zh": "她大发脾气以宣泄情绪"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -55081,12 +54868,7 @@
       "id": "project/背单词/句式模板_动词/关系_交流_协商.md#give-(full)-vent-to-sth",
       "term": "give (full) vent to sth",
       "definition": "充分表达或发泄",
-      "examples": [
-        {
-          "en": "She gave full vent to her feelings in a violent outburst",
-          "zh": "她大发脾气以宣泄情绪"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_give",
         "sound/strike a note",
@@ -56310,12 +56092,7 @@
       "id": "project/背单词/句式模板_动词/关系_交流_协商.md#go-to-the-mat-with-sb-for-sth",
       "term": "go to the mat with sb for sth",
       "definition": "为支持或维护...与某人争辩",
-      "examples": [
-        {
-          "en": "They went to the mat to protect the program",
-          "zh": "他们努力保护这项计划"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_go",
         "substantiate",
@@ -57969,12 +57746,7 @@
       "id": "project/背单词/单词形容词/其他_杂项.md#growling（roaring）",
       "term": "growling（roaring）",
       "definition": "咆哮的",
-      "examples": [
-        {
-          "en": "It was a growling（roaring） decision",
-          "zh": "这是一个咆哮的的决定"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "单词",
@@ -58367,12 +58139,7 @@
       "id": "project/背单词/短语动词/外观_装饰_表现.md#gussy-up",
       "term": "gussy up",
       "definition": "把自己打扮得漂漂亮亮的",
-      "examples": [
-        {
-          "en": "Even the stars get tired of gussying up for the awards",
-          "zh": "连明星们也厌烦了把自己打扮起来去领奖"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "spruce sb/sth up"
       ],
@@ -60285,12 +60052,7 @@
       "id": "project/背单词/句式模板_动词/资源_获取_利用.md#have-sth-under-belt",
       "term": "have sth under belt",
       "definition": "已经获得从而使自己感到自信",
-      "examples": [
-        {
-          "en": "With ten years’ experience under his belt, Mark was ready to start his own business",
-          "zh": "凭着积累了十年的经验，马克准备开办自己的公司"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_have",
         "back into",
@@ -62253,12 +62015,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#hit-up",
       "term": "hit up",
       "definition": "祈求，请求",
-      "examples": [
-        {
-          "en": "She hit him up for a big raise",
-          "zh": "她请求他给她多加点薪水"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_hit"
       ],
@@ -64339,12 +64096,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#hush-up",
       "term": "hush up",
       "definition": "掩盖，遮盖（事实）",
-      "examples": [
-        {
-          "en": "He claimed that the whole affair had been hushed up by the council",
-          "zh": "他声称整个事件都被市政会一手捂住了"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -65484,10 +65236,6 @@
       "definition": "影响，冲击，妨碍，侵犯",
       "examples": [
         {
-          "en": "the cuts in defence spending that have impinged on two of the region's largest employers",
-          "zh": "已经冲击到该地区两个最大就业制造者的防御开支削减"
-        },
-        {
           "en": "He never allowed his work to impinge on his private life",
           "zh": "他从不让他的工作妨碍私生活"
         }
@@ -66556,10 +66304,6 @@
         {
           "en": "We don't know what life holds in store for us",
           "zh": "我们不知道等待我们的将是什么样的生活"
-        },
-        {
-          "en": "They think it'll be easy but they have a surprise in store",
-          "zh": "他们以为事情容易，到时候他们会吃惊的"
         }
       ],
       "relatedTerms": [
@@ -71363,12 +71107,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#jerk-sb-around",
       "term": "jerk sb around",
       "definition": "为难某人，给某人出难题",
-      "examples": [
-        {
-          "en": "Consumers are often jerked around by big companies",
-          "zh": "消费者经常受大公司的捉弄"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_jerk"
       ],
@@ -71385,12 +71124,7 @@
       "id": "project/背单词/句式模板_名词/其他_杂项.md#jerk-sb-around",
       "term": "jerk sb around",
       "definition": "（尤指通过不诚实的手段）给某人出难题，为某人设置障",
-      "examples": [
-        {
-          "en": "Consumers are often jerked around by big companies",
-          "zh": "消费者经常受大公司的捉弄"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -71593,16 +71327,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#jockey-with/be-jockeying-for",
       "term": "jockey with/be jockeying for",
       "definition": "运用手段谋取（jockey名词指指赛马骑师）",
-      "examples": [
-        {
-          "en": "The bands are constantly jockeying with each other for the number one spot",
-          "zh": "这些乐队经常相互耍手段以谋取榜首位置"
-        },
-        {
-          "en": "The rival political parties are already jockeying for power",
-          "zh": "相互竞争的政党已经在耍各种手段争权夺势了"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -72512,12 +72237,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#keep-sb-in-the-loop",
       "term": "keep sb in the loop",
       "definition": "及时联系，让某人及时知情",
-      "examples": [
-        {
-          "en": "They keep someone in the loop.",
-          "zh": "他们及时联系。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -72607,12 +72327,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#keep-your-eyes-peeled/skinned-for-sb/sth",
       "term": "keep your eyes peeled/skinned for sb/sth",
       "definition": "留心，注意，仔细查找",
-      "examples": [
-        {
-          "en": "We kept our eyes peeled for any signs of life",
-          "zh": "我们注意寻找任何生命的迹象"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_keep"
       ],
@@ -72686,12 +72401,7 @@
       "id": "project/背单词/句式模板/开始_结束_完成.md#kick-sth-into-gear",
       "term": "kick sth into gear",
       "definition": "开始某事",
-      "examples": [
-        {
-          "en": "They kick something into gear.",
-          "zh": "他们开始某事。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -73830,12 +73540,7 @@
       "id": "project/背单词/句式模板_动词/评价_表扬_责备_证明.md#lam-into-sb",
       "term": "lam into sb",
       "definition": "痛打某人，猛烈抨击某人",
-      "examples": [
-        {
-          "en": "She really lammed into her opponent during the debate",
-          "zh": "在辩论中她着实给对手以猛烈的攻击"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -74914,8 +74619,8 @@
       "definition": "千方百计，想尽办法",
       "examples": [
         {
-          "en": "He left no stone unturned in his search for his lost passport",
-          "zh": ""
+          "en": "The two accounts are leave no stone unturned",
+          "zh": "两者千方百计"
         }
       ],
       "relatedTerms": [],
@@ -75398,12 +75103,7 @@
       "id": "project/背单词/句式模板_动词/进展_方向_路径_移动.md#let-sth-rip",
       "term": "let sth rip",
       "definition": "迅速地做，强有力地做，全速前进，开足马力",
-      "examples": [
-        {
-          "en": "The ecological disaster is partly a product of letting everything rip in order to increase production",
-          "zh": "出现生态灾难的部分原因是人们为了增产而不惜一切代价"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_let",
         "lance"
@@ -78381,12 +78081,7 @@
       "id": "project/背单词/固定搭配_习语_动词/计划_组织_协调_匹配.md#make-an-end-run",
       "term": "make an end run",
       "definition": "迂回进攻，试图秘密或不诚实地规避规则、问题",
-      "examples": [
-        {
-          "en": "do an end run around the law but they failed",
-          "zh": "他们企图绕开这条法规，但是没有得逞"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_make"
       ],
@@ -78477,12 +78172,7 @@
       "id": "project/背单词/短语动词/关系_交流_协商.md#make-no-bones-about",
       "term": "make no bones about",
       "definition": "开诚布公，率直，对...毫不犹豫",
-      "examples": [
-        {
-          "en": "She made no bones about telling him exactly what she thought of him",
-          "zh": "她毫无保留地把对他的看法照直告诉了他"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_make"
       ],
@@ -78555,16 +78245,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#make-short-work-of",
       "term": "make short work of",
       "definition": "干净利落地打败或处理；三下五除二就打垮或解决",
-      "examples": [
-        {
-          "en": "Liverpool made short work of the opposition",
-          "zh": "利物浦队干净利落地击败了对手"
-        },
-        {
-          "en": "He made short work of his lunch",
-          "zh": "他三下两下吃完午饭"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_make",
         "navigate",
@@ -79557,12 +79238,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#mark-sth-up",
       "term": "mark sth up",
       "definition": "提价，加价，涨价",
-      "examples": [
-        {
-          "en": "Share prices were marked up as soon as trading started",
-          "zh": "交易一开始，股票价格就涨上去了"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_mark"
       ],
@@ -83479,16 +83155,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#muddle-up",
       "term": "muddle up",
       "definition": "弄乱，混淆，使不知所措",
-      "examples": [
-        {
-          "en": "She felt muddled up at first in her new school",
-          "zh": "她刚入学的时候感到不知所措"
-        },
-        {
-          "en": "My papers are all muddled up",
-          "zh": "我的文件全被弄乱了"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -85552,12 +85219,7 @@
       "id": "project/背单词/短语形容词/其他_杂项.md#not-a-jot-or-tittle",
       "term": "not a jot or tittle",
       "definition": "一点也没有，丝毫没有",
-      "examples": [
-        {
-          "en": "There’s not a jot of truth in the story",
-          "zh": "这个说法一点真实性也没有"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_not"
       ],
@@ -85596,12 +85258,7 @@
       "id": "project/背单词/固定搭配_习语_动词/情绪_态度_心理.md#not-bat-an-eyelid",
       "term": "not bat an eyelid",
       "definition": "不动声色，面不改色",
-      "examples": [
-        {
-          "en": "She didn't bat an eyelid when I told her my news",
-          "zh": "我把我最近的事告诉她时，她一点也不为所动"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_not"
       ],
@@ -85669,12 +85326,7 @@
       "id": "project/背单词/固定搭配_习语_动词/关系_交流_协商.md#not-mince-words",
       "term": "not mince words",
       "definition": "直言不讳",
-      "examples": [
-        {
-          "en": "She minces no words in stating her opinions",
-          "zh": "她毫不隐讳地发表自己的意见"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_not"
       ],
@@ -91300,12 +90952,7 @@
       "id": "project/背单词/单词形容词/其他_杂项.md#panicstricken（等于panic-stricken）",
       "term": "panicstricken（等于panic-stricken）",
       "definition": "极度恐慌的",
-      "examples": [
-        {
-          "en": "It was a panicstricken（等于panic-stricken） decision",
-          "zh": "这是一个极度恐慌的的决定"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "单词",
@@ -91870,12 +91517,7 @@
       "id": "project/背单词/句式模板_动词/成功_失败_结果.md#parlay-sth-into-sth",
       "term": "parlay sth into sth",
       "definition": "成功地利用，有效发展，使增值",
-      "examples": [
-        {
-          "en": "She hopes to parlay her success as a model into an acting career",
-          "zh": "她希望利用自己当模特儿的成功经历进而发展演艺事业"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "fare",
         "break into",
@@ -92241,12 +91883,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#pass-sb-off-as-sb",
       "term": "pass sb off as sb",
       "definition": "假装",
-      "examples": [
-        {
-          "en": "He escaped by passing himself off as a guard",
-          "zh": "他伪装成看守人而得以脱逃"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_pas"
       ],
@@ -92373,12 +92010,7 @@
       "id": "project/背单词/句式模板_动词/关系_交流_协商.md#patch-sth-up",
       "term": "patch sth up",
       "definition": "言归于好",
-      "examples": [
-        {
-          "en": "Have you tried patching things up with her",
-          "zh": "你有没有试试跟她和好"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_patch"
       ],
@@ -92806,12 +92438,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#pay-sb-back",
       "term": "pay sb back",
       "definition": "报复，惩罚",
-      "examples": [
-        {
-          "en": "I'll pay him back for making me look like a fool in front of everyone",
-          "zh": "他让我当众出丑，我非治治他不可"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_pay"
       ],
@@ -93465,12 +93092,7 @@
       "id": "project/背单词/句式模板_动词/破坏_削弱_拆除.md#pepper-sb-with-sth",
       "term": "pepper sb with sth",
       "definition": "频繁打击，不断射击",
-      "examples": [
-        {
-          "en": "The interviewer peppered her with questions",
-          "zh": "主持面试的人连珠炮般地向她发问"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -93788,12 +93410,7 @@
       "id": "project/背单词/句式模板_动词/增强_提升_复苏.md#perk-sb-up",
       "term": "perk sb up",
       "definition": "增加，使振奋/活跃",
-      "examples": [
-        {
-          "en": "He soon perked up when his friends arrived",
-          "zh": "朋友一来他就精神起来了"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -95032,12 +94649,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#pile-on-the-agony/gloom",
       "term": "pile on the agony/gloom",
       "definition": "使雪上加霜；伤口上撒盐",
-      "examples": [
-        {
-          "en": "Bosses piled on the agony with threats of more job losses",
-          "zh": "老板威胁要削减更多的职位，令情况更加恶化"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_pile"
       ],
@@ -95186,12 +94798,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#pin-(all)-your-hopes/faith-on-sb/sth",
       "term": "pin (all) your hopes/faith on sb/sth",
       "definition": "完全依赖；寄希望于；指望",
-      "examples": [
-        {
-          "en": "The company is pinning its hopes on the new project",
-          "zh": "这家公司对此新项目寄予厚望"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_pin"
       ],
@@ -95226,12 +94833,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#pin-sb-down",
       "term": "pin sb down",
       "definition": "找某人问询，使说清楚",
-      "examples": [
-        {
-          "en": "I need the up-to-date sales figures but I can never pin him down at the office",
-          "zh": "我需要最新的销售数字，可就是不能在办公室找到他问清楚"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_pin"
       ],
@@ -96258,16 +95860,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#play-up",
       "term": "play up",
       "definition": "夸大...的重要性,渲染，吹嘘，出故障",
-      "examples": [
-        {
-          "en": "Newspapers have played up the visit",
-          "zh": "报纸对这次访问大肆宣传"
-        },
-        {
-          "en": "The car is playing up again",
-          "zh": "这辆车又出故障了"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_play"
       ],
@@ -99730,12 +99323,7 @@
       "id": "project/背单词/句式模板_动词/经济_商业_金钱.md#price-sth-out",
       "term": "price sth out",
       "definition": "因要价过高而使...失去市场",
-      "examples": [
-        {
-          "en": "Earlier support plans have simply priced cotton out of the world market",
-          "zh": ""
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -99748,12 +99336,7 @@
       "id": "project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md#prick-(up)-your-ears",
       "term": "prick (up) your ears",
       "definition": "（动物）竖起耳朵，侧耳细听",
-      "examples": [
-        {
-          "en": "Her ears pricked up at the sound of his name",
-          "zh": "一听到他的名字她的耳朵就立刻竖了起来"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "固定搭配_习语",
@@ -100881,12 +100464,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#prop-up",
       "term": "prop up",
       "definition": "撑起，支起，帮助，救济",
-      "examples": [
-        {
-          "en": "The government was accused of propping up declining industries",
-          "zh": "人们指责政府贴补日趋衰落的产业"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -101386,12 +100964,7 @@
       "id": "project/背单词/单词名词/其他_杂项.md#protégé",
       "term": "protégé",
       "definition": "受提携的后进",
-      "examples": [
-        {
-          "en": "a protégé of the great violinist Yehudi Menuhin",
-          "zh": "伟大的小提琴家耶胡迪 · 梅纽因的门生"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "单词",
@@ -101729,12 +101302,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#psyche-up-for",
       "term": "psyche up for",
       "definition": "为（困难或不快的事）做好思想准备",
-      "examples": [
-        {
-          "en": "I'd got myself all psyched up for the interview and then it was called off at the last minute",
-          "zh": "我为这次面试做好了万全的心理准备，可最后它临时取消了"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -101848,12 +101416,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#puff-sb-up",
       "term": "puff sb up",
       "definition": "大大吹捧某人",
-      "examples": [
-        {
-          "en": "They puff someone up.",
-          "zh": "他们大大吹捧某人。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -104213,12 +103776,7 @@
       "id": "project/背单词/句式模板_动词/认知_理解_发现.md#ram-sth-home",
       "term": "ram sth home",
       "definition": "迫使...明白",
-      "examples": [
-        {
-          "en": "The terrible injuries I saw in that accident really rammed home for me the importance of wearing seat belts",
-          "zh": "我看到了那场车祸中当事人受伤的惨状之后，真正明白了系安全带的重要性"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "dawn on",
         "knock the bottom out of"
@@ -104311,12 +103869,7 @@
       "id": "project/背单词/短语动词/时间_节奏_速度.md#ramp-up",
       "term": "ramp up",
       "definition": "加速，增加",
-      "examples": [
-        {
-          "en": "The company has been ramping up production",
-          "zh": "公司已在加速生产"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -104329,12 +103882,7 @@
       "id": "project/背单词/短语名词/其他_杂项.md#ramp-up",
       "term": "ramp up",
       "definition": "加强",
-      "examples": [
-        {
-          "en": "The company has been ramping up production",
-          "zh": "公司已在加速生产"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -104625,7 +104173,12 @@
       "id": "project/背单词/单词形容词/其他_杂项.md#rapacious",
       "term": "rapacious",
       "definition": "贪婪的，强取的",
-      "examples": [],
+      "examples": [
+        {
+          "en": "the rapacity of landowners seeking greater profit",
+          "zh": "土地拥有者牟取更大利益的贪婪"
+        }
+      ],
       "relatedTerms": [
         "grabby",
         "covetous"
@@ -104840,12 +104393,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#rat-sb-out",
       "term": "rat sb out",
       "definition": "出卖，告密",
-      "examples": [
-        {
-          "en": "Someone ratted us out to the police",
-          "zh": "有人向警方告发了我们"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_rat"
       ],
@@ -104880,12 +104428,7 @@
       "id": "project/背单词/短语动词/增强_提升_复苏.md#ratchet-up",
       "term": "ratchet up",
       "definition": "（使）逐渐小幅增长",
-      "examples": [
-        {
-          "en": "Overuse of credit cards has ratcheted up consumer debt to unacceptable levels",
-          "zh": "滥用信用卡使消费债务逐渐增加到了难以接受的地步"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -106407,12 +105950,7 @@
       "id": "project/背单词/句式模板_动词/情绪_态度_心理.md#regal-sb-with-sth",
       "term": "regal sb with sth",
       "definition": "（通过讲故事或说笑话等）使愉悦，使高兴",
-      "examples": [
-        {
-          "en": "He regaled us with tales of his days as a jazz pianist",
-          "zh": "他给我们讲述他当爵士乐钢琴师时的事，逗我们开心"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -106759,12 +106297,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#relay-one’s-thanks-to",
       "term": "relay one’s thanks to",
       "definition": "转达谢意",
-      "examples": [
-        {
-          "en": "They relay his thanks to.",
-          "zh": "他们转达谢意。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -106777,12 +106310,7 @@
       "id": "project/背单词/短语名词/其他_杂项.md#relay-one’s-thanks-to",
       "term": "relay one’s thanks to",
       "definition": "转达谢意",
-      "examples": [
-        {
-          "en": "They relay his thanks to.",
-          "zh": "他们转达谢意。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -110113,12 +109641,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#rub-off-on/onto-sb",
       "term": "rub off on/onto sb",
       "definition": "（人的品质、行为、观点等）感染，传给",
-      "examples": [
-        {
-          "en": "Her sense of fun has rubbed off on her children",
-          "zh": "她的幽默感已经传给了她的孩子"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_rub"
       ],
@@ -110594,12 +110117,7 @@
       "id": "project/背单词/句式模板_动词/评价_表扬_责备_证明.md#run-sb-down",
       "term": "run sb down",
       "definition": "恶意批评，贬低，说...的坏话",
-      "examples": [
-        {
-          "en": "He's always running her down in front of other people",
-          "zh": "他总是在别人面前说她的坏话"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_run",
         "decry",
@@ -110774,12 +110292,7 @@
       "id": "project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md#run/go-counter-to",
       "term": "run/go counter to",
       "definition": "与...背道而驰",
-      "examples": [
-        {
-          "en": "Some actions by the authorities ran counter to the president’s call for leniency",
-          "zh": ""
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_run"
       ],
@@ -110962,12 +110475,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#rust-one’s-lessons",
       "term": "rust one’s lessons",
       "definition": "荒废学业",
-      "examples": [
-        {
-          "en": "They rust his lessons.",
-          "zh": "他们荒废学业。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -110980,12 +110488,7 @@
       "id": "project/背单词/短语名词/其他_杂项.md#rust-one’s-lessons",
       "term": "rust one’s lessons",
       "definition": "荒废学业",
-      "examples": [
-        {
-          "en": "They rust his lessons.",
-          "zh": "他们荒废学业。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -111017,12 +110520,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#rustl-sth-up",
       "term": "rustl sth up",
       "definition": "很快制作，仓促凑成",
-      "examples": [
-        {
-          "en": "She's trying to rustle up some funding for the project",
-          "zh": "她正设法尽快为这个项目筹集一些资金"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -113449,12 +112947,7 @@
       "id": "project/背单词/短语名词/容器_储存_包装.md#scrunch-up",
       "term": "scrunch up",
       "definition": "揉成一团",
-      "examples": [
-        {
-          "en": "She scrunched up three pages of notes and threw them in the bin",
-          "zh": "她把3页笔记揉成团并把它们扔进了垃圾箱"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -115591,10 +115084,6 @@
       "definition": "进展顺利，改善行为",
       "examples": [
         {
-          "en": "Our plans are shaping up nicely",
-          "zh": "我们的计划进行得很好"
-        },
-        {
           "en": "If he doesn't shape up, he'll soon be out of a job",
           "zh": "他要是不改好，很快就会丢饭碗的"
         }
@@ -116482,10 +115971,6 @@
       "term": "shrug sth off/aside",
       "definition": "不把...当回事，不予理睬",
       "examples": [
-        {
-          "en": "Shrugging off her injury, she played on",
-          "zh": "她不顾自己受了伤，继续进行比赛"
-        },
         {
           "en": "He shrugged aside suggestions that he resign",
           "zh": "对于让他辞职的建议，他根本不予理会"
@@ -117419,12 +116904,7 @@
       "id": "project/背单词/短语动词/认知_理解_发现.md#size-up",
       "term": "size up",
       "definition": "估量，判断",
-      "examples": [
-        {
-          "en": "He spent the evening sizing me up intellectually",
-          "zh": "他整晚都在若有所思地打量我"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -117468,12 +116948,7 @@
       "id": "project/背单词/固定搭配_习语_动词/防止_延缓_抵御.md#skate-over/around",
       "term": "skate over/around",
       "definition": "回避，避免涉及",
-      "examples": [
-        {
-          "en": "He politely skated over the issue",
-          "zh": "他礼貌地避开了那个问题"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "obviate",
         "eschew"
@@ -117879,12 +117354,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#slap-sth-on-sb/sth",
       "term": "slap sth on sb/sth",
       "definition": "强制实行，强迫某人做",
-      "examples": [
-        {
-          "en": "The company slapped a ban on using email on the staff",
-          "zh": "公司对员工使用电子邮件发出禁令"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -118637,12 +118107,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#smack-of-sth",
       "term": "smack of sth",
       "definition": "有...的味道，带有...的意味",
-      "examples": [
-        {
-          "en": "Today's announcement smacks of a government cover-up",
-          "zh": "今天的声明颇有政府想掩盖事实的味道"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_smack"
       ],
@@ -119138,12 +118603,7 @@
       "id": "project/背单词/句式模板_动词/情绪_态度_心理.md#snap-out-of-it/sth",
       "term": "snap out of it/sth",
       "definition": "抛掉不愉快的情绪，摆脱郁闷心境",
-      "examples": [
-        {
-          "en": "You've been depressed for weeks. It's time you snapped out of it",
-          "zh": "你情绪低落好几周了。现在该振作起来了"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_snap"
       ],
@@ -119309,12 +118769,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#snarl-up",
       "term": "snarl up",
       "definition": "阻塞，妨碍",
-      "examples": [
-        {
-          "en": "The accident snarled up the traffic all day",
-          "zh": "这次事故使交通堵塞了整整一天"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_snarl"
       ],
@@ -121460,12 +120915,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#splash-out-on-sth",
       "term": "splash out on sth",
       "definition": "花大笔的钱买",
-      "examples": [
-        {
-          "en": "He splashed out hundreds of pounds on designer clothes",
-          "zh": "他花了几百英镑买名牌服装"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_splash"
       ],
@@ -122299,12 +121749,7 @@
       "id": "project/背单词/句式模板_动词/关系_交流_协商.md#square-sth-with-sb",
       "term": "square sth with sb",
       "definition": "就...征得...的同意或许可",
-      "examples": [
-        {
-          "en": "I think I'll be able to come, but I'll square it with my parents first",
-          "zh": "我想我能来，不过我要先征得我父母的同意"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_square"
       ],
@@ -122321,16 +121766,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#square-sth-with-sth",
       "term": "square sth with sth",
       "definition": "与...一致，相符合",
-      "examples": [
-        {
-          "en": "They square something with something.",
-          "zh": "他们与这件事一致。"
-        },
-        {
-          "en": "The interests of farmers need to be squared with those of consumers",
-          "zh": "农场主的利益需要同消费者的利益相符"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -122561,10 +121997,6 @@
       "term": "stack up",
       "definition": "（尤用于疑问句或否定句）（与其他人或事物）相比；比得上",
       "examples": [
-        {
-          "en": "Let's try him in the job and see how he stacks up",
-          "zh": "咱们让他干这活儿试试，看看他比别人干得怎么样"
-        },
         {
           "en": "A mobile home simply doesn't stack up against a traditional house",
           "zh": "活动房屋怎么也比不上传统的房屋"
@@ -123825,12 +123257,7 @@
       "id": "project/背单词/句式模板_动词/开始_结束_完成.md#sth-rears-its-(ugly)-head",
       "term": "sth rears its (ugly) head",
       "definition": "（讨厌事情的势头）开始出现或发生",
-      "examples": [
-        {
-          "en": "The threat of strikes reared its head again this summer",
-          "zh": "今年夏天又显现出了罢工的势头"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "creep in/into",
         "commence with",
@@ -124148,12 +123575,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#stoke-up-on-with",
       "term": "stoke up on with",
       "definition": "吃饱，喝足",
-      "examples": [
-        {
-          "en": "Stoke up for the day on a good breakfast",
-          "zh": "早饭要吃得饱饱的，整整一天呢"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_stoke"
       ],
@@ -128595,12 +128017,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#take-sth-on-the-chin",
       "term": "take sth on the chin",
       "definition": "（无怨无悔地）承受某事",
-      "examples": [
-        {
-          "en": "One of our great strengths is our ability to take it on the chin and come out fighting",
-          "zh": "我们的一大长处就是能承受困难，奋起拼搏"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_take"
       ],
@@ -128685,12 +128102,7 @@
       "id": "project/背单词/句式模板_动词/减轻_缓和_安抚.md#take-the-edge-off-sth",
       "term": "take the edge off sth",
       "definition": "减弱，使变钝，使受挫折",
-      "examples": [
-        {
-          "en": "The sandwich took the edge off my appetite",
-          "zh": "这份三明治使我食欲大减"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_take"
       ],
@@ -130695,12 +130107,7 @@
       "id": "project/背单词/句式模板_名词/其他_杂项.md#the-bowel-of-sth",
       "term": "the bowel of sth",
       "definition": "内部最深处",
-      "examples": [
-        {
-          "en": "A rumble came from the bowels of the earth",
-          "zh": "从地下深处传来隆隆的响声"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_the"
       ],
@@ -131282,12 +130689,7 @@
       "id": "project/背单词/固定搭配_习语_名词/其他_杂项.md#the-pit-of-your/the-stomach",
       "term": "the pit of your/the stomach",
       "definition": "心底",
-      "examples": [
-        {
-          "en": "He had a sudden sinking feeling in the pit of his stomach",
-          "zh": "他内心深处突然有一种不祥之感"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_the"
       ],
@@ -134256,12 +133658,7 @@
       "id": "project/背单词/短语动词/外观_装饰_表现.md#touch-up",
       "term": "touch up",
       "definition": "稍加修饰，润色，修改",
-      "examples": [
-        {
-          "en": "She was busy touching up her make-up in the mirror",
-          "zh": "她正忙着对着镜子补妆"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_touch",
         "be tantamount to",
@@ -135228,12 +134625,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#treasure-up-in-one's-memory",
       "term": "treasure up in one's memory",
       "definition": "铭记在心",
-      "examples": [
-        {
-          "en": "They treasure up in his memory.",
-          "zh": "他们铭记在心。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -135645,12 +135037,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#trifle-with-sth/sb",
       "term": "trifle with sth/sb",
       "definition": "（通常用于否定句）视同儿戏，心不在焉地做，怠慢，小看",
-      "examples": [
-        {
-          "en": "He is not a person to be trifled with",
-          "zh": "他这个人怠慢不得"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_trifle"
       ],
@@ -135737,12 +135124,7 @@
       "id": "project/背单词/短语动词/行动_努力_坚持_责任.md#trip-up",
       "term": "trip up",
       "definition": "（故意地）犯错误；（故意使）犯错误",
-      "examples": [
-        {
-          "en": "Read the questions carefully, because the examiners sometimes try to trip you up",
-          "zh": "要仔细把问题看清楚，因为出卷人有时故意让你出错"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -136113,12 +135495,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#trump-sth-up",
       "term": "trump sth up",
       "definition": "诬陷，捏造（trumped-up：捏造的）",
-      "examples": [
-        {
-          "en": "She was arrested on a trumped-up charge",
-          "zh": "她以莫须有的罪名被捕"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_trump"
       ],
@@ -136174,12 +135551,7 @@
       "id": "project/背单词/句式模板/行动_努力_坚持_责任.md#try-one’s-utmost",
       "term": "try one’s utmost",
       "definition": "尽全力做某事",
-      "examples": [
-        {
-          "en": "They try his utmost.",
-          "zh": "他们尽全力做某事。"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -136517,16 +135889,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#tune-out/tune-sb-out",
       "term": "tune out/tune sb out",
       "definition": "不理睬，思想开小差",
-      "examples": [
-        {
-          "en": "When she started talking about her job, he just tuned out",
-          "zh": "在她开始谈她工作的时候，他走神了"
-        },
-        {
-          "en": "Rose heard the familiar voice, but tuned out the words",
-          "zh": "罗斯听到了熟悉的声音，但没注意听说的是什么"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_tune"
       ],
@@ -136604,10 +135967,6 @@
         {
           "en": "They turn on someone.",
           "zh": "他们突然攻击。"
-        },
-        {
-          "en": "Why are you all turning on me",
-          "zh": "你们怎么突然都冲我来了？"
         }
       ],
       "relatedTerms": [],
@@ -136679,12 +136038,7 @@
       "id": "project/背单词/句式模板_动词/变化_发展_转变.md#turn-the-table-on-sb",
       "term": "turn the table on sb",
       "definition": "转变局势，转败为胜",
-      "examples": [
-        {
-          "en": "She turned the tables on her rival with allegations of corruption",
-          "zh": "她指控对手腐败，从而扭转了对自己不利的局面"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_turn",
         "sidetrack",
@@ -139910,12 +139264,7 @@
       "id": "project/背单词/短语名词/其他_杂项.md#up-a-hornet's-nest",
       "term": "up a hornet's nest",
       "definition": "一大堆麻烦，棘手的局面，马蜂窝",
-      "examples": [
-        {
-          "en": "When Charles got the manager’s job, it stirred up a real hornet’s nest, because everyone was angry about his fast promotion",
-          "zh": "查尔斯当上经理简直像捅了马蜂窝，大家对他升职这么快感到很不满"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -140112,12 +139461,7 @@
       "id": "project/背单词/短语形容词/其他_杂项.md#up-to-the-hilt",
       "term": "up to the hilt",
       "definition": "尽可能，尽量",
-      "examples": [
-        {
-          "en": "They have promised to back us to the hilt",
-          "zh": "他们保证全力支持我们"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_up"
       ],
@@ -140134,12 +139478,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#up-to-your-neck-in-sth",
       "term": "up to your neck in sth",
       "definition": "深陷于，忙于应付",
-      "examples": [
-        {
-          "en": "We're up to our neck in debt",
-          "zh": "我们债务累累"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_up"
       ],
@@ -141806,12 +141145,7 @@
       "id": "project/背单词/句式模板_动词/增强_提升_复苏.md#vest-sth-in-sb/vest-sb-with-sth",
       "term": "vest sth in sb/vest sb with sth",
       "definition": "授予，赋予（合法权利或权力）",
-      "examples": [
-        {
-          "en": "The Supreme Council is vested with overall authority",
-          "zh": "最高议会拥有一切权力"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_vest"
       ],
@@ -143746,12 +143080,7 @@
       "id": "project/背单词/短语名词/其他_杂项.md#wax（+lyrical,-eloquent,-sentimental,-etc）",
       "term": "wax（+lyrical, eloquent, sentimental, etc）",
       "definition": "说话变得（热情、雄辩、伤感等）起来",
-      "examples": [
-        {
-          "en": "He waxed lyrical on the food at the new restaurant",
-          "zh": "他对这家新餐馆的菜肴越说越来劲"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "短语",
@@ -143884,12 +143213,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#wean-sb-on",
       "term": "wean sb on",
       "definition": "使经常经历",
-      "examples": [
-        {
-          "en": "He was weaned on a diet of rigid discipline and duty",
-          "zh": "他自幼受到严格纪律和职责的约束"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_wean"
       ],
@@ -144179,12 +143503,7 @@
       "id": "project/背单词/句式模板_动词/行动_努力_坚持_责任.md#weigh-sb-down",
       "term": "weigh sb down",
       "definition": "使烦恼，使忧心忡忡",
-      "examples": [
-        {
-          "en": "The responsibilities of the job are weighing her down",
-          "zh": "这项工作的责任压得她喘不过气来"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_weigh"
       ],
@@ -145846,12 +145165,7 @@
       "id": "project/背单词/短语动词/开始_结束_完成.md#wind-up",
       "term": "wind up",
       "definition": "结束（讲话、会议等）",
-      "examples": [
-        {
-          "en": "The speaker was just winding up when the door was flung open",
-          "zh": "演讲者刚要结束讲话时门突然被推开了"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_wind",
         "fold",
@@ -146766,12 +146080,7 @@
       "id": "project/背单词/短语动词/变化_发展_转变.md#work-up-to",
       "term": "work up to",
       "definition": "逐步发展到",
-      "examples": [
-        {
-          "en": "The music worked up to a rousing finale",
-          "zh": "乐曲渐变到一个激动人心的末乐章"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [
         "词根_work",
         "move into high gear",
@@ -146918,12 +146227,7 @@
       "id": "project/背单词/句式模板_动词/资源_获取_利用.md#worm-your-way/yourself-into-sth",
       "term": "worm your way/yourself into sth",
       "definition": "赢得欢心，骗取信任",
-      "examples": [
-        {
-          "en": "He managed to worm his way into her life",
-          "zh": "他设法骗取信任进入了她的生活"
-        }
-      ],
+      "examples": [],
       "relatedTerms": [],
       "tags": [],
       "expressionType": "句式模板",
@@ -147785,7 +147089,7 @@
       },
       {
         "name": "固定搭配_习语",
-        "count": 803
+        "count": 802
       },
       {
         "name": "句式模板",
@@ -147795,7 +147099,7 @@
     "partsOfSpeech": [
       {
         "name": "名词",
-        "count": 3678
+        "count": 3677
       },
       {
         "name": "形容词",
@@ -147813,7 +147117,7 @@
     "themes": [
       {
         "name": "其他/杂项",
-        "count": 5120
+        "count": 5119
       },
       {
         "name": "行动/努力/坚持/责任",

@@ -140,7 +140,7 @@
       "title": "Planning a local community redevelopment",
       "scene": "You are discussing a town redevelopment plan with ChatGPT. The plan involves old infrastructure, local businesses, and public money.",
       "targetWords": [
-        { "entryId": "project/背单词/固定搭配_习语_名词/其他_杂项.md#50-000-barrels-of-crude", "term": "50,000 barrels of crude" },
+        { "entryId": "project/背单词/固定搭配_习语_名词/其他_杂项.md#a-blast-from-the-past", "term": "a blast from the past" },
         { "entryId": "project/背单词/固定搭配_习语_名词/其他_杂项.md#a-breach-in-the-hedge", "term": "a breach in the hedge" },
         { "entryId": "project/背单词/固定搭配_习语_名词/其他_杂项.md#a-fast-food-outlet", "term": "a fast food outlet" },
         { "entryId": "project/背单词/固定搭配_习语_名词/其他_杂项.md#a-fissure-in-a-rock", "term": "a fissure in a rock" },
@@ -154,7 +154,7 @@
       "turns": [
         { "user": "Our town wants to redevelop the old warehouse area, but the plan is already complicated.", "chatgpt": "What is the leading headache right now: money, safety, or public trust?" },
         { "user": "Money is the leading headache, but safety is close behind.", "chatgpt": "Then the proposal needs to show both financial discipline and risk control." },
-        { "user": "One building used to store equipment for moving 50,000 barrels of crude.", "chatgpt": "That detail matters. It raises environmental and safety questions." },
+        { "user": "One warehouse still feels like a blast from the past.", "chatgpt": "That image works. It suggests age without sounding alarming." },
         { "user": "There is also a fissure in a rock wall near the old access road.", "chatgpt": "Mention that as a structural issue, not just a visual defect." },
         { "user": "The site even has a breach in the hedge where people keep sneaking in.", "chatgpt": "That is a small phrase, but it points to real liability." },
         { "user": "Some residents want to preserve an old grain silo as a landmark.", "chatgpt": "That could give the project local character if it is safe to keep." },
@@ -163,7 +163,7 @@
         { "user": "A fair bit of the budget would go into roads and drainage.", "chatgpt": "That sounds necessary, but voters need to see why invisible infrastructure matters." },
         { "user": "We need a high turnout at the public meeting, or the decision will look weak.", "chatgpt": "A high turnout also gives the plan legitimacy." },
         { "user": "How do I explain the old crude storage without frightening people?", "chatgpt": "Say, 'The site's industrial history requires careful inspection and transparent cleanup.'" },
-        { "user": "That sounds better than saying 50,000 barrels of crude and letting everyone panic.", "chatgpt": "Exactly. Use the phrase when needed, but pair it with a solution." },
+        { "user": "That sounds better than saying the site is a blast from the past and letting everyone panic.", "chatgpt": "Exactly. Use the phrase when needed, but pair it with a solution." },
         { "user": "The fissure in the rock wall could become a symbol of neglect.", "chatgpt": "Good point. Physical cracks often become political metaphors." },
         { "user": "The breach in the hedge also shows the site is poorly controlled.", "chatgpt": "Right. It is a simple image people can understand." },
         { "user": "If we keep the grain silo, it could become a small museum or cafe.", "chatgpt": "That may connect heritage with economic use." },

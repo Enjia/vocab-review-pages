@@ -15,6 +15,10 @@ export function classifyExample({ term, example }) {
         : /a^/,
     },
     {
+      reason: "copular-restatement",
+      pattern: isBareCopularRestatement(normalizedTerm, normalizedExample) ? /.+/ : /a^/,
+    },
+    {
       reason: "mechanical-adverb-response",
       pattern: /^[a-z-]+ly,\s+(she|he|they)\s+responded\.$/i,
     },
@@ -59,11 +63,13 @@ export function classifyExample({ term, example }) {
       match &&
         (normalizedExample.includes(normalizedTerm) ||
           match.reason === "definitional-stub" ||
+          match.reason === "copular-restatement" ||
           match.reason === "gloss-fragment" ||
           match.reason === "noun-phrase-fragment") &&
         (isShort ||
           match.reason === "embedded-numbering" ||
           match.reason === "definitional-stub" ||
+          match.reason === "copular-restatement" ||
           match.reason === "gloss-fragment" ||
           match.reason === "noun-phrase-fragment"),
     ),
@@ -253,20 +259,24 @@ function scoreCandidate(normalizedTerm, candidate) {
   return score;
 }
 
-function isRelevantExample(term, example) {
+export function isRelevantExample(term, example, options = {}) {
   const normalizedExample = normalize(example);
   if (!normalizedExample) return false;
+  const override = MANUAL_RELEVANCE_OVERRIDES[normalize(term)];
+  if (override?.some((pattern) => pattern.test(normalizedExample))) return true;
 
   const compactExample = compact(normalizedExample);
   const exampleTokens = new Set(tokenizeForMatch(normalizedExample));
   const termVariants = buildTermVariants(term);
+  const requiredMatches = options.requiredMatches || minimumRequiredMatches(term);
 
   for (const variant of termVariants) {
     if (compactExample.includes(variant.compact)) return true;
     const matchedGroups = variant.tokenGroups.filter((group) =>
       group.some((token) => exampleTokens.has(token) || hasTokenMatch(token, normalizedExample)),
     );
-    if (matchedGroups.length >= requiredTokenMatches(variant.tokenCount)) return true;
+    const threshold = typeof requiredMatches === "number" && requiredMatches > 0 ? requiredMatches : 1;
+    if (matchedGroups.length >= threshold) return true;
   }
 
   return false;
@@ -309,13 +319,15 @@ function baseMatchTokens(value) {
     new Set(
       (normalize(value).match(/[a-z]+(?:['-][a-z]+)*/g) || [])
         .map((token) => token.replace(/^'+|'+$/g, ""))
-        .filter((token) => token.length >= 3)
+        .filter((token) => token.length >= 2 || SHORT_SIGNIFICANT_TOKENS.has(token))
+        .filter((token) => !OPTIONAL_PLACEHOLDER_TOKENS.has(token))
         .filter((token) => !STOP_WORDS.has(token))
     ),
   );
 }
 
 function hasTokenMatch(token, normalizedExample) {
+  if (IRREGULAR_MATCH_PATTERNS[token]?.test(normalizedExample)) return true;
   const pattern = new RegExp(`\\b${escapeRegExp(token)}[a-z]*\\b`, "i");
   if (pattern.test(normalizedExample)) return true;
   return tokenizeForMatch(normalizedExample).includes(token);
@@ -323,13 +335,23 @@ function hasTokenMatch(token, normalizedExample) {
 
 function requiredTokenMatches(tokenCount) {
   if (tokenCount <= 1) return 1;
-  return Math.min(2, tokenCount);
+  return Math.min(3, tokenCount);
+}
+
+function minimumRequiredMatches(term) {
+  return requiredTokenMatches(baseMatchTokens(String(term)).length);
 }
 
 function stemVariants(token) {
   const variants = new Set([token]);
   const normalized = normalizeSpelling(token);
   variants.add(normalized);
+  if (IRREGULAR_LEMMAS[token]) {
+    variants.add(IRREGULAR_LEMMAS[token]);
+  }
+  for (const irregular of IRREGULAR_VARIANTS[token] || []) {
+    variants.add(irregular);
+  }
 
   const compacted = compact(normalized);
   if (compacted) variants.add(compacted);
@@ -340,6 +362,27 @@ function stemVariants(token) {
     }
     if ((value.endsWith("izing") || value.endsWith("ising")) && value.length > 7) {
       variants.add(value.slice(0, -5));
+    }
+    if (value.endsWith("ation") && value.length > 6) {
+      variants.add(value.slice(0, -5));
+      variants.add(`${value.slice(0, -5)}ate`);
+    }
+    if ((value.endsWith("cious") || value.endsWith("tious")) && value.length > 6) {
+      variants.add(value.slice(0, -4));
+    }
+    if (value.endsWith("ism") && value.length > 4) {
+      variants.add(value.slice(0, -3));
+    }
+    if (value.endsWith("istical") && value.length > 7) {
+      variants.add(`${value.slice(0, -2)}ic`);
+    }
+    if (value.endsWith("ically") && value.length > 7) {
+      variants.add(value.slice(0, -4));
+      variants.add(value.slice(0, -3));
+    }
+    if (value.endsWith("ational") && value.length > 7) {
+      variants.add(value.slice(0, -5));
+      variants.add(`${value.slice(0, -5)}ate`);
     }
     if (value.endsWith("e") && value.length > 4) variants.add(value.slice(0, -1));
     if (value.endsWith("ie") && value.length > 4) variants.add(`${value.slice(0, -2)}y`);
@@ -356,6 +399,29 @@ function stemVariants(token) {
   }
 
   return new Set(Array.from(variants).filter((value) => value.length >= 3));
+}
+
+function isBareCopularRestatement(term, example) {
+  if (!/^it\s+(?:was|is)\s+/i.test(example)) return false;
+
+  const termTokens = baseMatchTokens(String(term));
+  if (termTokens.length < 2) return false;
+
+  const tail = example
+    .replace(/^it\s+(?:was|is)\s+/i, "")
+    .replace(/[.!?]+$/g, "")
+    .trim();
+
+  if (!tail || /[;:]/.test(tail)) return false;
+  if (/\b(?:that|which|who|whom|whose|when|where|why|while|because|if|to)\b/i.test(tail)) {
+    return false;
+  }
+
+  const tailTokens = baseMatchTokens(tail);
+  if (!tailTokens.length) return false;
+
+  const shared = termTokens.filter((token) => tailTokens.includes(token)).length;
+  return shared / termTokens.length >= 0.8;
 }
 
 function normalizeSpelling(value) {
@@ -414,3 +480,49 @@ const STOP_WORDS = new Set([
   "with",
   "your",
 ]);
+
+const SHORT_SIGNIFICANT_TOKENS = new Set(["go"]);
+
+const OPTIONAL_PLACEHOLDER_TOKENS = new Set([
+  "one's",
+  "someone's",
+  "somebody's",
+  "sb's",
+  "sth's",
+  "do",
+]);
+
+const IRREGULAR_VARIANTS = {
+  be: ["am", "is", "are", "was", "were", "been", "being"],
+  do: ["does", "did", "done", "doing"],
+  go: ["goes", "went", "gone", "going"],
+};
+
+const IRREGULAR_LEMMAS = {
+  am: "be",
+  are: "be",
+  was: "be",
+  were: "be",
+  been: "be",
+  being: "be",
+  does: "do",
+  did: "do",
+  done: "do",
+  doing: "do",
+  goes: "go",
+  went: "go",
+  gone: "go",
+  going: "go",
+};
+
+const IRREGULAR_MATCH_PATTERNS = {
+  be: /\b(?:am|is|are|was|were|been|being)\b/i,
+  do: /\b(?:do|does|did|done|doing)\b/i,
+  go: /\b(?:go|goes|went|gone|going)\b/i,
+};
+
+const MANUAL_RELEVANCE_OVERRIDES = {
+  "a bee in one's bonnet": [/\bbee in (?:his|her|their|one's) bonnet\b/i],
+  "be on the go": [/\bon the go\b/i],
+  "go so far as to do sth": [/\bwent so far as to\b/i, /\bgo(?:es|ne|ing)? so far as to\b/i],
+};
