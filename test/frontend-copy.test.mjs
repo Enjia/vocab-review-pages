@@ -33,6 +33,25 @@ test("frontend exposes night practice instead of realtime voice as the primary p
   assert.doesNotMatch(html, /Start voice coach/);
 });
 
+test("night practice provides progressive disclosure, a 15-minute routine, and word-result controls", async () => {
+  const [html, appSource] = await Promise.all([
+    readFile(new URL("../index.html", import.meta.url), "utf8"),
+    readFile(new URL("../src/app.js", import.meta.url), "utf8"),
+  ]);
+
+  assert.match(html, /data-night-view="scene"/);
+  assert.match(html, /data-night-view="hints"/);
+  assert.match(html, /data-night-view="model"/);
+  assert.match(html, /2 min.*Warm up/i);
+  assert.match(html, /8 min.*Speak/i);
+  assert.match(html, /3 min.*Review/i);
+  assert.match(html, /2 min.*Retry/i);
+  assert.match(html, /id="nightResults"/);
+  assert.match(appSource, /Used naturally/);
+  assert.match(appSource, /Retry tomorrow/);
+  assert.match(appSource, /wordResults/);
+});
+
 test("review card exposes four recall grades instead of a binary pass fail", async () => {
   const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
   const appSource = await readFile(new URL("../src/app.js", import.meta.url), "utf8");

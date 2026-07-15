@@ -9,3 +9,10 @@ test("generated vocabulary entries have unique ids", async () => {
 
   assert.equal(uniqueIds.size, ids.length);
 });
+
+test("generated vocabulary entries have a valid speaking-suitability label", async () => {
+  const data = JSON.parse(await readFile(new URL("../data/words.json", import.meta.url), "utf8"));
+  const valid = new Set(["active", "recognition", "caution"]);
+
+  assert.equal(data.entries.every((entry) => valid.has(entry.speakingSuitability)), true);
+});

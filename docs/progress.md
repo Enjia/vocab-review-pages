@@ -10,6 +10,8 @@
 - Sourced-example replacement workflow using Tatoeba sentence IDs, authors, and licenses.
 - Frontend cards show English examples only; source data may still retain Chinese example translations for archival use.
 - Night Practice packs for ChatGPT App role-play: 5 Module 001 packs, each with 10 target words and 25 dialogue turns.
+- Guided 15-minute Voice routine: scene-first disclosure, optional hints and model answers, local word-result records, and next-session retry priorities.
+- Speaking suitability labels are generated with the vocabulary data: `active` for production practice, `recognition` for comprehension-only items, and `caution` for context-sensitive language.
 
 ## In Progress
 
@@ -25,8 +27,11 @@ Goal: support the fixed 10:30-10:45 PM practice habit with ready-made cluster di
 Current behavior:
 
 - Each pack covers 10 vocabulary items from Module 001.
-- Each pack has a realistic scene and 25 User / ChatGPT dialogue turns.
-- The site builds a one-question-at-a-time ChatGPT practice prompt.
+- Each pack has a realistic scene and 25 User / ChatGPT dialogue turns, revealed only when the learner chooses `Model answers`.
+- The default `Scene` view prevents premature answer exposure; `Hints` shows only ChatGPT cues.
+- The copied prompt runs a 2 / 8 / 3 / 2 minute routine and limits feedback to three high-value corrections with self-repair before the upgrade.
+- Only `active` words become production targets; recognition and caution entries remain available as reference vocabulary.
+- Per-word results are stored locally. `Retry tomorrow` and `Not used` items become the next prompt's retry priorities.
 - `Practiced tonight` stores local completion state without marking vocabulary cards as `Known`.
 
 ## Paused: Realtime AI Speaking Coach

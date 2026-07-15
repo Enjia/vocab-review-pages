@@ -6,6 +6,7 @@ import {
   normalizeEntryExamples,
 } from "./example-quality.mjs";
 import { parseVocabularyFile } from "./parser.mjs";
+import { classifySpeakingSuitability, summarizeSpeakingSuitability } from "./speaking-suitability.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, "..");
@@ -30,7 +31,10 @@ for (const filePath of files) {
 }
 
 entries.sort((a, b) => a.term.localeCompare(b.term, "en"));
-const completedEntries = backfillExamplesByTerm(entries);
+const completedEntries = backfillExamplesByTerm(entries).map((entry) => ({
+  ...entry,
+  speakingSuitability: classifySpeakingSuitability(entry),
+}));
 dedupeEntryIds(completedEntries);
 
 const payload = {
@@ -44,6 +48,7 @@ const payload = {
 await fs.mkdir(path.dirname(outputPath), { recursive: true });
 await fs.writeFile(outputPath, JSON.stringify(payload, null, 2), "utf8");
 console.log(`Generated ${entries.length} vocabulary entries -> ${outputPath}`);
+console.log(`Speaking suitability: ${JSON.stringify(summarizeSpeakingSuitability(completedEntries))}`);
 
 async function collectMarkdownFiles(root) {
   const results = [];
