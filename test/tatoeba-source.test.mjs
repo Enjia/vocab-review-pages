@@ -41,5 +41,19 @@ test("chooseTatoebaSentence rejects sentences that omit the target term", () => 
     },
   ]);
 
+  assert.equal(result.id, 3);
+});
+
+test("chooseTatoebaSentence rejects sentences with no lexical overlap", () => {
+  const result = chooseTatoebaSentence("acquaintance", [
+    {
+      id: 4,
+      text: "I forgot to close the window.",
+      lang: "eng",
+      license: "CC0 1.0",
+      user: { username: "sample" },
+    },
+  ]);
+
   assert.equal(result, null);
 });

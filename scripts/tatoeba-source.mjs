@@ -1,4 +1,4 @@
-import { classifyExample, wordCount } from "./example-quality.mjs";
+import { classifyExample, isRelevantExample, wordCount } from "./example-quality.mjs";
 
 const TATOEBA_ENDPOINT = "https://tatoeba.org/en/api_v0/search";
 
@@ -6,15 +6,26 @@ export function normalizeTermForSearch(term) {
   return term.trim();
 }
 
-export function chooseTatoebaSentence(term, results) {
-  const exactTermPattern = new RegExp(`\\b${escapeRegExp(term)}\\b`, "i");
-
+export function chooseTatoebaSentence(term, results, options = {}) {
+  const minWords = options.minWords ?? 4;
+  const maxWords = options.maxWords ?? 26;
+  const relaxed = options.relaxed || false;
+  const requiredMatches = options.requiredMatches;
   const candidates = results
     .filter((item) => item?.lang === "eng")
-    .filter((item) => exactTermPattern.test(String(item.text || "")))
     .filter((item) => {
       const count = wordCount(item.text || "");
-      return count >= 5 && count <= 24;
+      return count >= minWords && count <= maxWords;
+    })
+    .filter((item) => {
+      if (relaxed) {
+        return isRelevantExample(term, String(item.text || ""), {
+          requiredMatches: Number.isFinite(requiredMatches) && requiredMatches > 0 ? requiredMatches : 1,
+        });
+      }
+      return isRelevantExample(term, String(item.text || ""), {
+        ...(Number.isFinite(requiredMatches) && requiredMatches > 0 ? { requiredMatches } : {}),
+      });
     })
     .filter((item) => !classifyExample({ term, example: item.text || "" }).isTemplate);
 
@@ -57,8 +68,10 @@ function scoreSentence(term, item) {
   if (item.license === "CC0 1.0") score += 20;
   if (count >= 8 && count <= 18) score += 12;
   if (new RegExp(`\\b${escapeRegExp(term)}\\b`, "i").test(text)) score += 10;
+  if (text.toLowerCase().includes(term.toLowerCase())) score += 12;
   if (/[.!?]$/.test(text.trim())) score += 5;
   if (text.length > 140) score -= 15;
+  if (isRelevantExample(term, text)) score += 6;
 
   return score;
 }

@@ -1,0 +1,4448 @@
+{
+  "generatedAt": "2026-06-15T03:35:37.381Z",
+  "source": "dictionaryapi.dev + oxford + pearson + free dictionary + cambridge + ydr + tatoeba",
+  "totalEntries": 8475,
+  "beforeMissing": 878,
+  "afterMissing": 842,
+  "enriched": 36,
+  "bySource": {
+    "dictionary": 11,
+    "tatoeba": 4,
+    "oxford": 3,
+    "pearson": 0,
+    "freedictionary": 4,
+    "cambridge": 0,
+    "ydr": 13,
+    "fallback": 1
+  },
+  "misses": [
+    {
+      "term": "（not） in your right mind",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "a bed of roses",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a bee in one's bonnet",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "a blunt refusal",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a bratty kid",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a breach in the hedge",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a bum deal",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a case in point",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a case in point",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "a child reared on self-indulgence",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a child reared on self-indulgence",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "a congruity of ideas",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a debating fraternity",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a drinking bout",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a fair bit of",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a fair bit of",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "a fast food outlet",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a few husks of reason",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a figure of speech",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/语言_表达_修辞.md"
+    },
+    {
+      "term": "a fissure in a rock",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a flat refusal",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a flat/blunt refusal",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "a frenetic pitch of activity",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a giant con",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a grain silo",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a jazz impresario",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a leading headache",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a leading headache",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "a litter of puppies",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a look of contrition",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md"
+    },
+    {
+      "term": "a man of eminent goodness",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/人物_角色_职业.md"
+    },
+    {
+      "term": "a man of eminent goodness",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "a meaningless jumble of words",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a miasma of tobacco smoke",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a mother fixation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a multicoloured bead necklace",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a muscle spasm",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a nasty problem",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a nasty problem",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "a new wonder drug",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a night club impresario",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a nose of wax",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a nuclear holocaust",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a pertinacious beggar",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md"
+    },
+    {
+      "term": "a plane bound for Dublin",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a political eunuch",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a pound of flesh",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a publicity stunt",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a recess for books",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "a rent in the fabric",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/面料_纺织_材质.md"
+    },
+    {
+      "term": "a Republican hardliner",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md"
+    },
+    {
+      "term": "a round of verbal one-upmanship",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/武器_军警.md"
+    },
+    {
+      "term": "a rundown of transport services",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a slap on the wrist",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a spell of warm weather",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a stopgap measure",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a streak of cruelty",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a stunted career",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a sycophantic review",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a system of political patronage",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a trivia quiz",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a turn of the screw",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md"
+    },
+    {
+      "term": "a wee bit",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "a well-bound book",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "abject failure",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "able-bodied",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "above reproach",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "act like a yeast",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "act upon",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Add a sprinkling of pepper",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "administrative body",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "advisory board",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "against all odds",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "against all odds",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "aged care",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/化妆_护理_清洁.md"
+    },
+    {
+      "term": "aglow with health",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "agree-to-disagree",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "agreed-upon",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/关系_一致_相处.md"
+    },
+    {
+      "term": "alien demand",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "all and sundry",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "all strata of society",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "all-embracing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "all-encompassing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "all-engulfing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "all-important",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/强度_程度.md"
+    },
+    {
+      "term": "all-pervasive",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "alphabet soup",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "ambassador-at-large",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/关系_一致_相处.md"
+    },
+    {
+      "term": "amino acid",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "amniotic fluid",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "amped-up",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "an alabaster tomb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "an orchestral score",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "animated feature",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "anti-poaching",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "antibodies that latch onto germs",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "antichoice",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/态度_立场_观点.md"
+    },
+    {
+      "term": "Arabian Nights",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "articles of clothing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/服饰_配件.md"
+    },
+    {
+      "term": "as American as apple pie",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/强度_程度.md"
+    },
+    {
+      "term": "as its name implies",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "as its name implies",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "as thick as thieves",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/态度_立场_观点.md"
+    },
+    {
+      "term": "ashen-faced",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "assail a serious problem",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "assail a serious problem",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "assisted dying",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "assume office",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "at a snail's pace",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/强度_程度.md"
+    },
+    {
+      "term": "at sb's behest",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "at/in one fell swoop",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "atrocity",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "attaché case",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/容器_储存_包装.md"
+    },
+    {
+      "term": "average Joe",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "award-winning",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "baby boom",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "baby bust",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "back into a fortune",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/资源_获取_利用.md"
+    },
+    {
+      "term": "bait-and-switch",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "ball and chain",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "bamboo shoots",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "bang for your buck",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "banner heading",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "bare-bones",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "barged in uninvited",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "batten down the hatch",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "be at one with sb/sth",
+      "reason": "no-remote-example-found",
+      "sourcePath": "Project/背单词/句式模板_形容词/关系_一致_相处.md"
+    },
+    {
+      "term": "be caressed by one's superiors",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/资源_获取_利用.md"
+    },
+    {
+      "term": "be cursed with sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "be environed by bad influence",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "be gunning for sb/sth",
+      "reason": "no-remote-example-found",
+      "sourcePath": "Project/背单词/句式模板_动词/评价_表扬_责备_证明.md"
+    },
+    {
+      "term": "be in for sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "be in rare form",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "be mystified by",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "be no spring chicken",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "be out of your depth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "be perched on top of society",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "be sb's department",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "be stupefied with narcotics",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "be taken aback by sb/sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "be too often embraced as axiomatic",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "be/get carried away",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/情绪_感受.md"
+    },
+    {
+      "term": "beat around the brush",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "befuddle the public with campaign promises",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "bellygod",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "belt out a song",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "belt out a speech",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "bent on doing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "bent out of shape",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "Bermuda shorts",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/服饰_配件.md"
+    },
+    {
+      "term": "beside oneself",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "best foot forward",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "best practice",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "best practice",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "billows of demonstrators marching down the street",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "birth canal",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "biting satire",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "black and white",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "blame-shifting",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "blaze the trail",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/资源_获取_利用.md"
+    },
+    {
+      "term": "blazing row",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "bleated feebly",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "boiler plate",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "boiler-plate",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "bomb out",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "bone marrow",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "book-lined",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "boom and bust",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "boomerang kids",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "bootstrap oneself",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "border-patrol",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "bottom feeder",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/人物_角色_职业.md"
+    },
+    {
+      "term": "bound for destruction",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "bowel movement",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "bowl sb over",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "break the mould of sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/破坏_削弱_拆除.md"
+    },
+    {
+      "term": "breathed one's last",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "bridge over",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "bring to knees",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "brought to naught",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "brow-beaten",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "browbeat into doing sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "brown-nose",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "buck teeth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "bummed out",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "bummer",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "bump up against sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "bunk bed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/家居_家具.md"
+    },
+    {
+      "term": "burden of proof",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "busting a gut",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "bygone era",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "C-suite",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/人物_角色_职业.md"
+    },
+    {
+      "term": "can-do",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "can't be arsed to do",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "car coat",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/服饰_配件.md"
+    },
+    {
+      "term": "cardiac arrest",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "carve out a fortune",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/经济_商业_金钱.md"
+    },
+    {
+      "term": "cash-trapped",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "cash-trapped",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "catch sb red-handed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "Catcher in the Rye",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "caught in the crosshair",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "caught off guard",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "caught with one's pants down",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "centuries old",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "chain smoker",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "chalk up sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/成功_失败_结果.md"
+    },
+    {
+      "term": "chance meeting",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "chase your tail",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "chew over the problems",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "chew over the problems",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "chew toy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "chicken pox",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Children scavenge through garbage",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "chit-chat",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "choicest",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "choose the right and cull out the wrong",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/选择_优先_取舍.md"
+    },
+    {
+      "term": "circadian rhythm",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "civil engineer",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "class-action lawsuit",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "clear cut",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "clearsighted",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "clutter-free",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "coin a phrase",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "cold-call",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "come clean",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "come sb's way",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "come to a head",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "come to blows",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "come to nought",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "come to oneself",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/健康_身体_医护.md"
+    },
+    {
+      "term": "come to terms with sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/计划_组织_协调_匹配.md"
+    },
+    {
+      "term": "commonplace book",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "competitive edge",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/抽象概念_状态.md"
+    },
+    {
+      "term": "con man",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "concession stand",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "confound sb's tricks",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "conversation fodder",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "cordon oneself off",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "cotton on to sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/认知_理解_发现.md"
+    },
+    {
+      "term": "course deviation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/交通_车辆_旅行.md"
+    },
+    {
+      "term": "course through",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "cozy up to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "cozy up to sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "crippling debts",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/经济_商业_金钱.md"
+    },
+    {
+      "term": "cross my heart",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "curry favour with sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "cuss word",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "cut a dash",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "cut both ways",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "cut sb to the quick",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "d",
+      "reason": "no-remote-example-found",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "dash sb's ˈhopes",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "data exhaust",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "dawdle in front of the shop windows",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "day-tripper",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/交通_车辆_旅行.md"
+    },
+    {
+      "term": "dead shot",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "death knell",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "deep-seated",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "defy description",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "defy description",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "designer drug",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "devour book",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "diddle around",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "dietary adherence",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "digestive tract",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "diminishing returns",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "dinner roll",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "dirty little secret",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "do sth up",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "dodge a bullet",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/防止_延缓_抵御.md"
+    },
+    {
+      "term": "dodge the draft",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "dog tired",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/强度_程度.md"
+    },
+    {
+      "term": "dog-ear",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "dogged",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/意志_决心_自主.md"
+    },
+    {
+      "term": "double talk",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "double-barrelled",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "double-dyed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "down for the count",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "down payment",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "down the ages",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "down-home",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "doze off",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "draw sth out",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/时间_节奏_速度.md"
+    },
+    {
+      "term": "drawing-room",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/社会_政治_宗教.md"
+    },
+    {
+      "term": "drawn",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/身体_生理_本能.md"
+    },
+    {
+      "term": "drawn-out",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "dreadful finality",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "dressing-downdirge",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "drink to the dregs",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "drive a wedge between",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "drop the ball",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "drop the reins of government",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "drop-in",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/知识_认知_信息.md"
+    },
+    {
+      "term": "drum major",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "drum sth into sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "ducks in a row",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "dull-witted",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "dumb luck",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "dung",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "Dust Bowl",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "dust jacket",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "dynamic equilibrium",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "easy on the eye",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "eat humble pie",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "ecumenical church",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "eke out",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/资源_获取_利用.md"
+    },
+    {
+      "term": "eke out a living",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "eke out a poor existence by selling flowers",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "electrifying",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "embedded reporters in the war zone",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "empty-headed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "end table",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/家居_家具.md"
+    },
+    {
+      "term": "epileptic fit",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "esophageal cancer",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Even the experts were hoaxed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "ever-deepening",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "ever-increasing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "every little bit helps",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "every little bit helps",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Everyone has their little quirks",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "expose oneself / lay oneself open to ridicule",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/变化_发展_转变.md"
+    },
+    {
+      "term": "extended family",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "extra-credit",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "extramarital sexual behavior",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "facile princeps",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "faint-hearted",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "fair-skinned",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "fair-weather",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "fall flat",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/成功_失败_结果.md"
+    },
+    {
+      "term": "fall guy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "fall on one's sword",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "fall through",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "fall to sb's lot",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "fall to sb's lot (to do sth)",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "fancy oneself",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "far off the mark",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "far reaching",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Father Time",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/厨房_餐具_器皿.md"
+    },
+    {
+      "term": "fault line",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "feeble-minded",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/意志_决心_自主.md"
+    },
+    {
+      "term": "feed off/on",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/增强_提升_复苏.md"
+    },
+    {
+      "term": "feel a weave of remorse",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "feel a weave of remorse",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "fella",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "fiddle around",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "field dressing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "fight shy of",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "fight shy of",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "fight-or-flight",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "file through",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/进展_方向_路径_移动.md"
+    },
+    {
+      "term": "filet mignon",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "financial fallout",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/抽象概念_状态.md"
+    },
+    {
+      "term": "fine-spun",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/强度_程度.md"
+    },
+    {
+      "term": "finer points",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "five years of economic purgatory",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/抽象概念_状态.md"
+    },
+    {
+      "term": "flex your muscles",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "fling oneself into",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "fling yourself at sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "fling yourself into sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "flip a switch",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "flip one's lid",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "float sb's boat",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "fly off the shelves",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "fly the coop",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "fly under the radar",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "foist upon",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "foot the bill",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "for all practical purposes",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "force sb's hand",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "force the issue",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "fortified cereal products",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/增强_提升_复苏.md"
+    },
+    {
+      "term": "fortune-telling",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "found out",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "free radicals",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "fret over",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "full-dress",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "full-ride",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "full-throated",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "funeral home",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "fuss over",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "gad-about",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "gain traction",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "gain traction",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "gamble all chips on",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "garble a quotation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "gas range",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "gay men cruising on Clapham Common",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "gems of insight",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "general practitioner",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Genghis Khan",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "get (yourself)/be in a stew (about/over sth)",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "get (yourself)/be in a stew about/over sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "get along famously",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "get around",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/关系_交流_协商.md"
+    },
+    {
+      "term": "get out of a jam",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "get out of the rain",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "get sth off chest",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "get the sack",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "get-up-and-go",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "gig economy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "ginger ale",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "give full play to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "give lip service to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "give sb a leg-up",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/增强_提升_复苏.md"
+    },
+    {
+      "term": "give up the ghost",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "glad-handing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "glazed tiles",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "gnash your teeth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "go off the deep end",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "go out of one's way to do sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "go out the window",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "go round",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "go so far as to do sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "go to sb's head",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "go to the mat with sb for sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md"
+    },
+    {
+      "term": "goes a long way towards doing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "graft modern equipment on to these traditional techniques",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "grainy footage",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "gut-level",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/身体_生理_本能.md"
+    },
+    {
+      "term": "habitual criminal",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "hack a way through the brambles",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "hair-splitting",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "half-jokingly",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词副词/方式_方法.md"
+    },
+    {
+      "term": "hallmark industry",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/标志_象征_身份.md"
+    },
+    {
+      "term": "hand embroidered tablecloths",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "hard-and-fast",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "hard-liner",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/交通_车辆_旅行.md"
+    },
+    {
+      "term": "hard-wearing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "hate mongering",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "have a chip on one's shoulder",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/变化_发展_转变.md"
+    },
+    {
+      "term": "have been a brake on",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "have been a brake on",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "have one's way with",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "have something under your belt",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/资源_获取_利用.md"
+    },
+    {
+      "term": "have sth under belt",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/资源_获取_利用.md"
+    },
+    {
+      "term": "have your back to/against the wall",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "He feuded with his ex-wife",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "he latest bout of inflation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "He's a real hunk",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "He's talking palaver",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "heart-searching",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "heaven-sent",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "Her lips quirked suddenly",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "her pale, alabaster skin",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "high-brow",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "high-handed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "high-maintance",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "his gnarled, coarsened features",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "hoax calls",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "hokey-pokey",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "hold sb up to ridicule",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "hold sth in check",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/防止_延缓_抵御.md"
+    },
+    {
+      "term": "Holy See",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "honorific titles",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "hoped-for",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "house-proud",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "in a class by itself",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md"
+    },
+    {
+      "term": "in one's mind's eye",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "in the thick of sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "incendiary language",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "incessant chatter",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "incessant chatter",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "infant industry",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "infant industry",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "inter-disciplinary",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "investors who adopt the sensible policy of drip feeding money into shares",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/经济_商业_金钱.md"
+    },
+    {
+      "term": "irregularity",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "itty-bitty",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "jack-booted",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "jaw-dropping",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "jet-propelled",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "Johnny-come-later",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "jolt the mind",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/人物_角色_职业.md"
+    },
+    {
+      "term": "ju-jitsu",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "Judas Iscariot",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "juggle one’s life",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "jump into the fray",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "junky",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "keep sb. on a short leash",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "kick sth into gear",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板/开始_结束_完成.md"
+    },
+    {
+      "term": "knock the stuffing out of sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "knock the tar out of sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "knock-down",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "knot-head",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "known quantity",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "lacklustre hair",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "languish in poverty",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "laugh up one's sleeve",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "lavishly-illustrated",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "lawyers joust in the courtroom",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "lay sth bare",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "lead a jovial life",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "lead a jovial life",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "lean over backwards",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "lean over backwards/work on all cylinders/try one’s utmost/shoot one’s last bolt/go all out/put one’s shoulder to the wheel",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "less-than-stellar",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "letting information seep out of the Treasury",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "lick sb's boots",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "life hack",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "load balance",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "load for bear",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "look into recent bank holdups",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "looking-glass",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "loose cash",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Loud screams rent the air",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "low hanging fruit",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "lowered eyebrows",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Madonna was her teenage heroine",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "make a bonfire of",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/破坏_削弱_拆除.md"
+    },
+    {
+      "term": "make a foray into",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "make a pass at",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "make a spiel",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "make mincemeat of sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "make out of the whole cloth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "make quite a dent in",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/破坏_削弱_拆除.md"
+    },
+    {
+      "term": "many years of pertinacious advertising",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "mark sth up",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "marry above oneself",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/选择_优先_取舍.md"
+    },
+    {
+      "term": "mass-produced",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "mass-produced dross",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "maternity clothes",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "meagerly or amply",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "meagerly or amply",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语副词/其他_杂项.md"
+    },
+    {
+      "term": "meld eleven departments into five",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "men whose names are anathema",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "mirror a phenomenon that",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/抽象概念_状态.md"
+    },
+    {
+      "term": "mirror a phenomenon that",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Mise en place",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "molten",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "money-spinner",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "monotonous grind of city life",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "moonlight clan",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "moral ascendancy/political ascendancy/intellectual ascendancy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/抽象概念_状态.md"
+    },
+    {
+      "term": "motor skill",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "move into high gear",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/变化_发展_转变.md"
+    },
+    {
+      "term": "Mozart mania",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "muleheaded",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "mullet-headed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "National Merit Scholarship",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "ne of the plushest posts in US diplomacy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "new green shoots",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "nimble-footed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "nip in the air",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "non-fungible",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "not care/give a fig for sb/sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "not care/give tuppence for sb/sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "Nothing may come of it",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "of profound scholarship",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "offer avenues",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "on a razor’s edge",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md"
+    },
+    {
+      "term": "on good/bad terms with sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/关系_一致_相处.md"
+    },
+    {
+      "term": "on sb's radar",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "on the micro level/macro level",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "oral contraceptive",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/服饰_配件.md"
+    },
+    {
+      "term": "out of sb's depth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "overdone",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/强度_程度.md"
+    },
+    {
+      "term": "overreach oneself",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "overriding",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "overscrupulous",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/强度_程度.md"
+    },
+    {
+      "term": "overshot",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "pace oneself",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/计划_组织_协调_匹配.md"
+    },
+    {
+      "term": "page-turning",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "pare off",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "parlay sth into sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/成功_失败_结果.md"
+    },
+    {
+      "term": "parody",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "patch sth up",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md"
+    },
+    {
+      "term": "pecking order",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "pendent",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "people from all social strata",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "people in the lower income bracket",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/经济_商业_金钱.md"
+    },
+    {
+      "term": "pepper sb with sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/破坏_削弱_拆除.md"
+    },
+    {
+      "term": "period piece",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/人物_角色_职业.md"
+    },
+    {
+      "term": "pertaining unto",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "Pete has caught a whopper",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "pile sth on sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "pilot season",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "pis-aller",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "pitcher",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/容器_储存_包装.md"
+    },
+    {
+      "term": "pluck up the nerve",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "pluck up the nerve",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "ply your trade",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "poached salmon",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "point of entry",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "pointy-headed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/人物_角色_职业.md"
+    },
+    {
+      "term": "poke and pry",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "political one-upmanship",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "politicians of all persuasions",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/人物_角色_职业.md"
+    },
+    {
+      "term": "pontifex maximus",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "pontificate on the affairs of the world",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "pose a menance to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "pose a menance to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "post hoc",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "pregnant with joy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "pregnant with joy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "press round",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "price sth out",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/经济_商业_金钱.md"
+    },
+    {
+      "term": "proabortion",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "prod sb into doing",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "propel domestic demand",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "propel domestic demand",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "pry sb away from",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "puffer fish",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "pull off a great coup",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "put a finishing touch to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/开始_结束_完成.md"
+    },
+    {
+      "term": "put a slur on",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/评价_表扬_责备_证明.md"
+    },
+    {
+      "term": "put your finger on sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "putty in sb's hand",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/面料_纺织_材质.md"
+    },
+    {
+      "term": "quick-sighted",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "race to the bottom",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "rack one's brains",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "rake through",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "ram sth home",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/认知_理解_发现.md"
+    },
+    {
+      "term": "rap session",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "receive sb back into the fold",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/增强_提升_复苏.md"
+    },
+    {
+      "term": "redeem an obligation/exercise one’s function",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "reform-minded",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/意志_决心_自主.md"
+    },
+    {
+      "term": "regal sb with sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "Reid's dexterity on the guitar",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "relay one’s thanks to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "relay one’s thanks to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "requite kindness with ingratitude",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "resign oneself to sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "respiratory complication",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "retool the entire industrial structure",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/计划_组织_协调_匹配.md"
+    },
+    {
+      "term": "roll with the punches",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "run sb through",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "run smack into",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "runaway inflation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "rupture the city's governing coalition",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/关系_交流_协商.md"
+    },
+    {
+      "term": "rust one’s lessons",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "rust one’s lessons",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "rustl sth up",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "sack coat",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/服饰_配件.md"
+    },
+    {
+      "term": "sales offensive",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "sandbag the girl into marriage",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "sandbag the government",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "Saran Wrap",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "say sweepingly",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "says verbatim",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "scantily dressed models",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "scare out of one’s wits",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "scattere to the four winds",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "scavenge a street",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "scrape (the bottom of) the barrel",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/选择_优先_取舍.md"
+    },
+    {
+      "term": "scurry about",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "scurry back for life",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "self-actualization",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "self-congratulatory",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "self-consistent",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "self-mutilation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "self-regarding",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "self-renunciation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/意志_决心_自主.md"
+    },
+    {
+      "term": "self-seeking",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "semi-retired",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "send shivers/chills up (and down) your spine",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "sexual aberration",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "She dresses with real flair",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/服饰_配件.md"
+    },
+    {
+      "term": "She kept making broken-hearted ejaculations",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "She thinks men are slime",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "She's a real gem",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "shirk duty/abdicate responsibility",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "short-termism",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/时间_顺序_先后.md"
+    },
+    {
+      "term": "shot itself in the foot",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "shrink by a large margin",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "shrink by a large margin",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语副词/其他_杂项.md"
+    },
+    {
+      "term": "silm margin",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "sit loose to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "sit up",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "sizeable",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "skin in the game",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "slap sth on sb/sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "slap-happy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "slink away",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "slur over",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "smack of sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "smash out of the groove",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "smooth-tongued palaver",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "snap out of it/sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "snorts of laughter",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "snow flurries",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "soak one's mind in",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "social cohesion",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "social cohesion",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "society at large",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "soothing balm",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "soul-stirring",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "speak volumes for",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "speak volumes for",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "splash out on sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "spoon-fed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "square sth with sb",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md"
+    },
+    {
+      "term": "square sth with sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "stage-manage",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词动词/计划_组织_协调_匹配.md"
+    },
+    {
+      "term": "stalwart supporters",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/人物_角色_职业.md"
+    },
+    {
+      "term": "stand in another' s shoes",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "staple diet",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "staunchest",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/意志_决心_自主.md"
+    },
+    {
+      "term": "stear clear of",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "step on sb's toes",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "step on someone’s toes",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/计划_组织_协调_匹配.md"
+    },
+    {
+      "term": "sth hold sway unopposed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "stick to your/their last",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "stomach-churning",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/态度_立场_观点.md"
+    },
+    {
+      "term": "stonewall a demand for sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/防止_延缓_抵御.md"
+    },
+    {
+      "term": "story arc",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/文学_艺术_音乐_表演.md"
+    },
+    {
+      "term": "strain every sinew to do",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "strait-laced",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "straw poll",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "strike a compromise",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/关系_交流_协商.md"
+    },
+    {
+      "term": "strike up",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/开始_结束_完成.md"
+    },
+    {
+      "term": "strobe light",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "students majoring in the humanities",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "subtlety",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "sure-footed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "survive the tooth of time",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "survive the tooth of time",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "swaggering baby",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "swaggering baby",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "swathes of white silk",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "sweat gland",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "sweep along",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "sweep sth under the carpet",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "swim with the tide",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "swim with the tide",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "take a drag on",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "take a hard line",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/关系_交流_协商.md"
+    },
+    {
+      "term": "take it all in stride",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "take sb to one's bosom",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "take sth on the chin",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "take the helm",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "take to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "take umbrage at",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "take up the gauntlet",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "tasty tidbits",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "tax one’s patience",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "television fare",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "tender one's resignation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "tenure-track",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "tethered to reality",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "That guy's a real slime",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "That night was Richard's apotheosis",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "That was no mean feat",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "the abyss of suffering",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the austerities of wartime Europe",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the bowel of sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "the brevity of human life",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the cathedral/college precincts",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "The church is acoustically perfect",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the common herd",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the cusp of a leaf",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the detritus of everyday life",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the detritus of war",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the ejaculation of semen",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the environmental bandwagon",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the environmental costs of landfill",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the gaucheness of youth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md"
+    },
+    {
+      "term": "the key instigators of reform",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the language of diplomatic niceties",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/出版_书籍_写作_语言.md"
+    },
+    {
+      "term": "the last dregs of daylight",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the latest bout of inflation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the museum's custodians",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the nicety of his argument",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/抽象概念_状态.md"
+    },
+    {
+      "term": "the only game in town",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the sailing fraternity",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the sensory apparatus",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the sinews of better living",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the small of sb's back",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "the stalls/the orchestra",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the team's excellent physical conditioning",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the unction of flattery",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "The vibes weren't right",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "the wormwoodof defeat",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "then-emerging",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "They behaved like imbeciles",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "This picture is the gem",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "this sumptuously illustrated volume",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "three score years and ten",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "throw sb for a loop",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "tie sb in knots",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "titillating pictures",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "to buy gold as a hedge against inflation",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "to clinch an argument/a deal/a victory",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/成功_失败_结果.md"
+    },
+    {
+      "term": "to crank an engine",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "to fiddle the accounts",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "to find a mooring",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "to peddle illegal drugs",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "to peddle malicious gossip",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "to stage a ceremony/an event/an exhibition",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "to stage/mount a coup",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "to stoke up a fire with more coal",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "to stoke up envy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "toddler's first few halting steps",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md"
+    },
+    {
+      "term": "too big for one's britches",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md"
+    },
+    {
+      "term": "toot my won horn",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "touch up a photographic negative",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "touch up an article",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/外观_装饰_表现.md"
+    },
+    {
+      "term": "Traitors are held in infamy",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "treasure up in one's memory",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "trend-setting",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "trifle the hours away",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "trouble spot",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "trump sth up",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "tumble in bed",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "tune in to sb/sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "tune oneself to",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "turn swords into ploughshares",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "two-for-one",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "umbrella term",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "under correction",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/逻辑_合理_可信.md"
+    },
+    {
+      "term": "under the sod",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md"
+    },
+    {
+      "term": "underhand tactics",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "underhand tactics",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "up to your neck in sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "upper-crust",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md"
+    },
+    {
+      "term": "upstart",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "upstart",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "vacillate between",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "vacillate between",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "valorous deeds",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "value-laden",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "vanquish one's fears",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md"
+    },
+    {
+      "term": "vie",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "Visiting Associate",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "want no truck with",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "water-tight",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "wax fat and kick",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/变化_发展_转变.md"
+    },
+    {
+      "term": "wax（+lyrical, eloquent, sentimental, etc）",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "weekend shopping forays to France",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "well-aged",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "whiney",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "white-knuckled",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md"
+    },
+    {
+      "term": "Why follow the herd",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/面料_纺织_材质.md"
+    },
+    {
+      "term": "widespread agitation for social reform",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    },
+    {
+      "term": "wimp out of sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md"
+    },
+    {
+      "term": "wimpish behaviour",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "windfall tax",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md"
+    },
+    {
+      "term": "with silk ribbons and flowers entwined in their hair",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "within living memory",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/人物_角色_职业.md"
+    },
+    {
+      "term": "work your ass off",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md"
+    },
+    {
+      "term": "worm your way/yourself into sth",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/句式模板_动词/资源_获取_利用.md"
+    },
+    {
+      "term": "yellowing blow-ups of James Dean",
+      "reason": "low-quality-candidate",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md"
+    }
+  ],
+  "details": [
+    {
+      "term": "(tied to) sb's apron strings",
+      "source": "tatoeba",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "example": "That young couple are still tied to their parent's apron strings."
+    },
+    {
+      "term": "agonize over/about",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "example": "After my bout with Guillan-Barre Syndrome, it took me 6 months to be up and about again."
+    },
+    {
+      "term": "altruistical",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "example": "His helping the old woman with her shopping was deemed highly altruistic by everyone, especially since her home was a mile away."
+    },
+    {
+      "term": "be on the go",
+      "source": "fallback",
+      "sourcePath": "Project/背单词/句式模板_形容词/强度_程度.md",
+      "example": "Like most working mothers, she is always on the go."
+    },
+    {
+      "term": "beat around the bush",
+      "source": "freedictionary",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "example": "Just stop beating around the bush and tell me what the problem is!"
+    },
+    {
+      "term": "bend/lean over backwards to do",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "example": "A diver who stays deep for too long must ascend very slowly in order to prevent the bends."
+    },
+    {
+      "term": "coast through/to sth",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/句式模板_动词/成功_失败_结果.md",
+      "example": "When I ran out of gas, fortunately I managed to coast into a nearby gas station."
+    },
+    {
+      "term": "darken sb's door/doors",
+      "source": "freedictionary",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "example": "[The loudspeaker] only has sound coming out of the left side, can we please do something about this, Don? It's 10 minutes before doors."
+    },
+    {
+      "term": "exercise one’s function",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "example": "As an exercise , write a function that takes a string as an argument and displays the letters backward , one per line ."
+    },
+    {
+      "term": "fritter sth away",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板_动词/时间_节奏_速度.md",
+      "example": "The faster you trade , the more you fritter away that advantage ."
+    },
+    {
+      "term": "give (full) vent to sth",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板_副词/其他_杂项.md",
+      "example": "She longed to give full vent to her sorrow ."
+    },
+    {
+      "term": "give (full) vent to sth",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "example": "She longed to give full vent to her sorrow ."
+    },
+    {
+      "term": "hybris",
+      "source": "oxford",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "example": "He thought he was above the law and was ultimately punished for his hubris."
+    },
+    {
+      "term": "keep your eyes peeled/skinned for sb/sth",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "example": "Along the way, keep your eyes peeled for Mot-Mot birds, iguanas and other wildlife. BBC: The forgotten ruins of Mexico��s Ruta Puuc"
+    },
+    {
+      "term": "let sth rip",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板_动词/进展_方向_路径_移动.md",
+      "example": "Once on the open road , he let rip ."
+    },
+    {
+      "term": "make an end run",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/计划_组织_协调_匹配.md",
+      "example": "Some clubs make dancers rent out the stage in an elaborate end-run to avoid employee treatment. FORBES: Lap Dances Aren't Art, At Least Not In NY"
+    },
+    {
+      "term": "make no bones about",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/短语动词/关系_交流_协商.md",
+      "example": "I 'll make no bones about it - I don't think you did a good job of painting my house ."
+    },
+    {
+      "term": "make short work of",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "example": "A good electric screwdriver will make short work of the disassembly process."
+    },
+    {
+      "term": "McJobs",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "example": "We wanted to sell a turnkey plant, but they jobbed out the contract to small firms."
+    },
+    {
+      "term": "menigitis",
+      "source": "oxford",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "example": "He is suffering from viral meningitis."
+    },
+    {
+      "term": "nepotists",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "example": "Nepotism can get you very far in the world if you've got the right connections."
+    },
+    {
+      "term": "not a jot or tittle",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "example": "The world situation matters not a jot or tittle to you ."
+    },
+    {
+      "term": "not bat an eyelid",
+      "source": "tatoeba",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/情绪_态度_心理.md",
+      "example": "Tim's mother did not bat an eyelid when he came out as gay."
+    },
+    {
+      "term": "not mince words",
+      "source": "freedictionary",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/关系_交流_协商.md",
+      "example": "Despite prolonged exposure to harsh conditions, medics say Nora Tallis returned to the Nexus in stable condition. In a statement to HNS, Tallis did not mince words. \"Never send me to that hellhole again.\""
+    },
+    {
+      "term": "odiousness",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "example": "Scrubbing the toilet is an odious task."
+    },
+    {
+      "term": "of one's own accord",
+      "source": "tatoeba",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "example": "Of the $1.5 trillion in student debt, one-third is owned by only 6% of all student loan borrowers, according to the Brookings Institution."
+    },
+    {
+      "term": "on one's own terms",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板_形容词/态度_立场_观点.md",
+      "example": "In terms of composition , emotion falls into three divisions : rational , artistic and social ones . Each with its own characteristics ."
+    },
+    {
+      "term": "pile on the agony/gloom",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "example": "the gloom of a forest, or of midnight"
+    },
+    {
+      "term": "pin (all) your hopes/faith on sb/sth",
+      "source": "oxford",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "example": "These reforms are totally untested and will require a leap of faith on the part of teachers."
+    },
+    {
+      "term": "rub off on/onto sb",
+      "source": "freedictionary",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "example": "A new drug has just come onto the market."
+    },
+    {
+      "term": "skate over/around",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/防止_延缓_抵御.md",
+      "example": "The road took a brief detour around the large rock formation, then went straight on."
+    },
+    {
+      "term": "sth rears its (ugly) head",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板_动词/开始_结束_完成.md",
+      "example": "Ah yes , that little thing we like to call complexity rears its ugly head ."
+    },
+    {
+      "term": "take the edge off sth",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板_动词/减轻_缓和_安抚.md",
+      "example": "It may also take the edge off withdrawal symptoms such as irritability , headaches , and lethargy ."
+    },
+    {
+      "term": "try one’s utmost",
+      "source": "ydr",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "example": "Feeling overwhelmed is a horrible feeling and one we tend to try our utmost to avoid ."
+    },
+    {
+      "term": "under one's breath",
+      "source": "tatoeba",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md",
+      "example": "Danish sometimes sounds mumbly, as if it's being spoken under one's breath, at least to non-native speakers."
+    },
+    {
+      "term": "想",
+      "source": "dictionary",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "example": "He claims to be a doctor, but he's nothing but a fast-talking phony."
+    }
+  ]
+}
