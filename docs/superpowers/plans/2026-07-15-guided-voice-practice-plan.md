@@ -95,4 +95,4 @@ Use explicit caution overrides for pejorative or context-sensitive terms; classi
 
 - [x] **Step 3: Supply pack terms with their generated suitability metadata and select up to four active production targets plus up to three retry words.**
 
-- [ ] **Step 4: Update progress documentation, run `npm test`, inspect a local served page, commit the scoped files, and push `main` and `gh-pages`.**
+- [x] **Step 4: Update progress documentation, run `npm test`, inspect a local served page, commit the scoped files, and push `main` and `gh-pages`.**
