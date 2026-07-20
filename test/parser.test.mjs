@@ -99,7 +99,7 @@ test("parseVocabularyFile extracts target terms from quoted dictionary sentence 
   );
 });
 
-test("parseVocabularyFile recovers examples from truncated legacy inline headings", () => {
+test("parseVocabularyFile preserves the term definition when a truncated legacy heading carries an example translation", () => {
   const markdown = `# 旧格式
 
 #### (get/have sb) over a barrel:（使某人）听从摆布，处于被动地位（They've got us over a barrel. Either we agree to their terms or we lose the money
@@ -113,6 +113,7 @@ test("parseVocabularyFile recovers examples from truncated legacy inline heading
   });
 
   assert.equal(entries[0].term, "(get/have sb) over a barrel");
-  assert.equal(entries[0].definition, "他们让我们别无选择。我们要么答应他们的条件，要么损失这笔钱");
+  assert.equal(entries[0].definition, "（使某人）听从摆布，处于被动地位");
   assert.equal(entries[0].examples[0].en, "They've got us over a barrel. Either we agree to their terms or we lose the money");
+  assert.equal(entries[0].examples[0].zh, "他们让我们别无选择。我们要么答应他们的条件，要么损失这笔钱");
 });

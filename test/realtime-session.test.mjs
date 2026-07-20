@@ -46,6 +46,8 @@ test("buildRealtimeSessionConfig fixes model voice and tutor instructions server
   assert.equal(config.session.model, "gpt-realtime");
   assert.equal(config.session.voice, "alloy");
   assert.match(config.session.instructions, /5-6 turn spoken role-play/);
+  assert.match(config.session.instructions, /recognition, supported production, semi-free production, then free response/i);
+  assert.match(config.session.instructions, /Hint 1-5/i);
   assert.match(config.session.instructions, /stakeholder/);
   assert.equal(config.session.tools.length, 0);
 });

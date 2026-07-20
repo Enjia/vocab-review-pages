@@ -139,6 +139,8 @@ ${wordLines}
 
 Rules:
 - Start immediately with a realistic scene and one short spoken question.
+- Use a four-pass ladder inside the conversation: recognition, supported production, semi-free production, then free response.
+- If the learner asks for Hint 1-5, reveal only one help layer at a time in this order: topic cue, keyword cue, phrase frame, forced choice, model answer.
 - Naturally use target vocabulary in your own turns.
 - Ask the learner to reuse one or two target words per answer.
 - After each learner reply, give one concise correction or upgrade, then continue.

@@ -8,7 +8,7 @@
       name="description"
       content="A static vocabulary review lab generated from Obsidian notes."
     />
-    <link rel="stylesheet" href="./styles.css?v=20260715-guided-voice" />
+    <link rel="stylesheet" href="./styles.css?v=20260720-stuck-rescue" />
   </head>
   <body>
     <div class="shell">
@@ -162,10 +162,9 @@
                 <span>Pack</span>
                 <select id="nightPackSelect"></select>
               </label>
-              <div class="segmented night-view-group" id="nightViewGroup" aria-label="Dialogue support level">
-                <button class="is-active" data-night-view="scene" aria-pressed="true">Scene</button>
-                <button data-night-view="hints" aria-pressed="false">Hints</button>
-                <button data-night-view="model" aria-pressed="false">Model answers</button>
+              <div class="night-timebox">
+                <strong>10:30-10:45</strong>
+                <span>15-minute voice routine</span>
               </div>
             </div>
 
@@ -174,27 +173,60 @@
               <p id="nightScene"></p>
             </div>
 
-            <div class="night-words" id="nightWords"></div>
-
-            <div class="night-routine" aria-label="15-minute practice routine">
-              <div><strong>2 min · Warm up</strong><span>Enter the scene with easy questions.</span></div>
-              <div><strong>8 min · Speak</strong><span>Respond freely before opening hints.</span></div>
-              <div><strong>3 min · Review</strong><span>Keep only the three most useful upgrades.</span></div>
-              <div><strong>2 min · Retry</strong><span>Say one weak response again, more naturally.</span></div>
+            <div class="night-stage-shell">
+              <div class="night-stage-rail" id="nightStageRail"></div>
+              <div class="night-focus-card">
+                <div>
+                  <span class="night-stage-kicker">Current stage</span>
+                  <h3 id="nightStageLabel">Recognition</h3>
+                  <p id="nightStageDescription"></p>
+                </div>
+                <div class="night-words" id="nightWords"></div>
+                <div class="night-support-panel" id="nightSupportPanel"></div>
+                <div class="night-rescue">
+                  <label for="nightStuckQuestion">When ChatGPT asks something different</label>
+                  <textarea
+                    id="nightStuckQuestion"
+                    rows="2"
+                    placeholder="Paste the latest ChatGPT Voice question here when you get stuck."
+                  ></textarea>
+                  <div class="night-rescue-panel" id="nightRescuePanel"></div>
+                </div>
+                <div class="night-stage-actions">
+                  <button class="primary" id="nightCopyButton">Copy ChatGPT Voice prompt</button>
+                  <button class="secondary" id="nightNeedHelpButton">Need help</button>
+                  <button class="secondary" id="nightResetHintButton">Reset hints</button>
+                  <button class="secondary" id="nightNextStageButton">Next stage</button>
+                </div>
+              </div>
             </div>
 
-            <div class="night-actions">
-              <button class="primary" id="nightCopyButton">Copy ChatGPT prompt</button>
-              <button class="secondary" id="nightPracticedButton">Practiced tonight</button>
-            </div>
+            <details class="night-disclosure">
+              <summary>Practice rhythm</summary>
+              <div class="night-routine" aria-label="15-minute practice routine">
+                <div><strong>2 min · Warm up</strong><span>Enter the scene with easy questions.</span></div>
+                <div><strong>8 min · Speak</strong><span>Respond freely before opening hints.</span></div>
+                <div><strong>3 min · Review</strong><span>Keep only the three most useful upgrades.</span></div>
+                <div><strong>2 min · Retry</strong><span>Say one weak response again, more naturally.</span></div>
+              </div>
+            </details>
 
-            <textarea id="nightPrompt" class="night-prompt" readonly></textarea>
-            <div class="night-dialogue" id="nightDialogue"></div>
-            <div class="night-results" id="nightResults"></div>
+            <details class="night-disclosure">
+              <summary>Model answers</summary>
+              <div class="night-dialogue" id="nightDialogue"></div>
+            </details>
+
+            <details class="night-disclosure">
+              <summary>Practice log</summary>
+              <div class="night-actions">
+                <button class="secondary" id="nightPracticedButton">Practiced tonight</button>
+              </div>
+              <div class="night-results" id="nightResults"></div>
+            </details>
           </section>
         </section>
       </main>
     </div>
-    <script type="module" src="./src/app.js?v=20260715-guided-voice"></script>
+    <script type="module" src="./src/app.js?v=20260720-stuck-rescue"></script>
   </body>
 </html>

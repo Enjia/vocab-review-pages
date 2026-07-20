@@ -28325,11 +28325,9 @@
     "example": "US presidential nominees get a post-convention bump in survey ratings.",
     "source": "dictionary"
   },
-  "be at one with sb/sth": null,
   "dictionary:coast through/to sth": null,
   "dictionary:coast through": null,
   "dictionary:to sth": null,
-  "be gunning for sb/sth": null,
   "dictionary:through sth": null,
   "dictionary:coast": {
     "example": "When I ran out of gas, fortunately I managed to coast into a nearby gas station.",
@@ -28339,7 +28337,6 @@
     "source": "dictionary",
     "example": "When I ran out of gas, fortunately I managed to coast into a nearby gas station."
   },
-  "d": null,
   "dictionary:darken sb's door/doors": null,
   "dictionary:darken sb's door": null,
   "dictionary:darken sbs": null,
@@ -28796,5 +28793,430 @@
   "worm your way/yourself into sth": {
     "source": "tatoeba",
     "example": "The worm crawls."
-  }
+  },
+  "dictionary:a teensy bit": null,
+  "dictionary:be bound up in": null,
+  "dictionary:be lost on sb": null,
+  "dictionary:be of no account": null,
+  "dictionary:teensy bit": null,
+  "dictionary:lost": {
+    "example": "Deep beneath the ocean, the Titanic was lost to the world.",
+    "source": "dictionary"
+  },
+  "dictionary:teensy": {
+    "example": "There's only a teensy chance that I'll be able to make your party, as I'm up to my eyeballs in work.",
+    "source": "dictionary"
+  },
+  "be bound up in": {
+    "source": "tatoeba",
+    "example": "May his soul be bound up in the bond of life."
+  },
+  "dictionary:bear up under": null,
+  "a teensy bit": {
+    "source": "ydr",
+    "example": "No putting things back in the fridge when there 's a teensy bit left ."
+  },
+  "be of no account": {
+    "source": "tatoeba",
+    "example": "Delete your account."
+  },
+  "dictionary:bear under": null,
+  "dictionary:bubble up": null,
+  "dictionary:butt in on sb": null,
+  "dictionary:bubble": {
+    "example": "Many players tend to play timidly (not play many hands) around the bubble, to keep their chips and last longer in the game.",
+    "source": "dictionary"
+  },
+  "dictionary:crack up": {
+    "example": "That joke was crack up.",
+    "source": "dictionary"
+  },
+  "crack up": {
+    "source": "dictionary",
+    "example": "That joke was crack up."
+  },
+  "dictionary:bear": {
+    "example": "Judging from the look on his face, he wasn't bearing good news.",
+    "source": "dictionary"
+  },
+  "dictionary:butt": {
+    "example": "Be careful in the pen, that ram can knock you down with a butt.",
+    "source": "dictionary"
+  },
+  "dictionary:creep sb out": null,
+  "dictionary:creep out": null,
+  "bubble up": {
+    "source": "freedictionary",
+    "example": "So when the well blew, the methane did not bubble up gently."
+  },
+  "dictionary:do sb lasting good": null,
+  "dictionary:lasting good": null,
+  "dictionary:lasting": {
+    "example": "After World War I it was hoped that a lasting peace had been achieved. It hadn’t.",
+    "source": "dictionary"
+  },
+  "dictionary:bend sb to do": null,
+  "dictionary:bone up on": null,
+  "bone up on": {
+    "source": "ydr",
+    "example": "Maybe you have to bone up on your test - taking skills ."
+  },
+  "dictionary:draw sb out": null,
+  "dictionary:draw out": {
+    "example": "It seems the boss tries to draw out these meetings for as long as possible just to punish us.",
+    "source": "dictionary"
+  },
+  "draw sb out": {
+    "source": "dictionary",
+    "example": "It seems the boss tries to draw out these meetings for as long as possible just to punish us."
+  },
+  "dictionary:egg sb on": null,
+  "dictionary:egg": {
+    "example": "After I cut the tubing, I found that I had slightly egged it in the vise.",
+    "source": "dictionary"
+  },
+  "butt in on sb": {
+    "source": "tatoeba",
+    "example": "I hate butt rock."
+  },
+  "dictionary:gird (up) your loins": null,
+  "dictionary:gird loins": null,
+  "dictionary:gird": null,
+  "dictionary:loins": null,
+  "bend sb to do": {
+    "source": "tatoeba",
+    "example": "Bend your fingers."
+  },
+  "do sb lasting good": {
+    "source": "tatoeba",
+    "example": "This is the park where we said our last good-bye."
+  },
+  "bear up under": {
+    "source": "ydr",
+    "example": "But there is a subtle logical leap that , I believe , does not bear up under closer scrutiny ."
+  },
+  "egg sb on": {
+    "source": "tatoeba",
+    "example": "I made eggs."
+  },
+  "dictionary:hush up": null,
+  "dictionary:hush": null,
+  "hush up": {
+    "source": "freedictionary",
+    "example": "Hush up now; you have talked too much."
+  },
+  "dictionary:jerk sb around": null,
+  "dictionary:jerk around": null,
+  "dictionary:jerk": {
+    "example": "When I yell \"OK,\" give the mooring line a good jerk!",
+    "source": "dictionary"
+  },
+  "dictionary:gussy up": null,
+  "dictionary:hit up": {
+    "example": "I'd like to hit him up about last episode, but he's working all night.",
+    "source": "dictionary"
+  },
+  "dictionary:growling roaring": null,
+  "dictionary:gussy": null,
+  "dictionary:growling（roaring）": null,
+  "hit up": {
+    "source": "freedictionary",
+    "example": "Jerry will hit up a round for us all."
+  },
+  "dictionary:keep sb in the loop": null,
+  "dictionary:roaring": {
+    "example": "The ice-cream sellers did a roaring trade in the midday heat.",
+    "source": "dictionary"
+  },
+  "dictionary:keep loop": null,
+  "dictionary:loop": {
+    "example": "Arches, loops, and whorls are patterns found in fingerprints.",
+    "source": "dictionary"
+  },
+  "creep sb out": {
+    "source": "ydr",
+    "example": "Trains creep out of Washington 's Union Station and pause at intervals , inexplicably, as they travel through the northern Virginia suburbs ."
+  },
+  "dictionary:lam into sb": null,
+  "dictionary:lam": null,
+  "gussy up": {
+    "source": "freedictionary",
+    "example": "Not trusting filmgoers to catch the drift, Ms. Coppola underscores the women’s attempts to gussy up with snippets of arch dialogue."
+  },
+  "dictionary:muddle up": {
+    "example": "Whenever I meet the twins, I always muddle up their names. I call John Jim, and Jim John.",
+    "source": "dictionary"
+  },
+  "muddle up": {
+    "source": "dictionary",
+    "example": "Whenever I meet the twins, I always muddle up their names. I call John Jim, and Jim John."
+  },
+  "dictionary:panicstricken（等于panic stricken）": null,
+  "dictionary:panicstricken panicstricken": null,
+  "dictionary:panicstricken（等于panic-stricken）": null,
+  "dictionary:panicstricken（等于panic": null,
+  "dictionary:stricken）": null,
+  "dictionary:panicstricken": null,
+  "panicstricken（等于panic-stricken）": {
+    "source": "freedictionary",
+    "example": "In the clouded haze men became panicstricken with the thought that the regiment had lost its path, and was proceeding in a perilous direction."
+  },
+  "dictionary:pass sb off as sb": null,
+  "dictionary:pass": {
+    "example": "I gained three passes at A-level, in mathematics, French, and English literature.",
+    "source": "dictionary"
+  },
+  "gird (up) your loins": {
+    "source": "tatoeba",
+    "example": "I'll put on a white shirt and gird myself with a silk sash."
+  },
+  "dictionary:pay sb back": null,
+  "lam into sb": {
+    "source": "tatoeba",
+    "example": "“This year will be amazing. Far better than the coming year, ”said Lounis Ait-Mengellat LAM."
+  },
+  "dictionary:pay back": null,
+  "dictionary:perk sb up": null,
+  "dictionary:pay": {
+    "example": "Many employers have rules designed to keep employees from comparing their pays.",
+    "source": "dictionary"
+  },
+  "growling（roaring）": {
+    "source": "tatoeba",
+    "example": "Dog is growling."
+  },
+  "jerk sb around": {
+    "source": "tatoeba",
+    "example": "Let's jerk around with this cool website instead of studying."
+  },
+  "dictionary:play up": {
+    "example": "Children who do not receive enough attention may begin to play up.",
+    "source": "dictionary"
+  },
+  "play up": {
+    "source": "dictionary",
+    "example": "Children who do not receive enough attention may begin to play up."
+  },
+  "dictionary:prick (up) your ears": null,
+  "dictionary:perk": {
+    "example": "Free coffee is one of the perks of the job.",
+    "source": "dictionary"
+  },
+  "dictionary:prick ears": null,
+  "dictionary:prick": {
+    "example": "I felt a sharp prick as the nurse took a sample of blood.",
+    "source": "dictionary"
+  },
+  "dictionary:ears": {
+    "example": "the ears of a tub, skillet, or dish; The ears of a boat are outside kneepieces near the bow.",
+    "source": "dictionary"
+  },
+  "dictionary:pin sb down": null,
+  "keep sb in the loop": {
+    "source": "tatoeba",
+    "example": "Keep us in the loop."
+  },
+  "dictionary:prop up": null,
+  "dictionary:prop": {
+    "example": "They stuck a block of wood under it as a prop.",
+    "source": "dictionary"
+  },
+  "prop up": {
+    "source": "freedictionary",
+    "example": "A $465 million federal loan in 2010 helped prop up Tesla at a crucial juncture, and its customers have benefitted from hefty tax incentives."
+  },
+  "dictionary:protégé": null,
+  "dictionary:prote": null,
+  "perk sb up": {
+    "source": "ydr",
+    "example": "By consolidating the hawks , the new alignment may also unify and perk up the doves in Israel 's aviary ."
+  },
+  "dictionary:psyche up for": null,
+  "pay sb back": {
+    "source": "ydr",
+    "example": "Keep a portion of sb . 's pay back ."
+  },
+  "dictionary:puff sb up": null,
+  "dictionary:pin down": {
+    "example": "Pin down the tablecloth, so it doesn't blow away in the breeze.",
+    "source": "dictionary"
+  },
+  "pin sb down": {
+    "source": "dictionary",
+    "example": "Pin down the tablecloth, so it doesn't blow away in the breeze."
+  },
+  "dictionary:psyche": null,
+  "dictionary:puff": {
+    "example": "a sleeve with a puff at the shoulder",
+    "source": "dictionary"
+  },
+  "dictionary:ramp up": {
+    "example": "The 5G development project will ramp up in the first quarter.",
+    "source": "dictionary"
+  },
+  "ramp up": {
+    "source": "dictionary",
+    "example": "The 5G development project will ramp up in the first quarter."
+  },
+  "dictionary:rat sb out": null,
+  "dictionary:rat out": null,
+  "dictionary:rat": {
+    "example": "He loved hockey and was a devoted rink rat.",
+    "source": "dictionary"
+  },
+  "pass sb off as sb": {
+    "source": "tatoeba",
+    "example": "Time passes relentlessly."
+  },
+  "dictionary:ratchet up": null,
+  "dictionary:ratchet": {
+    "example": "It's time to ratchet up the intensity level here.",
+    "source": "dictionary"
+  },
+  "ratchet up": {
+    "source": "dictionary",
+    "example": "It's time to ratchet up the intensity level here."
+  },
+  "dictionary:run sb down": null,
+  "dictionary:run down": {
+    "example": "He was run down while crossing the main road.",
+    "source": "dictionary"
+  },
+  "run sb down": {
+    "source": "dictionary",
+    "example": "He was run down while crossing the main road."
+  },
+  "dictionary:scrunch up": null,
+  "dictionary:scrunch": {
+    "example": "He scrunched the paper into a ball and threw it at the whistling girl.",
+    "source": "dictionary"
+  },
+  "scrunch up": {
+    "source": "ydr",
+    "example": "To relax , I scrunch up my shoulders to my ears and then slowly let them fall down ."
+  },
+  "dictionary:size up": null,
+  "dictionary:size": {
+    "example": "The size of the building seemed to have increased since I was last there.",
+    "source": "dictionary"
+  },
+  "size up": {
+    "source": "freedictionary",
+    "example": "Before we can begin to size up the problem, we'll need more information."
+  },
+  "dictionary:snarl up": null,
+  "protégé": {
+    "source": "ydr",
+    "example": "n. a person who receives support and protection from an influential patron who furthers the protege's career"
+  },
+  "dictionary:stoke up on with": null,
+  "dictionary:snarl": null,
+  "psyche up for": {
+    "source": "tatoeba",
+    "example": "Psych yourself up for it."
+  },
+  "dictionary:touch up": {
+    "example": "Use a small brush to touch up the paint anywhere it is uneven.",
+    "source": "dictionary"
+  },
+  "touch up": {
+    "source": "dictionary",
+    "example": "Use a small brush to touch up the paint anywhere it is uneven."
+  },
+  "dictionary:trip up": null,
+  "dictionary:trip": {
+    "example": "When we get into the factory, trip the lights.",
+    "source": "dictionary"
+  },
+  "rat sb out": {
+    "source": "tatoeba",
+    "example": "I was ratted out by my best friend."
+  },
+  "dictionary:tune out/tune sb out": null,
+  "prick (up) your ears": {
+    "source": "tatoeba",
+    "example": "Prick up your ears."
+  },
+  "snarl up": {
+    "source": "ydr",
+    "example": "One snarl up this month along a highway leading into Beijing was at one point over 100 km long and left traffic gridlocked for eleven days until it mysteriously vanished on Thursday August 26th ."
+  },
+  "dictionary:turn the table on sb": null,
+  "stoke up on with": {
+    "source": "tatoeba",
+    "example": "Robert touched Sandra's hair and gently stoked it."
+  },
+  "dictionary:up to the hilt": null,
+  "dictionary:hilt": null,
+  "trip up": {
+    "source": "ydr",
+    "example": "Be careful you don't trip up on the step ."
+  },
+  "dictionary:wean sb on": null,
+  "up to the hilt": {
+    "source": "freedictionary",
+    "example": "he draws it again, and just wetting it with spittle, re-enters, and with ease sheath'd it now up to the hilt"
+  },
+  "dictionary:tune out": null,
+  "dictionary:tune sb out": null,
+  "dictionary:wean": null,
+  "dictionary:out tune": null,
+  "dictionary:weigh sb down": null,
+  "dictionary:weigh down": {
+    "example": "We used some sandbags to weigh down the balloon.",
+    "source": "dictionary"
+  },
+  "weigh sb down": {
+    "source": "dictionary",
+    "example": "We used some sandbags to weigh down the balloon."
+  },
+  "tune out/tune sb out": {
+    "source": "freedictionary",
+    "example": "Ants are everywhere, in such abundance that we tune them out like we tune out traffic noise."
+  },
+  "dictionary:wind up": {
+    "example": "Even though he had bad news, he tried to wind up his speech on a positive note.",
+    "source": "dictionary"
+  },
+  "wind up": {
+    "source": "dictionary",
+    "example": "Even though he had bad news, he tried to wind up his speech on a positive note."
+  },
+  "dictionary:work up to": null,
+  "puff sb up": {
+    "source": "tatoeba",
+    "example": "A light, airy puff flows from this perfume."
+  },
+  "dictionary:up a hornet's nest": null,
+  "dictionary:turn table": null,
+  "dictionary:table": {
+    "example": "The legislature tabled the amendment, so they will not be discussing it until later.",
+    "source": "dictionary"
+  },
+  "dictionary:hornets nest": null,
+  "dictionary:hornets": null,
+  "dictionary:nest": {
+    "example": "I was forced to change trumps when I found the ace, jack, and nine of diamonds in the nest.",
+    "source": "dictionary"
+  },
+  "wean sb on": {
+    "source": "tatoeba",
+    "example": "When do giraffe calves wean?"
+  },
+  "work up to": {
+    "source": "ydr",
+    "example": "They work up to 13 hours a day , live in cold , dirty , overcrowded dormitories and eat poor food ."
+  },
+  "up a hornet's nest": {
+    "source": "tatoeba",
+    "example": "Be careful. You're going to stir up a hornet's nest."
+  },
+  "turn the table on sb": {
+    "source": "tatoeba",
+    "example": "Whose turn is it to lay the table?"
+  },
+  "d": null,
+  "be lost on sb": null,
+  "be at one with sb/sth": null,
+  "be gunning for sb/sth": null
 }

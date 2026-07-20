@@ -81,9 +81,15 @@ function parseEntryBlock(block, meta, relativePath) {
 
   const body = block.lines.join("\n").trim();
   const legacyInline = extractLegacyInlineData(block.rawTerm);
-  const definition = extractDefinition(block.lines) || legacyInline?.definition || "";
+  const bodyDefinition = extractDefinition(block.lines);
+  const truncatedLegacyExample = isTruncatedLegacyExampleTranslation(block.rawTerm, legacyInline, bodyDefinition);
+  const definition = truncatedLegacyExample
+    ? legacyInline.definition
+    : bodyDefinition || legacyInline?.definition || "";
   const examples = extractExamples(block.lines);
-  const resolvedExamples = examples.length ? examples : legacyInline?.examples || [];
+  const resolvedExamples = examples.length
+    ? examples
+    : attachTruncatedTranslation(legacyInline?.examples || [], bodyDefinition, truncatedLegacyExample);
   const relationLine = block.lines.find((line) => line.trim().startsWith("- 关联：")) || "";
   const relationWithoutLinks = relationLine.replace(/\[\[[^\]]+\]\]/g, "");
   const tags = [...relationWithoutLinks.matchAll(/#([\p{Script=Han}\w-]+)/gu)].map(
@@ -106,6 +112,22 @@ function parseEntryBlock(block, meta, relativePath) {
     sourcePath: relativePath,
     body,
   };
+}
+
+function isTruncatedLegacyExampleTranslation(rawTerm, legacyInline, bodyDefinition) {
+  const exampleStart = rawTerm.lastIndexOf("（");
+  return Boolean(
+    legacyInline?.definition &&
+      legacyInline.examples?.length &&
+      bodyDefinition &&
+      exampleStart !== -1 &&
+      rawTerm.indexOf("）", exampleStart) === -1,
+  );
+}
+
+function attachTruncatedTranslation(examples, translation, isTruncated) {
+  if (!isTruncated || !translation) return examples;
+  return examples.map((example) => ({ ...example, zh: translation }));
 }
 
 function extractDefinition(lines) {

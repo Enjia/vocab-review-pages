@@ -290,8 +290,7 @@ function buildTermVariants(term) {
     .replace(/\s+/g, " ")
     .trim();
 
-  const alternatives = source
-    .split(/\s+\/\s+|\/+/)
+  const alternatives = expandSlashVariants(source)
     .map((part) => normalize(part))
     .filter(Boolean);
 
@@ -308,6 +307,31 @@ function buildTermVariants(term) {
       };
     })
     .filter((variant) => variant.compact || variant.tokenGroups.length);
+}
+
+function expandSlashVariants(value) {
+  const tokens = String(value || "")
+    .split(/\s+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+
+  if (!tokens.some((token) => token.includes("/"))) {
+    return [value];
+  }
+
+  let variants = [[]];
+  for (const token of tokens) {
+    const options = token.includes("/")
+      ? token
+          .split("/")
+          .map((option) => option.trim())
+          .filter(Boolean)
+      : [token];
+
+    variants = variants.flatMap((variant) => options.map((option) => [...variant, option]));
+  }
+
+  return variants.map((variant) => variant.join(" ").replace(/\s+/g, " ").trim());
 }
 
 function tokenizeForMatch(value) {
@@ -524,5 +548,6 @@ const IRREGULAR_MATCH_PATTERNS = {
 const MANUAL_RELEVANCE_OVERRIDES = {
   "a bee in one's bonnet": [/\bbee in (?:his|her|their|one's) bonnet\b/i],
   "be on the go": [/\bon the go\b/i],
+  "(get/have sb) over a barrel": [/\b(?:get|gets|getting|got|have|has|had)\s+\w+\s+over\s+a\s+barrel\b/i],
   "go so far as to do sth": [/\bwent so far as to\b/i, /\bgo(?:es|ne|ing)? so far as to\b/i],
 };

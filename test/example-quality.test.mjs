@@ -153,6 +153,20 @@ test("sanitizeExamples keeps possessive idiom examples with pronoun variants", (
   assert.deepEqual(sanitized, [{ en: "He's got a bee in his bonnet about factory farming.", zh: "" }]);
 });
 
+test("sanitizeExamples keeps object-placeholder idiom examples with conjugated verbs", () => {
+  const example = {
+    en: "They've got us over a barrel. Either we agree to their terms or we lose the money.",
+    zh: "他们让我们别无选择。我们要么答应他们的条件，要么损失这笔钱。",
+  };
+
+  const sanitized = sanitizeExamples({
+    term: "(get/have sb) over a barrel",
+    examples: [example],
+  });
+
+  assert.deepEqual(sanitized, [example]);
+});
+
 test("sanitizeExamples keeps short phrasal examples that depend on a short content word", () => {
   const sanitized = sanitizeExamples({
     term: "be on the go",
@@ -160,6 +174,42 @@ test("sanitizeExamples keeps short phrasal examples that depend on a short conte
   });
 
   assert.deepEqual(sanitized, [{ en: "Like most working mothers, she is always on the go.", zh: "" }]);
+});
+
+test("sanitizeExamples rejects one-token slash matches for grouped noun phrases", () => {
+  const sanitized = sanitizeExamples({
+    term: "a hunk of bread/cheese/meat",
+    examples: [{ en: "You can cheese most of the game using certain exploits.", zh: "" }],
+  });
+
+  assert.deepEqual(sanitized, []);
+});
+
+test("sanitizeExamples keeps full slash-variant phrase matches", () => {
+  const sanitized = sanitizeExamples({
+    term: "a hunk of bread/cheese/meat",
+    examples: [{ en: "He tore off a hunk of bread and handed it to her.", zh: "" }],
+  });
+
+  assert.deepEqual(sanitized, [{ en: "He tore off a hunk of bread and handed it to her.", zh: "" }]);
+});
+
+test("sanitizeExamples rejects partial matches for slash-ranked collocations", () => {
+  const sanitized = sanitizeExamples({
+    term: "a high/low/poor turnout",
+    examples: [{ en: "lower forms of life (= creatures with a very simple structure)", zh: "" }],
+  });
+
+  assert.deepEqual(sanitized, []);
+});
+
+test("sanitizeExamples keeps slash-ranked collocations when the full phrase appears", () => {
+  const sanitized = sanitizeExamples({
+    term: "a high/low/poor turnout",
+    examples: [{ en: "The election saw a high turnout among young voters.", zh: "" }],
+  });
+
+  assert.deepEqual(sanitized, [{ en: "The election saw a high turnout among young voters.", zh: "" }]);
 });
 
 test("sanitizeExamples removes definitional stubs and gloss fragments", () => {

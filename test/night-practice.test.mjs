@@ -4,8 +4,16 @@ import { readFile } from "node:fs/promises";
 import * as nightPractice from "../src/night-practice.js";
 
 const {
+  PRACTICE_STAGES,
+  HINT_LADDER,
+  advanceNightPracticeSession,
   buildNightPracticePrompt,
+  buildNightPracticeSupport,
+  buildStuckResponseRescue,
+  createNightPracticeSession,
   getNightPracticePack,
+  revealNextNightPracticeHint,
+  setNightPracticeHintLevel,
   validateNightPracticePack,
 } = nightPractice;
 
@@ -42,11 +50,86 @@ test("buildNightPracticePrompt gives ChatGPT app a one-question-at-a-time role-p
   assert.doesNotMatch(prompt, /Dialogue scaffold/i);
   assert.doesNotMatch(prompt, /User:/);
   assert.match(prompt, /2 minutes/i);
-  assert.match(prompt, /8 minutes/i);
-  assert.match(prompt, /Do not correct every turn/i);
-  assert.match(prompt, /self-correct/i);
-  assert.match(prompt, /at most three/i);
+  assert.match(prompt, /Recognition/i);
+  assert.match(prompt, /Supported production/i);
+  assert.match(prompt, /Semi-free production/i);
+  assert.match(prompt, /Free response/i);
+  assert.match(prompt, /Hint 1/i);
+  assert.match(prompt, /topic cue/i);
+  assert.match(prompt, /keyword cue/i);
+  assert.match(prompt, /phrase frame/i);
+  assert.match(prompt, /forced choice/i);
+  assert.match(prompt, /model answer/i);
   assert.match(prompt, /Production targets/i);
+});
+
+test("night practice exposes a fixed four-stage ladder and five-step hint ladder", () => {
+  assert.deepEqual(
+    PRACTICE_STAGES.map((stage) => stage.id),
+    ["recognition", "supported-production", "semi-free-production", "free-response"],
+  );
+  assert.equal(HINT_LADDER.length, 5);
+  assert.deepEqual(
+    HINT_LADDER.map((hint) => hint.id),
+    ["topic-cue", "keyword-cue", "phrase-frame", "forced-choice", "model-answer"],
+  );
+});
+
+test("night practice session starts in recognition and advances one stage at a time", async () => {
+  const practiceData = await readJson("../data/night-practice.json");
+  const pack = practiceData.packs[0];
+  const first = createNightPracticeSession(pack);
+  const second = advanceNightPracticeSession(first);
+
+  assert.equal(first.stageIndex, 0);
+  assert.equal(first.stageId, "recognition");
+  assert.equal(first.hintLevel, 0);
+  assert.equal(second.stageIndex, 1);
+  assert.equal(second.stageId, "supported-production");
+  assert.equal(second.hintLevel, 0);
+});
+
+test("night practice hint ladder reveals one level at a time and resets on stage change", async () => {
+  const practiceData = await readJson("../data/night-practice.json");
+  const pack = practiceData.packs[0];
+  const first = createNightPracticeSession(pack);
+  const hinted = revealNextNightPracticeHint(revealNextNightPracticeHint(first));
+  const advanced = advanceNightPracticeSession(hinted);
+
+  assert.equal(hinted.hintLevel, 2);
+  assert.equal(revealNextNightPracticeHint(setNightPracticeHintLevel(first, 5)).hintLevel, 5);
+  assert.equal(advanced.stageId, "supported-production");
+  assert.equal(advanced.hintLevel, 0);
+});
+
+test("night practice support builds topic, keyword, phrase, choice, and model cues for the active stage", async () => {
+  const practiceData = await readJson("../data/night-practice.json");
+  const pack = practiceData.packs[0];
+  const session = setNightPracticeHintLevel(advanceNightPracticeSession(createNightPracticeSession(pack)), 5);
+  const support = buildNightPracticeSupport(pack, session);
+
+  assert.equal(support.stage.id, "supported-production");
+  assert.match(support.topicCue, /scene|talk|discuss/i);
+  assert.match(support.keywordCue, /Keyword cue: try to use/i);
+  assert.match(support.phraseFrame, /Start with:/i);
+  assert.match(support.forcedChoice, /\?/);
+  assert.ok(support.modelAnswer.length > 12);
+  assert.equal(support.currentHint.id, "model-answer");
+});
+
+test("stuck response rescue turns a pasted ChatGPT question into speakable replies", async () => {
+  const practiceData = await readJson("../data/night-practice.json");
+  const pack = practiceData.packs[0];
+  const session = advanceNightPracticeSession(createNightPracticeSession(pack));
+  const rescue = buildStuckResponseRescue(pack, session, "What made the team decision so difficult?");
+
+  assert.equal(rescue.latestQuestion, "What made the team decision so difficult?");
+  assert.ok(rescue.focusWords.length >= 1);
+  assert.match(rescue.quickReply, /decision|situation|question/i);
+  assert.match(rescue.targetReply, new RegExp(escapeRegExp(rescue.focusWords[0].term), "i"));
+  assert.match(rescue.sentenceStarter, /^(I think|From my side|If I had)/i);
+  assert.equal(rescue.choices.length, 2);
+  assert.match(rescue.upgradedReply, /because/i);
 });
 
 test("night practice retains only recognised word-result values", () => {
@@ -109,4 +192,8 @@ test("night practice makes active words the only production targets when they ar
 
 async function readJson(relativePath) {
   return JSON.parse(await readFile(new URL(relativePath, import.meta.url), "utf8"));
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }

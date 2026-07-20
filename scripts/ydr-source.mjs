@@ -22,8 +22,42 @@ export async function fetchYDRSentenceCandidates(term, fetchImpl = defaultFetch)
   }
 }
 
+export async function fetchYoudaoBilingualCandidates(term, fetchImpl = defaultFetch) {
+  const query = normalizeQuery(term);
+  if (!query) return [];
+
+  const response = await fetchImpl(`${YDR_PAGE_ENDPOINT}${encodeURIComponent(query)}/`, {
+    headers: {
+      "User-Agent": YDR_USER_AGENT,
+      "Accept-Language": "en-US,en;q=0.9",
+    },
+    signal: AbortSignal.timeout(RESPONSE_TIMEOUT_MS),
+  });
+
+  if (response.status === 404) return [];
+  if (!response.ok) return [];
+
+  const html = await response.text();
+  return extractYoudaoBilingualCandidates(html);
+}
+
 export function extractYDRSentenceCandidates(payload) {
+  if (typeof payload === "string") {
+    return extractYoudaoPageSentences(payload);
+  }
   return extractSentences(payload);
+}
+
+export function extractYoudaoBilingualCandidates(html) {
+  const sectionStart = html.indexOf('id="bilingual"');
+  const relevantHtml = sectionStart >= 0 ? html.slice(sectionStart, sectionStart + 220000) : html;
+  const blocks = [...relevantHtml.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)];
+
+  return dedupeBilingual(
+    blocks
+      .map((match) => extractBilingualCandidate(match[1]))
+      .filter(Boolean),
+  );
 }
 
 async function fetchYoudaoPageCandidates(query, fetchImpl) {
@@ -60,18 +94,53 @@ async function fetchOldYDRApiCandidates(query, fetchImpl) {
 }
 
 function extractYoudaoPageSentences(html) {
+  const bilingual = extractYoudaoBilingualCandidates(html);
+  const extracted = bilingual.map((item) => item.en);
+
+  if (extracted.length > 0) return dedupeOrdered(extracted);
+
   const examplesStart = html.indexOf('id="examples"');
   const relevantHtml = examplesStart >= 0 ? html.slice(examplesStart, examplesStart + 220000) : html;
   const sentBlocks = [...relevantHtml.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)];
 
-  const extracted = sentBlocks
+  const fallback = sentBlocks
     .map((match) => htmlToText(match[1]))
     .map(extractEnglishSentence)
     .filter(Boolean)
     .map((value) => value.replace(/\s+/g, " ").trim())
     .filter((value) => /[A-Za-z]/.test(value));
 
-  return dedupeOrdered(extracted);
+  return dedupeOrdered(fallback);
+}
+
+function extractBilingualCandidate(html) {
+  const paragraphs = [...html.matchAll(/<p([^>]*)>([\s\S]*?)<\/p>/gi)]
+    .filter(([, attributes]) => !/\bexample-via\b/i.test(attributes || ""))
+    .map(([, , content]) => htmlToText(content))
+    .filter(Boolean);
+
+  if (paragraphs.length < 2) return null;
+
+  const en = extractEnglishSentence(paragraphs[0]).replace(/\s+/g, " ").trim();
+  const zh = extractChineseSentence(paragraphs[1]).replace(/\s+/g, " ").trim();
+
+  if (!en || !zh) return null;
+  if (!/[A-Za-z]/.test(en) || !/[\u4e00-\u9fff]/.test(zh)) return null;
+
+  return { en, zh };
+}
+
+function extractChineseSentence(value) {
+  const cleaned = value.trim();
+  const hanIndex = cleaned.search(/[\u4e00-\u9fff]/);
+  const sentence = hanIndex >= 0 ? cleaned.slice(hanIndex).trim() : cleaned;
+  return sentence
+    .replace(/\s+/g, " ")
+    .replace(/(?<=[\u4e00-\u9fff])\s+(?=[\u4e00-\u9fff])/gu, "")
+    .replace(/(?<=[\u4e00-\u9fff])\s+(?=[，。！？；：、）】》])/gu, "")
+    .replace(/(?<=[（【《“])\s+/gu, "")
+    .replace(/\s+(?=[）】》”])/gu, "")
+    .trim();
 }
 
 function htmlToText(value) {
@@ -79,6 +148,7 @@ function htmlToText(value) {
     String(value)
       .replace(/<[^>]+>/g, " ")
       .replace(/\s+/g, " ")
+      .replace(/\s+([.,!?;:'])/g, "$1")
       .trim(),
   );
 }
@@ -127,6 +197,22 @@ function dedupeOrdered(values) {
     if (!value || seen.has(value)) continue;
     seen.add(value);
     next.push(value);
+  }
+
+  return next;
+}
+
+function dedupeBilingual(values) {
+  const seen = new Set();
+  const next = [];
+
+  for (const value of values) {
+    const en = String(value?.en || "").replace(/\s+/g, " ").trim();
+    const zh = String(value?.zh || "").replace(/\s+/g, " ").trim();
+    const key = `${en}\n${zh}`;
+    if (!en || !zh || seen.has(key)) continue;
+    seen.add(key);
+    next.push({ en, zh });
   }
 
   return next;

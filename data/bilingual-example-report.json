@@ -1,0 +1,4439 @@
+{
+  "generatedAt": "2026-07-16T18:04:50.285Z",
+  "totalEntries": 8474,
+  "beforeMissingAny": 4537,
+  "updated": 3904,
+  "unresolved": [
+    {
+      "term": "(tied to) sb's apron strings",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a bad/difficult/sticky/rough patch",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a bee in one's bonnet",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a bratty kid",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a breach in the hedge",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a child reared on self-indulgence",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a child reared on self-indulgence",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a congruity of ideas",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a debating fraternity",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a double-barreled question",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a few husks of reason",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a flat/blunt refusal",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a frenetic pitch of activity",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a high/low/poor turnout",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a hub of regional finance",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a hunk of bread/cheese/meat",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a jazz impresario",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a leading headache",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a leading headache",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a look of contrition",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a lucky/an unlucky streak",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a man of eminent goodness",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/人物_角色_职业.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a man of eminent goodness",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a massive brain hemorrhage",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a meaningless jumble of words",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a miasma of tobacco smoke",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a mother fixation",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a multicoloured bead necklace",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a muscle spasm",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a night club impresario",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a pertinacious beggar",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a plane bound for Dublin",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a political eunuch",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a recess for books",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/出版_书籍_写作_语言.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a rent in the fabric",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/面料_纺织_材质.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a Republican hardliner",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a round of verbal one-upmanship",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/武器_军警.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a rundown of transport services",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a skeleton in the cupboard/closet",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a spasm of anxiety/anger/coughing/pain",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a spell of warm weather",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a spoiled/spoilt brat",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a streak of cruelty",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a sycophantic review",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a system of political patronage",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a tight spot/corner",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a trivia quiz",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a well-bound book",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/出版_书籍_写作_语言.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "a whirlwind of emotions/activity",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "academia（academe）",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "act like a yeast",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "act upon/on",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "aglow with health",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "agonize over/about",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "ahead of/behind the curve",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/时间_顺序_先后.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "alien demand",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "all-engulfing",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "almanac/almanack",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "altruistical",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "an advertising/a media blitz",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "an anaemic performance",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "answer for/to the consequence",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "antibodies that latch onto germs",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "antichoice",
+      "sourcePath": "Project/背单词/单词形容词/态度_立场_观点.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "as thick as thieves",
+      "sourcePath": "Project/背单词/短语形容词/态度_立场_观点.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "assail a serious problem",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "assail a serious problem",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "at a snail's pace",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/强度_程度.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "at sb's behest",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "at/in one fell swoop",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "atrophied religious values",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "back into a fortune",
+      "sourcePath": "Project/背单词/短语动词/资源_获取_利用.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "balkaniz",
+      "sourcePath": "Project/背单词/单词动词/破坏_削弱_拆除.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "banally",
+      "sourcePath": "Project/背单词/单词副词/方式_方法.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "banner heading",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "barbiturate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "barged in uninvited",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bark up the wrong tree",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bassinette",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "batten down the hatch",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be at one with sb/sth",
+      "sourcePath": "Project/背单词/句式模板_形容词/关系_一致_相处.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be at the end of your tether",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be bound up in",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be bound up in",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be caressed by one's superiors",
+      "sourcePath": "Project/背单词/句式模板_动词/资源_获取_利用.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be cursed with sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be environed by bad influence",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be given the boot/get the boot",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be gunning for sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/评价_表扬_责备_证明.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be hoist/hoisted by/with your own petard",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be in for sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be lost on sb",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be of no account",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be of no/little account",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be perched on top of society",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be quick/slow on the uptake",
+      "sourcePath": "Project/背单词/句式模板_动词/认知_理解_发现.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be stupefied with narcotics",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be taken aback by sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be too often embraced as axiomatic",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be wary of sth/doing sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be/fall head over heels in love",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "be/get carried away",
+      "sourcePath": "Project/背单词/短语形容词/情绪_感受.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "beat around the brush",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "beat/knock the (living) daylights out of sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "befuddle the public with campaign promises",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bellygod",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "belt out a speech",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bend sb to do",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bend/lean over backwards to do",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "billows of demonstrators marching down the street",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bitchily",
+      "sourcePath": "Project/背单词/单词副词/方式_方法.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bitter divisions that have simmered for more than half a century",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "blow/knock socks off",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "blow/smash sth to smithereens",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "boomerang kids",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bound for destruction",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bow to the inevitable",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bow to the inevitable",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bowl sb over",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "break the mould of sth",
+      "sourcePath": "Project/背单词/句式模板_动词/破坏_削弱_拆除.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bring/put down the shutters",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "brood about/over",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/情绪_态度_心理.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "brothel",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "brought to naught",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "brow-beaten",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "browbeat into doing sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "bump up against sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "butt in on sb",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "butter sb up",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "butter up",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "caddish",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "cadet",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "can't be arsed to do",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "carve out a fortune",
+      "sourcePath": "Project/背单词/短语动词/经济_商业_金钱.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "catch sb red-handed",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "caught in the crosshair",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "caught with one's pants down",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "chalk up sth",
+      "sourcePath": "Project/背单词/句式模板_动词/成功_失败_结果.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "chew over the problems",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "chew over the problems",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "chiastic",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "choose the right and cull out the wrong",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/选择_优先_取舍.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "clap/lay/set eyes on sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "clearsighted",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "clitoris",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "coast through/to sth",
+      "sourcePath": "Project/背单词/句式模板_动词/成功_失败_结果.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "colporteur",
+      "sourcePath": "Project/背单词/单词形容词/社会_政治_宗教.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "come across/over",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/认知_理解_发现.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "come to terms with sth",
+      "sourcePath": "Project/背单词/句式模板_动词/计划_组织_协调_匹配.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "confound sb's tricks",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "contingent upon/on",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "cordon oneself off",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "cotton on to sth",
+      "sourcePath": "Project/背单词/句式模板_动词/认知_理解_发现.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "cozy up to sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "creak under the strain",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "creep sb out",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "crouch down/over",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "crude oil/metal",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "curry favour with sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "cuss word",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "cut sb to the quick",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "czar/tsar",
+      "sourcePath": "Project/背单词/单词名词/人物_角色_职业.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "darken sb's door/doors",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "dash sb's ˈhopes",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "dawdle in front of the shop windows",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "day-tripper",
+      "sourcePath": "Project/背单词/单词名词/交通_车辆_旅行.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "diaconate",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "do sb lasting good",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "do sth up",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "docetism",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "dork",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "doxing",
+      "sourcePath": "Project/背单词/单词名词/人物_角色_职业.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "draw sb out",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "draw sth out",
+      "sourcePath": "Project/背单词/句式模板_动词/时间_节奏_速度.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "dreadful finality",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "dressing-downdirge",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "drink/drain to the dregs",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "drop the reins of government",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "drop/dump sth in sb's lap",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "drum sth into sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "dumfound",
+      "sourcePath": "Project/背单词/单词动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "easy on the ear / eye",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "eco-warrior",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "economic/financial/social malaise",
+      "sourcePath": "Project/背单词/短语名词/抽象概念_状态.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "ecumenical church",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "egg sb on",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "eke out a poor existence by selling flowers",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "elite colleges that can cherry-pick from the best students available",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "embedded reporters in the war zone",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "entrail",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "erode/undermine",
+      "sourcePath": "Project/背单词/短语副词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "essayistic",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Even the experts were hoaxed",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "every shade of religious persuasion",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Everyone has their little quirks",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "excathedral",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "exercise one’s function",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "expose oneself / lay oneself open to ridicule",
+      "sourcePath": "Project/背单词/句式模板_动词/变化_发展_转变.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "extramarital sexual behavior",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "facile princeps",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fall on one's sword",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fall to sb's lot (to do sth)",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fantasm",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fearmonger",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "feed off/on",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/增强_提升_复苏.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "feel a weave of remorse",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "feel a weave of remorse",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "find/get one‘s bearings",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "five years of economic purgatory",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/抽象概念_状态.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fleshpot",
+      "sourcePath": "Project/背单词/单词名词/服饰_配件.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fling oneself into",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fling yourself at sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fling yourself into sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "flog learning into sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "force sb's hand",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "force/thrust/ram sth down sb's throat",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fortified cereal products",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/增强_提升_复苏.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "fritter sth away",
+      "sourcePath": "Project/背单词/句式模板_动词/时间_节奏_速度.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "frolick",
+      "sourcePath": "Project/背单词/单词动词/娱乐_享受_轻松.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "gain/make up ground on sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "gamble all chips on",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "garble a quotation",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "gay men cruising on Clapham Common",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "gentrify",
+      "sourcePath": "Project/背单词/单词动词/计划_组织_协调_匹配.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "get (yourself)/be in a stew (about/over sth)",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "get (yourself)/be in a stew about/over sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "get acclimatized to/tune oneself to",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "get sth off chest",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "get/have (all) your ducks in a row",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "get/have butterflies in your stomach",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "get/knock/lick sb into shape",
+      "sourcePath": "Project/背单词/句式模板_动词/学习_技能_熟练.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "get/take a bad rap",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "gird (up) your loins",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "give (full) vent to sth",
+      "sourcePath": "Project/背单词/句式模板_副词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "give (full) vent to sth",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "give sb a leg-up",
+      "sourcePath": "Project/背单词/句式模板_动词/增强_提升_复苏.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "give sb/sth a/the once-over",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "give/allow sb/sth free/full reingive",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "go out of one’s way to do",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "go out of one’s way to do",
+      "sourcePath": "Project/背单词/短语副词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "go out of one's way to do sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "go so far as to do sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "go to sb's head",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "go to the mat with sb for sth",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "go/be on the wagon",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "God-breathed",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "graft modern equipment on to these traditional techniques",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "grandstander",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "growling（roaring）",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "habitual criminal",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "hack a way through the brambles",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "hagiographical",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "hand embroidered tablecloths",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "have a chip on one's shoulder",
+      "sourcePath": "Project/背单词/句式模板_动词/变化_发展_转变.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "have one's way with",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "have sth under belt",
+      "sourcePath": "Project/背单词/句式模板_动词/资源_获取_利用.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "have your back to/against the wall",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "have/keep sth up your sleeve",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "have/want no truck with sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "he latest bout of inflation",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "He's a real hunk",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "He's talking palaver",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Her lips quirked suddenly",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "her pale, alabaster skin",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "high-maintance",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "his gnarled, coarsened features",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "hit/strike pay dirt",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/成功_失败_结果.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "hold sb up to ridicule",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "hold sth in check",
+      "sourcePath": "Project/背单词/句式模板_动词/防止_延缓_抵御.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "horn in/on sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "humblebragging",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "imprecatory",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "in common/legal/modern parlance",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/出版_书籍_写作_语言.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "in the thick of sth",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "incendiary language",
+      "sourcePath": "Project/背单词/短语名词/出版_书籍_写作_语言.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "incessant chatter",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "incessant chatter",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "inclusio",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "indeterminat",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "indiscrete",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "industrial/urban dereliction",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "inexorability",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Inextinguishable",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "infovore",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "ingather",
+      "sourcePath": "Project/背单词/单词动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "insatiable/varacious",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "investors who adopt the sensible policy of drip feeding money into shares",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/经济_商业_金钱.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "irenic",
+      "sourcePath": "Project/背单词/单词形容词/社会_政治_宗教.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "iron-clad/ironclad",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Jack of all trade",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "jack-booted",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "jerk sb around",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "jerk sb around",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Johnny-come-later",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "jolt the mind",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/人物_角色_职业.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "juggle one’s life",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "keep sb in the loop",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "keep sb. on a short leash",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "keep your eyes peeled/skinned for sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "kerygma",
+      "sourcePath": "Project/背单词/单词名词/面料_纺织_材质.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "kick sth into gear",
+      "sourcePath": "Project/背单词/句式模板/开始_结束_完成.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "knock the stuffing out of sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "knock the tar out of sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "knock/throw sb for a loop",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "knot-head",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "koinonia",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "lacklustre hair",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "lam into sb",
+      "sourcePath": "Project/背单词/句式模板_动词/评价_表扬_责备_证明.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "languish in poverty",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "latch onto/on to",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/认知_理解_发现.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "laugh up one's sleeve",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "lay sth bare",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "lead a jovial life",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "lead a jovial life",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "lean over backwards/work on all cylinders/try one’s utmost/shoot one’s last bolt/go all out/put one’s shoulder to the wheel",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "lecherous",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "let sth rip",
+      "sourcePath": "Project/背单词/句式模板_动词/进展_方向_路径_移动.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "letting information seep out of the Treasury",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "libidinous",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "lick sb's boots",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "like sardines",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "linchpin / lynchpin",
+      "sourcePath": "Project/背单词/短语名词/人物_角色_职业.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "look into recent bank holdups",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "look through rose-colored glasses",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "look/dress the part",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Loud screams rent the air",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "make a spiel",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "make an end run",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/计划_组织_协调_匹配.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "make mincemeat of sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "make quite a dent in",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/破坏_削弱_拆除.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "mangled bodies/remains",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "many years have elapsed",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "many years have elapsed",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "many years of pertinacious advertising",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "mark sb/sth off from sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "mark sth up",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "marry above oneself",
+      "sourcePath": "Project/背单词/句式模板_动词/选择_优先_取舍.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "mass-produced dross",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "McJobs",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "meagerly or amply",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "meagerly or amply",
+      "sourcePath": "Project/背单词/短语副词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "meld eleven departments into five",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "men whose names are anathema",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "menigitis",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "metrosexual",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "mirror a phenomenon that",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/抽象概念_状态.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "mirror a phenomenon that",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "monomaniacal",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "monotonous grind of city life",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "moral ascendancy/political ascendancy/intellectual ascendancy",
+      "sourcePath": "Project/背单词/短语名词/抽象概念_状态.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "move into high gear",
+      "sourcePath": "Project/背单词/短语动词/变化_发展_转变.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Mozart mania",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "muddle up",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "mudslingin",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "muleheaded",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "mullet-headed",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "music that caresses the ear",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/娱乐_享受_轻松.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "ne of the plushest posts in US diplomacy",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Negative Nellie",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "nepotists",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "not a happy camper/bunny",
+      "sourcePath": "Project/背单词/短语形容词/情绪_感受.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "not bat an eyelid",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/情绪_态度_心理.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "not care / give a hoot",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/情绪_态度_心理.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "not care/give a fig for sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "not care/give tuppence for sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Nothing may come of it",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "odiousness",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "of profound scholarship",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "on a razor’s edge",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "on good/bad terms with sb",
+      "sourcePath": "Project/背单词/句式模板_形容词/关系_一致_相处.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "on the micro level/macro level",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "ordinand",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "osteoporoses",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "out of sb's depth",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "out of the frying pan and into the fire",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "overreach oneself",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "overscrupulous",
+      "sourcePath": "Project/背单词/单词形容词/强度_程度.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "own up to sth/do sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "p’s and q’s",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "panacea / elixir",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "panhandle for money/change",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "panicstricken（等于panic-stricken）",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "parlay sth into sth",
+      "sourcePath": "Project/背单词/句式模板_动词/成功_失败_结果.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pass sb off as sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "patch sth up",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "people in the lower income bracket",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/经济_商业_金钱.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pepper sb with sth",
+      "sourcePath": "Project/背单词/句式模板_动词/破坏_削弱_拆除.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "perk sb up",
+      "sourcePath": "Project/背单词/句式模板_动词/增强_提升_复苏.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pertaining unto",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Pete has caught a whopper",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pile on the agony/gloom",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pile sth on sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pin (all) your hopes/faith on sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pin sb down",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pis-aller",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pit sb/sth against sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pitch-dark/pitch-black",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "platitudinous",
+      "sourcePath": "Project/背单词/单词形容词/语言_表达_修辞.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pluck up the nerve",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pluck up the nerve",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "ply your trade",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pogrom",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "polar opinion",
+      "sourcePath": "Project/背单词/短语名词/抽象概念_状态.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "polar opinion",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "political one-upmanship",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "politicians of all persuasions",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/人物_角色_职业.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pontifex maximus",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pontificate on the affairs of the world",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pose a menance to",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pose a menance to",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "price sth out",
+      "sourcePath": "Project/背单词/句式模板_动词/经济_商业_金钱.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "prick (up) your ears",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "proabortion",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "prod sb into doing",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "propel domestic demand",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "propel domestic demand",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "proselyte",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "protégé",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pry sb away from",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "psyche up for",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "puff sb up",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "pull off a great coup",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "punch in/out",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/时间_节奏_速度.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "put a finishing touch to",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/开始_结束_完成.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "put a slur on",
+      "sourcePath": "Project/背单词/短语动词/评价_表扬_责备_证明.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "put your finger on sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "put/place sb on a pedestal",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "quirky ideas/behavior",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rabble-rouser",
+      "sourcePath": "Project/背单词/单词名词/人物_角色_职业.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rail against/at",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "ram sth home",
+      "sourcePath": "Project/背单词/句式模板_动词/认知_理解_发现.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rat sb out",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rattle on/about",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "receive sb back into the fold",
+      "sourcePath": "Project/背单词/句式模板_动词/增强_提升_复苏.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "redeem an obligation/exercise one’s function",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "reel at/from/with sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "regal sb with sth",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Reid's dexterity on the guitar",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "relativize",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "relay one’s thanks to",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "relay one’s thanks to",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "religious/political orientation",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "requite kindness with ingratitude",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "resign oneself to sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "retool the entire industrial structure",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/计划_组织_协调_匹配.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rope sb in/into sth",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rub off on/onto sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "run sb down",
+      "sourcePath": "Project/背单词/句式模板_动词/评价_表扬_责备_证明.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "run sb through",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "run smack into",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "run/go counter to",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rupture the city's governing coalition",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rust one’s lessons",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rust one’s lessons",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "rustl sth up",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "s2082. spin out",
+      "sourcePath": "Project/背单词/短语动词/学习_技能_熟练.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "salutatorian",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sandbag the girl into marriage",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sandbag the government",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "save sb's bacon/neck",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "say sweepingly",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "says verbatim",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scabbard/sheath",
+      "sourcePath": "Project/背单词/单词名词/武器_军警.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scantily dressed models",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scare out of one’s wits",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scarper",
+      "sourcePath": "Project/背单词/单词动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scattere to the four winds",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scavenge a street",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sciolist",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scrape (the bottom of) the barrel",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/选择_优先_取舍.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scurry back for life",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scuttle across",
+      "sourcePath": "Project/背单词/短语动词/进展_方向_路径_移动.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "scuzzball",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "send shivers/chills up (and down) your spine",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "set/put store by",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sex offender",
+      "sourcePath": "Project/背单词/短语名词/人物_角色_职业.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sexual aberration",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "She kept making broken-hearted ejaculations",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "She thinks men are slime",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "She's a real gem",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "shirk duty/abdicate responsibility",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "shot itself in the foot",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "shoulder the responsibility/blame",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "shrink by a large margin",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "shrink by a large margin",
+      "sourcePath": "Project/背单词/短语副词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "shrug sth off/aside",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "silm margin",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "skate over/around",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/防止_延缓_抵御.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "skeletonise",
+      "sourcePath": "Project/背单词/单词动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "slanting eyes/handwriting/rain",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "slap sth on sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "smack of sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "smash out of the groove",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "smooth-tongued palaver",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "snap out of it/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "snorts of laughter",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sound/strike a note",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "spin/pitch a story/line/yarn",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "splash out on sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "spruce sb/sth up",
+      "sourcePath": "Project/背单词/句式模板_动词/外观_装饰_表现.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sq2399. squelch",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/防止_延缓_抵御.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "square sth with sb",
+      "sourcePath": "Project/背单词/句式模板_动词/关系_交流_协商.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "square sth with sth",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "stalwart supporters",
+      "sourcePath": "Project/背单词/短语名词/人物_角色_职业.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "stand in another' s shoes",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "stear clear of",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "step on sb's toes",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "step on someone’s toes",
+      "sourcePath": "Project/背单词/短语动词/计划_组织_协调_匹配.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sth hold sway unopposed",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sth rears its (ugly) head",
+      "sourcePath": "Project/背单词/句式模板_动词/开始_结束_完成.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "stick to your/their last",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "stoke up on with",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "stonefruit",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "stonewall a demand for sth",
+      "sourcePath": "Project/背单词/句式模板_动词/防止_延缓_抵御.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "strain every nerve/sinew to do",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "strain every sinew to do",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "suffragist",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "survive the tooth of time",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "survive the tooth of time",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "swaggering baby",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "swaggering baby",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "swathes of white silk",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "sweep sth under the carpet",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "take sb to one's bosom",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "take sth on the chin",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "take sth/sb by storm",
+      "sourcePath": "Project/背单词/句式模板_动词/成功_失败_结果.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "take the edge off sth",
+      "sourcePath": "Project/背单词/句式模板_动词/减轻_缓和_安抚.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "take umbrage at",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "take/quote sth out of context",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "takes counsel with",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tall tale/story",
+      "sourcePath": "Project/背单词/短语名词/文学_艺术_音乐_表演.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tasty tidbits",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tax one’s patience",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tearstained",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tender one's resignation",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "That guy's a real slime",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "That night was Richard's apotheosis",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "That was no mean feat",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the austerities of wartime Europe",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the bowel of sth",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the cathedral/college precincts",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "The church is acoustically perfect",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the cusp of a leaf",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the detritus of everyday life",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the detritus of war",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the ejaculation of semen",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the environmental costs of landfill",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the gaucheness of youth",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the key instigators of reform",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the language of diplomatic niceties",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/出版_书籍_写作_语言.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the last dregs of daylight",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the latest bout of inflation",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the latest/current fad",
+      "sourcePath": "Project/背单词/固定搭配_习语_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the museum's custodians",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the nicety of his argument",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/抽象概念_状态.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the sailing fraternity",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the sinews of better living",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the small of sb's back",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the stalls/the orchestra",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the team's excellent physical conditioning",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the unction of flattery",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "The vibes weren't right",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "the wormwoodof defeat",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "They behaved like imbeciles",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "this sumptuously illustrated volume",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "throw sb for a loop",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "throw/cast caution to the wind",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "throw/toss your hat into the ring",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tie sb in knots",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "titillating pictures",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to cleave to a belief/idea",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to clinch an argument/a deal/a victory",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/成功_失败_结果.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to collate data/information/figures",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to fiddle the accounts",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to find a mooring",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to foil a plan/crime/plot",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to peddle illegal drugs",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to peddle malicious gossip",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to perform/attempt/achieve astonishing feats",
+      "sourcePath": "Project/背单词/句式模板_名词/文学_艺术_音乐_表演.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to secure a contract/deal",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to snort cocaine",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to stage a ceremony/an event/an exhibition",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to stage a strike/demonstration/march/protest",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/计划_组织_协调_匹配.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to stage/mount a coup",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to stoke up a fire with more coal",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "to stoke up envy",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "toddler's first few halting steps",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "too big for one's britches",
+      "sourcePath": "Project/背单词/句式模板_形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "toot my won horn",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "touch up a photographic negative",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "touch up an article",
+      "sourcePath": "Project/背单词/短语动词/外观_装饰_表现.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "trail off/away",
+      "sourcePath": "Project/背单词/短语形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Traitors are held in infamy",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tread warily/carefully",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tread/walk a tightrope",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "treasure up in one's memory",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "trifle the hours away",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "trifle with sth/sb",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Trisagion",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "trump sth up",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "try one’s utmost",
+      "sourcePath": "Project/背单词/句式模板/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tumble in bed",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tune in to sb/sth",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tune oneself to",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "tune out/tune sb out",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "turn the table on sb",
+      "sourcePath": "Project/背单词/句式模板_动词/变化_发展_转变.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "undy",
+      "sourcePath": "Project/背单词/单词名词/服饰_配件.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "unfrock",
+      "sourcePath": "Project/背单词/单词动词/破坏_削弱_拆除.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "up a hornet's nest",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "up to the elbows in",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "up to the elbows in",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "up to your neck in sth",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "vanquish one's fears",
+      "sourcePath": "Project/背单词/句式模板_动词/情绪_态度_心理.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "vape",
+      "sourcePath": "Project/背单词/单词动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "vest sth in sb/vest sb with sth",
+      "sourcePath": "Project/背单词/句式模板_动词/增强_提升_复苏.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "want no truck with",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "wax fat and kick",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/变化_发展_转变.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "wax（+lyrical, eloquent, sentimental, etc）",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "wean sb off/from",
+      "sourcePath": "Project/背单词/句式模板_动词/选择_优先_取舍.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "wean sb on",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "weekend shopping forays to France",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "weigh sb down",
+      "sourcePath": "Project/背单词/句式模板_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "whoredom",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Why follow the herd",
+      "sourcePath": "Project/背单词/短语名词/面料_纺织_材质.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "widespread agitation for social reform",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "wimp out of sth",
+      "sourcePath": "Project/背单词/句式模板_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "wimpish behaviour",
+      "sourcePath": "Project/背单词/短语名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "with silk ribbons and flowers entwined in their hair",
+      "sourcePath": "Project/背单词/固定搭配_习语_动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "working/firing on all cylinders",
+      "sourcePath": "Project/背单词/短语动词/行动_努力_坚持_责任.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "worm your way/yourself into sth",
+      "sourcePath": "Project/背单词/句式模板_动词/资源_获取_利用.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "Yahrzeit",
+      "sourcePath": "Project/背单词/单词名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": false,
+      "missingExampleZh": true
+    },
+    {
+      "term": "yellowing blow-ups of James Dean",
+      "sourcePath": "Project/背单词/固定搭配_习语_名词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    },
+    {
+      "term": "想",
+      "sourcePath": "Project/背单词/单词形容词/其他_杂项.md",
+      "missingDefinition": false,
+      "missingExampleEn": true,
+      "missingExampleZh": true
+    }
+  ]
+}

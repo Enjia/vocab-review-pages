@@ -6,17 +6,27 @@ import {
   nextReviewDate,
 } from "./scheduler.js?v=20260614-example-cleanup";
 import {
+  advanceNightPracticeSession,
+  buildNightPracticeSupport,
   buildNightPracticePrompt,
+  buildStuckResponseRescue,
+  createNightPracticeSession,
   getRetryWordIds,
   getNightPracticePack,
+  getNightPracticeStageTurns,
+  loadNightPracticeSessions,
   loadNightPracticeProgress,
   normalizePracticeResults,
+  PRACTICE_STAGES,
+  revealNextNightPracticeHint,
   saveNightPracticeProgress,
-} from "./night-practice.js?v=20260715-guided-voice";
+  saveNightPracticeSessions,
+  setNightPracticeHintLevel,
+} from "./night-practice.js?v=20260720-stuck-rescue";
 
 const DAILY_NEW_LIMIT = 20;
 const DAILY_DUE_LIMIT = 80;
-const DATA_VERSION = "20260715-guided-voice";
+const DATA_VERSION = "20260720-stuck-rescue";
 
 const state = {
   data: null,
@@ -32,7 +42,7 @@ const state = {
   nightPractice: null,
   selectedNightPackId: "",
   nightPracticeProgress: loadNightPracticeProgress(),
-  nightView: "scene",
+  nightPracticeSessions: loadNightPracticeSessions(),
 };
 
 const els = {
@@ -73,12 +83,19 @@ const els = {
   nightTitle: document.querySelector("#nightTitle"),
   nightScene: document.querySelector("#nightScene"),
   nightWords: document.querySelector("#nightWords"),
+  nightStageRail: document.querySelector("#nightStageRail"),
+  nightStageLabel: document.querySelector("#nightStageLabel"),
+  nightStageDescription: document.querySelector("#nightStageDescription"),
+  nightSupport: document.querySelector("#nightSupportPanel"),
+  nightNeedHelp: document.querySelector("#nightNeedHelpButton"),
+  nightResetHint: document.querySelector("#nightResetHintButton"),
+  nightNextStage: document.querySelector("#nightNextStageButton"),
   nightDialogue: document.querySelector("#nightDialogue"),
-  nightPrompt: document.querySelector("#nightPrompt"),
   nightCopy: document.querySelector("#nightCopyButton"),
   nightPracticed: document.querySelector("#nightPracticedButton"),
-  nightViewGroup: document.querySelector("#nightViewGroup"),
   nightResults: document.querySelector("#nightResults"),
+  nightStuckQuestion: document.querySelector("#nightStuckQuestion"),
+  nightRescue: document.querySelector("#nightRescuePanel"),
 };
 
 init();
@@ -192,14 +209,12 @@ function bindEvents() {
     state.selectedNightPackId = els.nightPack.value;
     renderNightPractice();
   });
+  els.nightNeedHelp.addEventListener("click", revealNightSupportHint);
+  els.nightResetHint.addEventListener("click", resetNightSupportHint);
+  els.nightNextStage.addEventListener("click", advanceNightStage);
   els.nightCopy.addEventListener("click", copyNightPracticePrompt);
   els.nightPracticed.addEventListener("click", markNightPracticeDone);
-  els.nightViewGroup.addEventListener("click", (event) => {
-    const button = event.target.closest("button[data-night-view]");
-    if (!button) return;
-    state.nightView = button.dataset.nightView;
-    renderNightPractice();
-  });
+  els.nightStuckQuestion.addEventListener("input", renderNightRescue);
   els.nightResults.addEventListener("input", (event) => {
     const select = event.target.closest("select[data-entry-id]");
     if (!select) return;
@@ -405,32 +420,31 @@ function uniqueEntries(entries) {
 function renderNightPractice() {
   const pack = getCurrentNightPack();
   if (!pack) return;
+  const session = getCurrentNightSession(pack);
   state.selectedNightPackId = pack.id;
   els.nightPack.value = pack.id;
   els.nightTitle.textContent = pack.title;
   els.nightScene.textContent = pack.scene;
-  els.nightWords.innerHTML = pack.targetWords
-    .map((word) => `<span class="${escapeHtml(word.speakingSuitability || "recognition")}">${escapeHtml(word.term)}</span>`)
-    .join("");
-  renderNightDialogue(pack);
+  renderNightSupport(pack, session);
+  renderNightDialogue(pack, session);
+  renderNightRescue();
   renderNightResults(pack);
-  const retryWordIds = getRetryWordIds(state.nightPracticeProgress, pack);
-  els.nightPrompt.value = buildNightPracticePrompt(pack, { retryWordIds });
   updateNightPracticeStatus(pack);
 }
 
 async function copyNightPracticePrompt() {
   const pack = getCurrentNightPack();
   if (!pack) return;
+  const session = getCurrentNightSession(pack);
   const prompt = buildNightPracticePrompt(pack, {
     retryWordIds: getRetryWordIds(state.nightPracticeProgress, pack),
+    session,
   });
-  els.nightPrompt.value = prompt;
   try {
     await navigator.clipboard.writeText(prompt);
     els.nightStatus.textContent = "Prompt copied";
   } catch {
-    els.nightPrompt.select();
+    selectTextFallback(prompt);
     els.nightStatus.textContent = "Select and copy manually";
   }
 }
@@ -438,6 +452,7 @@ async function copyNightPracticePrompt() {
 function markNightPracticeDone() {
   const pack = getCurrentNightPack();
   if (!pack) return;
+  const session = getCurrentNightSession(pack);
   const previous = state.nightPracticeProgress[pack.id] || {};
   state.nightPracticeProgress[pack.id] = {
     ...previous,
@@ -445,6 +460,7 @@ function markNightPracticeDone() {
     practicedAt: new Date().toISOString(),
     targetWords: pack.targetWords.map((word) => word.entryId),
     wordResults: normalizePracticeResults(previous.wordResults),
+    lastStageId: session.stageId,
   };
   saveNightPracticeProgress(state.nightPracticeProgress);
   updateNightPracticeStatus(pack);
@@ -465,9 +481,6 @@ function saveNightPracticeWordResult(entryId, result) {
     wordResults,
   };
   saveNightPracticeProgress(state.nightPracticeProgress);
-  els.nightPrompt.value = buildNightPracticePrompt(pack, {
-    retryWordIds: getRetryWordIds(state.nightPracticeProgress, pack),
-  });
 }
 
 function getCurrentNightPack() {
@@ -482,28 +495,128 @@ function getCurrentNightPack() {
   };
 }
 
-function renderNightDialogue(pack) {
-  for (const button of els.nightViewGroup.querySelectorAll("button[data-night-view]")) {
-    const active = button.dataset.nightView === state.nightView;
-    button.classList.toggle("is-active", active);
-    button.setAttribute("aria-pressed", String(active));
-  }
-  els.nightDialogue.hidden = state.nightView === "scene";
-  if (state.nightView === "scene") {
-    els.nightDialogue.innerHTML = "";
-    return;
-  }
-  els.nightDialogue.innerHTML = pack.turns
+function getCurrentNightSession(pack = getCurrentNightPack()) {
+  if (!pack) return null;
+  return createNightPracticeSession(pack, state.nightPracticeSessions[pack.id]);
+}
+
+function persistNightPracticeSession(pack, session) {
+  state.nightPracticeSessions[pack.id] = {
+    packId: pack.id,
+    stageIndex: session.stageIndex,
+    hintLevel: session.hintLevel,
+    updatedAt: new Date().toISOString(),
+  };
+  saveNightPracticeSessions(state.nightPracticeSessions);
+}
+
+function updateNightPracticeSession(transform) {
+  const pack = getCurrentNightPack();
+  if (!pack) return;
+  const nextSession = transform(getCurrentNightSession(pack));
+  persistNightPracticeSession(pack, nextSession);
+  renderNightPractice();
+}
+
+function advanceNightStage() {
+  updateNightPracticeSession((session) => {
+    if (session.stageIndex >= PRACTICE_STAGES.length - 1) {
+      return createNightPracticeSession(getCurrentNightPack());
+    }
+    return advanceNightPracticeSession(session);
+  });
+}
+
+function revealNightSupportHint() {
+  updateNightPracticeSession((session) => revealNextNightPracticeHint(session));
+}
+
+function resetNightSupportHint() {
+  updateNightPracticeSession((session) => setNightPracticeHintLevel(session, 0));
+}
+
+function renderNightSupport(pack, session) {
+  const support = buildNightPracticeSupport(pack, session);
+  const completedCount = session.stageIndex;
+  const visibleWords = support.focusWords.length ? support.focusWords : pack.targetWords.slice(0, 4);
+  els.nightWords.innerHTML = visibleWords
+    .map((word) => `<span class="${escapeHtml(word.speakingSuitability || "recognition")}">${escapeHtml(word.term)}</span>`)
+    .join("");
+  els.nightStageRail.innerHTML = PRACTICE_STAGES.map((stage, index) => {
+    const statusClass = index < completedCount ? "is-complete" : index === session.stageIndex ? "is-active" : "";
+    return `
+      <div class="night-stage-chip ${statusClass}">
+        <strong>${escapeHtml(stage.label)}</strong>
+        <span>${escapeHtml(stage.minutes)}</span>
+      </div>
+    `;
+  }).join("");
+  els.nightStageLabel.textContent = `${support.stage.label} · ${support.stage.minutes}`;
+  els.nightStageDescription.textContent = support.stage.description;
+  els.nightNeedHelp.disabled = session.hintLevel >= support.hintCards.length;
+  els.nightResetHint.disabled = session.hintLevel === 0;
+  els.nightNextStage.textContent = session.stageIndex >= PRACTICE_STAGES.length - 1 ? "Start again" : "Next stage";
+  els.nightSupport.innerHTML = `
+    <div class="night-support-summary">
+      <div>
+        <strong>Focus words</strong>
+        <span>${escapeHtml(support.focusWords.map((word) => word.term).join(", ") || "No mandatory phrase yet.")}</span>
+      </div>
+      <div>
+        <strong>Next cue</strong>
+        <span>${support.stageTurns.length} cue${support.stageTurns.length === 1 ? "" : "s"} in this pass</span>
+      </div>
+    </div>
+    <div class="night-support-card ${support.currentHint ? "is-open" : ""}">
+      <strong>${escapeHtml(support.currentHint ? `Hint ${session.hintLevel}: ${support.currentHint.shortLabel}` : "Try first, then ask for help.")}</strong>
+      <p>${escapeHtml(support.currentHint?.text || "Open ChatGPT Voice, answer the next cue, and use Need help only when you freeze.")}</p>
+    </div>
+  `;
+}
+
+function renderNightDialogue(pack, session) {
+  const turns = getNightPracticeStageTurns(pack, session);
+  els.nightDialogue.innerHTML = turns
     .map(
       (turn, index) => `
         <div class="night-turn">
           <strong>${index + 1}</strong>
-          ${state.nightView === "model" ? `<p><b>Model reply</b>${escapeHtml(turn.user)}</p>` : ""}
+          <p><b>Model reply</b>${escapeHtml(turn.user)}</p>
           <p><b>ChatGPT cue</b>${escapeHtml(turn.chatgpt)}</p>
         </div>
       `,
     )
     .join("");
+}
+
+function renderNightRescue() {
+  const pack = getCurrentNightPack();
+  if (!pack) return;
+  const session = getCurrentNightSession(pack);
+  const rescue = buildStuckResponseRescue(pack, session, els.nightStuckQuestion.value);
+  els.nightRescue.innerHTML = `
+    <div>
+      <strong>Quick reply</strong>
+      <p>${escapeHtml(rescue.quickReply)}</p>
+    </div>
+    <div>
+      <strong>Use a target word</strong>
+      <p>${escapeHtml(rescue.targetReply)}</p>
+    </div>
+    <div>
+      <strong>Sentence starter</strong>
+      <p>${escapeHtml(rescue.sentenceStarter)}</p>
+    </div>
+    <div>
+      <strong>Two choices</strong>
+      <p>A. ${escapeHtml(rescue.choices[0])}</p>
+      <p>B. ${escapeHtml(rescue.choices[1])}</p>
+    </div>
+    <div>
+      <strong>Better version</strong>
+      <p>${escapeHtml(rescue.upgradedReply)}</p>
+    </div>
+  `;
 }
 
 function renderNightResults(pack) {
@@ -534,7 +647,12 @@ function renderNightResults(pack) {
 
 function updateNightPracticeStatus(pack) {
   const progress = state.nightPracticeProgress[pack.id];
-  els.nightStatus.textContent = progress?.practicedAt ? `Practiced ${formatDate(progress.practicedAt)}` : "Ready for tonight";
+  const session = getCurrentNightSession(pack);
+  if (progress?.practicedAt) {
+    els.nightStatus.textContent = `Practiced ${formatDate(progress.practicedAt)} · ${session.stageId}`;
+    return;
+  }
+  els.nightStatus.textContent = `${PRACTICE_STAGES[session.stageIndex].label} · ${session.hintLevel ? `Hint ${session.hintLevel}` : "Ready for tonight"}`;
 }
 
 function getSelectedPack() {
@@ -593,6 +711,16 @@ function escapeHtml(value) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
+}
+
+function selectTextFallback(text) {
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+  document.body.append(textarea);
+  textarea.select();
 }
 
 function getStorage() {

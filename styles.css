@@ -508,13 +508,29 @@ select:focus {
 
 .night-controls {
   display: grid;
-  grid-template-columns: minmax(220px, 360px) minmax(0, 1fr);
+  grid-template-columns: minmax(220px, 360px) auto;
   gap: 12px;
+  align-items: end;
   margin-top: 16px;
 }
 
-.night-view-group {
-  align-self: end;
+.night-timebox {
+  justify-self: end;
+  display: grid;
+  gap: 4px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.night-timebox strong {
+  font-size: 14px;
+}
+
+.night-timebox span {
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .night-summary {
@@ -531,6 +547,185 @@ select:focus {
   margin: 0;
   color: #dce9e9;
   line-height: 1.5;
+}
+
+.night-stage-shell {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.night-stage-rail,
+.night-stage-actions,
+.night-support-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.night-stage-chip,
+.night-support-card,
+.night-support-summary > div,
+.night-disclosure {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.night-stage-chip {
+  min-width: 0;
+  flex: 1 1 160px;
+  padding: 10px 12px;
+}
+
+.night-stage-chip strong,
+.night-stage-chip span {
+  display: block;
+}
+
+.night-stage-chip strong {
+  font-size: 13px;
+}
+
+.night-stage-chip span {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.night-stage-chip.is-active {
+  border-color: rgba(101, 240, 200, 0.48);
+  background: rgba(101, 240, 200, 0.1);
+}
+
+.night-stage-chip.is-complete {
+  border-color: rgba(102, 200, 255, 0.36);
+  background: rgba(102, 200, 255, 0.08);
+}
+
+.night-focus-card {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid rgba(101, 240, 200, 0.34);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(101, 240, 200, 0.09), rgba(255, 255, 255, 0.035));
+}
+
+.night-stage-kicker {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.night-focus-card h3 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.night-focus-card p {
+  margin: 6px 0 0;
+  color: #dce9e9;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.night-stage-actions {
+  align-items: center;
+}
+
+.night-support-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.night-support-summary > div {
+  flex: 1 1 220px;
+  padding: 10px 12px;
+  display: grid;
+  gap: 4px;
+}
+
+.night-support-summary strong,
+.night-support-card strong {
+  font-size: 13px;
+}
+
+.night-support-summary span,
+.night-support-card p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.night-support-card {
+  padding: 12px;
+}
+
+.night-support-card.is-open {
+  border-color: rgba(244, 201, 106, 0.42);
+  background: rgba(244, 201, 106, 0.08);
+}
+
+.night-support-card p {
+  margin: 8px 0 0;
+}
+
+.night-rescue {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid rgba(102, 200, 255, 0.28);
+  border-radius: 8px;
+  background: rgba(102, 200, 255, 0.06);
+}
+
+.night-rescue label {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.night-rescue textarea {
+  width: 100%;
+  min-height: 68px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  background: rgba(5, 10, 15, 0.72);
+  padding: 10px 12px;
+  resize: vertical;
+}
+
+.night-rescue-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px;
+}
+
+.night-rescue-panel > div {
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.night-rescue-panel strong {
+  color: var(--cyan);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.night-rescue-panel p {
+  margin: 6px 0 0;
+  color: #dce9e9;
+  font-size: 13px;
+  line-height: 1.45;
 }
 
 .night-words {
@@ -567,7 +762,7 @@ select:focus {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 8px;
-  margin: 16px 0;
+  margin-top: 12px;
 }
 
 .night-routine > div,
@@ -600,7 +795,7 @@ select:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .night-prompt {
@@ -614,10 +809,35 @@ select:focus {
   resize: vertical;
 }
 
+.night-disclosure {
+  margin-top: 12px;
+  padding: 0;
+}
+
+.night-disclosure summary {
+  cursor: pointer;
+  padding: 12px 14px;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.night-disclosure[open] {
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.night-disclosure[open] summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.night-disclosure > :not(summary) {
+  margin: 14px;
+}
+
 .night-dialogue {
   display: grid;
   gap: 10px;
-  max-height: 640px;
+  max-height: 520px;
   overflow: auto;
   padding-right: 4px;
 }
@@ -821,6 +1041,18 @@ select:disabled {
 
   .night-controls {
     grid-template-columns: 1fr;
+  }
+
+  .night-timebox {
+    justify-self: stretch;
+  }
+
+  .night-stage-actions {
+    justify-content: stretch;
+  }
+
+  .night-stage-actions button {
+    flex: 1 1 140px;
   }
 
   .night-routine {

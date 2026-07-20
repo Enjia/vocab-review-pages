@@ -974,31 +974,32 @@ function isAnyTermRelevant(term, example, aliases, options = {}) {
 
 function buildDictionaryQueryTerms(term) {
   const normalized = normalize(term);
-  const variants = new Set([normalized]);
+  const variants = new Set(expandSlashTermVariants(normalized));
 
-  const noArticle = normalized.replace(/^(?:a|an|the)\s+/i, "").trim();
-  if (noArticle) variants.add(noArticle);
-
-  for (const part of normalized.split("/")) {
-    const value = part.trim();
-    if (value && value !== normalized) variants.add(value);
+  for (const variant of [...variants]) {
+    const noArticle = variant.replace(/^(?:a|an|the)\s+/i, "").trim();
+    if (noArticle) variants.add(noArticle);
   }
 
-  for (const part of normalized.split("-")) {
-    const value = part.trim();
-    if (value) variants.add(value);
+  for (const variant of [...variants]) {
+    for (const part of variant.split("-")) {
+      const value = part.trim();
+      if (value) variants.add(value);
+    }
   }
 
-  const significantWords = extractSignificantWords(normalized);
-  if (significantWords.length) {
-    significantWords.forEach((word) => variants.add(word));
-    if (significantWords.length > 1) {
-      variants.add(`${significantWords[0]} ${significantWords[1]}`);
-      if (significantWords.length > 2) {
-        variants.add(`${significantWords[1]} ${significantWords[2]}`);
+  for (const variant of [...variants]) {
+    const significantWords = extractSignificantWords(variant);
+    if (significantWords.length) {
+      significantWords.forEach((word) => variants.add(word));
+      if (significantWords.length > 1) {
+        variants.add(`${significantWords[0]} ${significantWords[1]}`);
+        if (significantWords.length > 2) {
+          variants.add(`${significantWords[1]} ${significantWords[2]}`);
+        }
+        variants.add(`${significantWords[0]}`);
+        variants.add(`${significantWords[significantWords.length - 1]}`);
       }
-      variants.add(`${significantWords[0]}`);
-      variants.add(`${significantWords[significantWords.length - 1]}`);
     }
   }
 
@@ -1016,7 +1017,9 @@ function buildDictionaryQueryTerms(term) {
 }
 
 function buildTatoebaFallbackQueries(term) {
-  const words = extractSignificantWords(term).slice(0, 12);
+  const words = dedupeOrdered(
+    expandSlashTermVariants(normalize(term)).flatMap((variant) => extractSignificantWords(variant)),
+  ).slice(0, 12);
   const queries = [];
 
   for (const word of words) {
@@ -1066,32 +1069,64 @@ function expandSpellingVariants(value) {
   return [...variants];
 }
 
-function buildOxfordQueryTerms(term) {
-  const normalized = normalize(term);
-  const variants = new Set([normalized]);
+function expandSlashTermVariants(value) {
+  const normalized = String(value || "").trim();
+  if (!normalized) return [];
 
-  const noArticle = normalized.replace(/^(?:a|an|the)\s+/i, "").trim();
-  if (noArticle) variants.add(noArticle);
+  const tokens = normalized
+    .split(/\s+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
 
-  const noParen = normalized.replace(/[()]/g, " ").replace(/\s+/g, " ").trim();
-  if (noParen && noParen !== normalized) variants.add(noParen);
-
-  for (const part of normalized.split("-")) {
-    const value = part.trim();
-    if (value) variants.add(value);
+  if (!tokens.some((token) => token.includes("/"))) {
+    return [normalized];
   }
 
-  const significantWords = extractSignificantWords(normalized);
-  if (significantWords.length) {
-    significantWords.forEach((word) => variants.add(word));
-    if (significantWords.length > 1) {
-      variants.add(significantWords.slice(0, 2).join("-"));
+  let variants = [[]];
+  for (const token of tokens) {
+    const options = token.includes("/")
+      ? token
+          .split("/")
+          .map((option) => option.trim())
+          .filter(Boolean)
+      : [token];
+
+    variants = variants.flatMap((variant) => options.map((option) => [...variant, option]));
+  }
+
+  return variants.map((variant) => variant.join(" ").replace(/\s+/g, " ").trim());
+}
+
+function buildOxfordQueryTerms(term) {
+  const normalized = normalize(term);
+  const variants = new Set(expandSlashTermVariants(normalized));
+
+  for (const variant of [...variants]) {
+    const noArticle = variant.replace(/^(?:a|an|the)\s+/i, "").trim();
+    if (noArticle) variants.add(noArticle);
+
+    const noParen = variant.replace(/[()]/g, " ").replace(/\s+/g, " ").trim();
+    if (noParen && noParen !== variant) variants.add(noParen);
+
+    for (const part of variant.split("-")) {
+      const value = part.trim();
+      if (value) variants.add(value);
     }
-    if (significantWords.length > 2) {
-      variants.add(significantWords.slice(0, 3).join("-"));
-    }
-    if (significantWords.length > 1) {
-      variants.add(`${significantWords[0]}-${significantWords[1]}`);
+  }
+
+  for (const variant of [...variants]) {
+    const significantWords = extractSignificantWords(variant);
+    if (significantWords.length) {
+      significantWords.forEach((word) => variants.add(word));
+      if (significantWords.length > 1) {
+        variants.add(significantWords.slice(0, 2).join("-"));
+      }
+      if (significantWords.length > 2) {
+        variants.add(significantWords.slice(0, 3).join("-"));
+      }
+      if (significantWords.length > 1) {
+        variants.add(`${significantWords[0]}-${significantWords[1]}`);
+      }
     }
   }
 
@@ -1106,33 +1141,37 @@ function buildOxfordQueryTerms(term) {
 
 function buildTatoebaQueryTerms(term) {
   const normalized = normalize(term);
-  const variants = new Set([normalized]);
+  const variants = new Set(expandSlashTermVariants(normalized));
 
-  const noArticle = normalized.replace(/^(?:a|an|the)\s+/i, "").trim();
-  if (noArticle) variants.add(noArticle);
+  for (const variant of [...variants]) {
+    const noArticle = variant.replace(/^(?:a|an|the)\s+/i, "").trim();
+    if (noArticle) variants.add(noArticle);
 
-  const noParen = normalized.replace(/[()]/g, " ").replace(/\s+/g, " ").trim();
-  if (noParen && noParen !== normalized) variants.add(noParen);
+    const noParen = variant.replace(/[()]/g, " ").replace(/\s+/g, " ").trim();
+    if (noParen && noParen !== variant) variants.add(noParen);
 
-  const noPoss = normalized.replace(/'s/g, "").replace(/\b(\w+)\s+s\b/g, "$1");
-  if (noPoss && noPoss !== normalized) variants.add(noPoss);
+    const noPoss = variant.replace(/'s/g, "").replace(/\b(\w+)\s+s\b/g, "$1");
+    if (noPoss && noPoss !== variant) variants.add(noPoss);
 
-  for (const part of normalized.split("-")) {
-    const value = part.trim();
-    if (value) variants.add(value);
+    for (const part of variant.split("-")) {
+      const value = part.trim();
+      if (value) variants.add(value);
+    }
   }
 
-  const words = extractSignificantWords(normalized);
-  if (words.length >= 1) {
-    variants.add(words.join(" "));
-    if (words.length >= 2) {
-      variants.add(`${words[0]} ${words[1]}`);
-      variants.add(`${words[words.length - 2]} ${words[words.length - 1]}`);
-      if (words.length >= 3) {
-        variants.add(`${words[0]} ${words[2]}`);
-        variants.add(`${words[words.length - 3]} ${words[words.length - 1]}`);
-        variants.add(`${words[0]} ${words[1]} ${words[2]}`);
-        variants.add(`${words[words.length - 3]} ${words[words.length - 2]} ${words[words.length - 1]}`);
+  for (const variant of [...variants]) {
+    const words = extractSignificantWords(variant);
+    if (words.length >= 1) {
+      variants.add(words.join(" "));
+      if (words.length >= 2) {
+        variants.add(`${words[0]} ${words[1]}`);
+        variants.add(`${words[words.length - 2]} ${words[words.length - 1]}`);
+        if (words.length >= 3) {
+          variants.add(`${words[0]} ${words[2]}`);
+          variants.add(`${words[words.length - 3]} ${words[words.length - 1]}`);
+          variants.add(`${words[0]} ${words[1]} ${words[2]}`);
+          variants.add(`${words[words.length - 3]} ${words[words.length - 2]} ${words[words.length - 1]}`);
+        }
       }
     }
   }
@@ -1141,8 +1180,9 @@ function buildTatoebaQueryTerms(term) {
 }
 
 function buildTatoebaKeywordQueries(term) {
-  const normalized = normalize(term);
-  const words = extractSignificantWords(normalized);
+  const words = dedupeOrdered(
+    expandSlashTermVariants(normalize(term)).flatMap((variant) => extractSignificantWords(variant)),
+  );
   if (words.length <= 1) return [];
 
   const queries = [];
